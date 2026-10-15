@@ -15,5 +15,6 @@ These URLs are used by the app (`AppInfo`) and App Store Connect, so keep the pa
 
 - Support: `/support/`
 - Privacy Policy: `/privacy/`
+- Android Terms of Use (English / 简体中文): `/terms/android/`
 
 Invite links (`/j/<code>`) and `apple-app-site-association` are served by Firebase Hosting from the LoopSplit app repo, not from here.

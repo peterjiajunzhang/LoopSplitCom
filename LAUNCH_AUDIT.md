@@ -9,7 +9,7 @@ Apple's public lookup endpoint (`https://itunes.apple.com/lookup?id=6817176363&c
 ## Completed
 
 - Replaced prelaunch messaging with working App Store links and device requirements.
-- Replaced the old home-screen preview with three official 1.0.0 App Store screenshots: scanning, Loops and balances. Example data is labelled. Updated site and touch icons from the live store artwork.
+- Replaced the old home-screen preview with three official 1.0.0 App Store screenshots: scanning, Loops and balances. Updated site and touch icons from the live store artwork.
 - Added a receipt → recurring cost → repayment explanation and a final download section.
 - Matched scanning limits (3 total per free account across devices), Pro scanning/cropping, 3 active free Loops per Book and Book-level Pro sharing to the released listing.
 - Updated FAQ for receipt recognition, review before saving, downloading, restoring/cancelling purchases, invite acceptance and leaving Books. Corrected the suggestion that repayments always use the minimum possible transfer count.
@@ -23,6 +23,10 @@ Apple's public lookup endpoint (`https://itunes.apple.com/lookup?id=6817176363&c
 - Checked changed files for whitespace errors and remaining prelaunch messaging.
 - Browser reviewed the narrow-screen homepage in system dark mode and exercised the support navigation and receipt-scanning FAQ disclosure. Other device sizes and light mode have responsive CSS but were not individually browser-tested in this run.
 - Live store imagery and icon are downloaded copies served locally, with no dependency on Apple image URLs at page-load time.
+
+## Copy correction
+
+Removed the screenshot source caption and provenance wording from image descriptions. These are our own product screens on our own website; captions describe the product rather than attributing it to an outside source.
 
 ## Maintenance
 

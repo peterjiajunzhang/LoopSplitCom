@@ -108,3 +108,29 @@ h2 { font-size: 1.375rem; letter-spacing: -.03em; line-height: 1.3; }
   .policy { margin-top: 20px; margin-bottom: 40px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+/* Launch edition: real App Store media, a clear download path, and readable storytelling. */
+.download-actions { display:flex; flex-wrap:wrap; align-items:center; gap:20px; margin-top:30px; }
+.store-button { border-radius:14px; padding:15px 22px; font-size:1rem; }
+.text-link { font-size:.9rem; color:var(--brand); text-decoration:none; }
+.compatibility { font-size:.78rem; color:var(--muted); margin-top:13px; }
+.store-screen { width:100%; height:auto; border-radius:24px; box-shadow:0 24px 65px #003c421a; }
+.app-preview { width:285px; }
+.story { padding:64px 0; border-top:1px solid var(--line); scroll-margin-top:24px; }
+.story > h2,.showcase h2,.download-banner h2 { font-size:clamp(2rem,4vw,3rem); letter-spacing:-.045em; margin:16px 0; line-height:1.13; }
+.section-intro { color:var(--muted); max-width:540px; }
+.steps { display:grid; grid-template-columns:repeat(3,1fr); gap:40px; margin-top:40px; }
+.step-number { color:var(--brand); font-size:.85rem; font-weight:700; }
+.steps h3 { font-size:1.3rem; letter-spacing:-.025em; margin:12px 0; }
+.steps p,.showcase p { color:var(--muted); }
+.showcase { display:grid; grid-template-columns:1fr 1.35fr 1fr; align-items:center; gap:36px; padding:40px; margin:0 0 64px; border-radius:32px; background:var(--brand-soft); }
+.showcase figure { margin:0; }
+.showcase img { border-radius:16px; width:100%; height:auto; }
+.showcase h2 { font-size:clamp(1.6rem,3vw,2.3rem); }
+.showcase figcaption { font-size:.75rem; margin-top:12px; }
+.download-banner { text-align:center; padding:60px 24px; margin-bottom:48px; background:var(--brand-soft); border-radius:28px; }
+.download-banner > p { color:var(--muted); }
+.download-banner .button { margin-top:12px; }
+.small-print { font-size:.8rem; line-height:1.7; margin-top:22px; }
+summary:focus-visible { outline:3px solid var(--brand); outline-offset:5px; }
+@media (max-width:900px) { .showcase { grid-template-columns:1fr 1.4fr; padding:28px; gap:28px; } .showcase figure:last-child { display:none; } .steps { gap:24px; } }
+@media (max-width:640px) { .download-actions { justify-content:center; gap:18px; } .story { padding:40px 0; } .steps { grid-template-columns:1fr; gap:22px; margin-top:28px; } .steps article { border-top:1px solid var(--line); padding-top:20px; } .showcase { grid-template-columns:1fr; padding:24px; gap:26px; margin-bottom:40px; } .showcase figure { max-width:240px; margin:auto; } .showcase > div { grid-row:1; } .app-preview { width:260px; } .download-banner { padding:40px 20px; } nav { flex-wrap:wrap; gap:14px; } .site-header { align-items:flex-start; } }

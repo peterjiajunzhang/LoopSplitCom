@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /LoopSplitCom/
+Sitemap: https://peterjiajunzhang.github.io/LoopSplitCom/sitemap.xml

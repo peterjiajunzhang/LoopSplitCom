@@ -28,7 +28,7 @@
     <main class="policy" id="main">
       <a class="back-link" href="../">← Back to LoopSplit</a>
       <h1>Privacy Policy</h1>
-      <p class="updated">Effective October 25, 2026</p>
+      <p class="updated">Updated October 26, 2026</p>
 
       <div class="policy-content">
         <p>LoopSplit is provided by Jiajun Zhang, an individual developer based in the United States (Google Play developer name PeterZhang). It is an app for Android, iPhone and iPad for sharing expenses with other people. This policy explains what information the app collects, why, who can see it, and how you can delete it. We collect information to run your account and shared books, provide notifications, and support the technical operation of the app. We don’t show ads or sell your information. We use the usage statistics and crash reports described below to understand and improve the app.</p>
@@ -65,11 +65,15 @@
         <h3>Usage statistics and crash reports</h3>
         <p>Starting with version 1.1, normal released versions of LoopSplit use Google Analytics for Firebase and Firebase Crashlytics to understand feature use, monitor stability, and diagnose problems. These services receive app and device information, such as app and operating-system versions, device model, session information, and installation or app-instance identifiers. Analytics may also use platform identifiers, such as the vendor identifier on Apple devices. These reports can be associated with an app installation or device even when no account name is attached.</p>
         <ul>
-          <li><strong>Usage statistics.</strong> Analytics records app lifecycle activity, feature-use events, and purchase or subscription measurements such as the product identifier, product name and price. On Android it can also record screen activity. Our custom events record categories such as sign-in method, entry type, split method, whether an entry was added offline, and use of search, the calculator or Pro features. They do not include the text of your searches, book or entry titles, receipt content, expense amounts, email address or LoopSplit account ID.</li>
+          <li><strong>Usage statistics.</strong> Analytics records app lifecycle activity, feature-use events, and purchase or subscription measurements, including StoreKit events on Apple devices, such as the product identifier, product name and price. On Android it can also record screen activity. Our custom events record categories such as sign-in method, entry type, split method, whether an entry was added offline, and use of search, the calculator or Pro features. They do not include the text of your searches, book or entry titles, receipt content, expense amounts, email address or LoopSplit account ID.</li>
           <li><strong>Crash reports.</strong> Crashlytics receives crash stack traces, relevant app state, device and app diagnostics, installation identifiers, and session information. When Analytics is available, recent app interaction events can be included as breadcrumbs to help explain what happened before a crash.</li>
           <li><strong>Approximate region.</strong> Analytics can infer a coarse location, such as a country or region, from a masked IP address. This is separate from precise device location; these features do not request GPS or precise-location access.</li>
         </ul>
         <p>We use these reports for app usage analysis, stability and product improvements, rather than to display or target advertising. Android advertising-ID collection is disabled, and the Apple app does not request access to the advertising identifier. This does not disable the installation, app-instance or vendor identifiers described above. See <a href="https://support.google.com/analytics/answer/11582702">Google’s Android Analytics data disclosure</a>, <a href="https://support.google.com/analytics/answer/10285841">Google’s Apple Analytics data disclosure</a>, and <a href="https://firebase.google.com/support/privacy">Firebase’s privacy information</a>.</p>
+
+        <h3>Privacy &amp; Diagnostics settings</h3>
+        <p>In versions that support these settings, usage statistics and crash diagnostics are on by default. You can turn either off separately in Account → Privacy &amp; Diagnostics, or use the optional privacy entry before signing in. Your choices are saved on this device and persist through sign-out, restart and app updates; they do not automatically apply to other devices.</p>
+        <p>Turning off usage statistics requests that Analytics collection stop and its local data be reset. Turning off crash diagnostics changes automatic reporting from the next app launch and requests deletion of unsent reports on this device; a report can still be generated locally, and deletion is not confirmed by the SDK. Reports already sent or in flight are not automatically recalled. You can contact us about previously sent data as described below. Authentication, synchronization, security logs, push notifications and other technical services are separate from these optional settings; Android ML Kit diagnostics described above are also separate.</p>
 
         <h3>What we don’t collect</h3>
         <p>We don’t read your device address book or collect your bank or card details or browsing history. LoopSplit records who owes whom; it doesn’t move money or connect to your bank. The approximate region and technical identifiers described above are separate from these account and bookkeeping features.</p>
@@ -111,7 +115,7 @@
         <p>Usage statistics and crash reports are retained according to the relevant service settings and may not be tied to the account information used by the account-deletion process. Deleting your LoopSplit account does not necessarily delete every historical usage event or diagnostic report. Contact us for questions or requests about this data; we will assess what can be identified and deleted under the applicable service controls and legal requirements.</p>
 
         <h2>Security</h2>
-        <p>Information is encrypted in transit and stored with Google Cloud. Access rules only let members of a book read and change it. No method of storage is perfectly secure, but we work to protect your information.</p>
+        <p>Information is encrypted in transit and stored with Google Cloud. Access rules only let current members of a book read and change it. Current members have equal collaboration permissions, including editing or deleting records, recording entries on behalf of members, replacing receipts and managing membership; another member may change content you add. No method of storage is perfectly secure, but we work to protect your information.</p>
 
         <h2>Children</h2>
         <p>LoopSplit is not directed to children under 13, and we don’t knowingly collect information from them. If you believe a child has given us information, contact us and we’ll delete it.</p>
@@ -131,7 +135,7 @@
       <span>© 2026 LoopSplit</span>
       <a href="../">Home</a>
       <a href="../support/">Support</a>
-      <a href="../terms/android/">Android Terms</a>
+      <a href="../terms/">Terms of Use</a>
     </footer>
   </div>
 </body>

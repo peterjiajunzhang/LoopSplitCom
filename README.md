@@ -26,4 +26,4 @@ Invite links (`/j/<code>`) and `apple-app-site-association` are served by Fireba
 
 ## Policy publication
 
-The October 26, 2026 edits are local review drafts, not evidence of publication or effectiveness. Before publication, set the actual effective date and version in the cross-platform Terms and record the effective date of the synchronized Android Terms and Privacy Policy; update them to match the actual rollout and notices.
+The October 26–27, 2026 edits are local review drafts, not evidence of publication or effectiveness. Before publication, set the actual effective date and version in the cross-platform Terms and record the effective date of the synchronized Android Terms and Privacy Policy; update them to match the actual rollout and notices.

@@ -28,7 +28,7 @@
     <main class="policy" id="main">
       <a class="back-link" href="../">← Back to LoopSplit</a>
       <h1>Privacy Policy</h1>
-      <p class="updated">Updated October 26, 2026</p>
+      <p class="updated">Updated October 27, 2026</p>
 
       <div class="policy-content">
         <p>LoopSplit is provided by Jiajun Zhang, an individual developer based in the United States (Google Play developer name PeterZhang). It is an app for Android, iPhone and iPad for sharing expenses with other people. This policy explains what information the app collects, why, who can see it, and how you can delete it. We collect information to run your account and shared books, provide notifications, and support the technical operation of the app. We don’t show ads or sell your information. We use the usage statistics and crash reports described below to understand and improve the app.</p>
@@ -94,7 +94,7 @@
         <h2>Who can see your information</h2>
         <ul>
           <li><strong>Members of your books</strong> can see your name, profile photo or emoji, email address, whether you have LoopSplit Pro, and everything recorded in books you share with them, including attached receipt photos. They do not see your Apple or Google Play billing account, purchase tokens or payment details.</li>
-          <li><strong>Anyone with a book’s invite link or code</strong> can see the book’s name and join the book until the code expires (after 30 days) or a member makes a new code.</li>
+          <li><strong>Anyone with a book’s valid invite link or code</strong> may see the book’s name before signing in; joining requires signing in and confirming the join. Codes expire after 30 days or can be replaced or revoked. A book name already shared in a message cannot be recalled from its recipients.</li>
           <li><strong>Service providers.</strong> We use Google Firebase (Authentication, Cloud Firestore, Cloud Storage, Cloud Functions and Cloud Messaging) to run the app and send notifications, which are delivered through Firebase Cloud Messaging on Android and Apple’s push notification service on iOS. Your account and shared-book information is stored on Google’s servers in the United States and processed on our behalf under Google’s terms. Google Analytics for Firebase and Firebase Crashlytics also process the usage and diagnostic data described above. Their handling and retention of that data are governed by our service configuration and Google’s applicable terms and privacy information. If you sign in with Apple, Google or Microsoft, that company handles the sign-in under its own privacy policy.</li>
           <li><strong>Legal reasons.</strong> We may disclose information if required by law or to protect the safety and rights of our users.</li>
         </ul>
@@ -110,9 +110,12 @@
           <li><strong>Leaving a book</strong> removes your access. Entries you recorded stay in the book so the other members’ balances remain correct.</li>
           <li><strong>Deleting your account</strong> (Account → Delete Account) removes your profile and photo, takes you out of every book and deletes your sign-in account. If you used Sign in with Apple, we also revoke LoopSplit’s access to your Apple ID. Entries in shared books, including their receipt photos, remain for the other members. If you’d also like books that no one else uses deleted, email us.</li>
         </ul>
+        <p>Receipt photos still referenced by a book, including a recoverable deleted entry, remain with that book. A future cleanup process for unreferenced receipt files will wait at least 30 days after observing no supported reference and check again before deletion; older or unverified files require separate review. This is not a promise that a file disappears exactly on day 30. After an image is deleted from the app’s storage, our storage provider may retain a recoverable copy for up to seven more days under its current soft-delete policy. Other retention obligations and technical conditions can affect deletion.</p>
         <p>If you cannot use the app, email us and we will help delete your data. Deleting your LoopSplit account does not cancel a store subscription; cancel it separately in Google Play or Apple. Shared book entries remain for the other members until those records or the book are deleted. Private purchase-verification records may be retained as needed to prevent purchase reassignment, handle outstanding subscription events, and meet legal obligations. Permanent account-deletion markers may be retained indefinitely to prevent restoration of a deleted account. These records are not used to recreate a deleted public profile.</p>
 
         <p>Usage statistics and crash reports are retained according to the relevant service settings and may not be tied to the account information used by the account-deletion process. Deleting your LoopSplit account does not necessarily delete every historical usage event or diagnostic report. Contact us for questions or requests about this data; we will assess what can be identified and deleted under the applicable service controls and legal requirements.</p>
+
+        <p>Profile images hosted by a sign-in provider remain subject to that provider’s access and privacy practices. We are preparing additional access restrictions for images stored by LoopSplit; these require a coordinated release and migration of older links and copies.</p>
 
         <h2>Security</h2>
         <p>Information is encrypted in transit and stored with Google Cloud. Access rules only let current members of a book read and change it. Current members have equal collaboration permissions, including editing or deleting records, recording entries on behalf of members, replacing receipts and managing membership; another member may change content you add. No method of storage is perfectly secure, but we work to protect your information.</p>

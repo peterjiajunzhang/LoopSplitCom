@@ -177,3 +177,23 @@ summary:focus-visible { outline:3px solid var(--brand); outline-offset:5px; }
 [hidden] { display:none !important; }
 @media(max-width:900px) { .article-layout { grid-template-columns:1fr; gap:28px; } .article-toc { position:static; border:1px solid var(--line); border-radius:16px; padding:20px; } }
 @media(max-width:640px) { .help-topics { grid-template-columns:1fr; } .quick-start { align-items:flex-start; flex-direction:column; padding:24px; } .help-topic a { padding:22px; } .help-home,.help-article { margin-top:20px; } }
+/* Released 1.1 overview and approved ASC Header/Search compositions. */
+.hero.hero-with-film { display:block; padding-bottom:48px; }
+.hero-with-film .hero-copy { max-width:820px; margin-inline:auto; text-align:center; }
+.hero-with-film .hero-description { max-width:650px; margin-inline:auto; }
+.hero-with-film .download-actions,.hero-with-film .hero-points { justify-content:center; }
+.product-film { margin:48px 0 0; scroll-margin-top:24px; }
+.product-film video { display:block; width:100%; height:auto; aspect-ratio:3840 / 1646; object-fit:contain; background:#f1f8f7; border:1px solid var(--line); border-radius:24px; box-shadow:0 18px 48px #003c4215; }
+.product-film figcaption { margin-top:16px; }
+.film-summary { max-width:700px; margin:12px auto 0; color:var(--muted); font-size:.875rem; }
+.film-summary summary { cursor:pointer; text-align:center; }
+.film-summary p { line-height:1.7; }
+.release-highlights { display:grid; grid-template-columns:1fr 1.1fr; gap:48px; padding:40px 0 64px; border-top:1px solid var(--line); }
+.release-intro h2 { font-size:clamp(2rem,4vw,3rem); margin:14px 0; line-height:1.12; letter-spacing:-.04em; }
+.release-intro p:not(.eyebrow),.release-cards p { color:var(--muted); }
+.release-cards { display:grid; gap:16px; }
+.release-cards article { background:var(--surface); border:1px solid var(--line); border-radius:20px; padding:24px; }
+.release-cards article > span { color:var(--brand); font-size:1.3rem; letter-spacing:.06em; }
+.release-cards h3 { font-size:1.25rem; margin:8px 0; letter-spacing:-.02em; }
+.release-cards p { margin:0; }
+@media(max-width:640px) { .product-film { margin-top:32px; } .product-film video { aspect-ratio:3 / 2; border-radius:16px; } .release-highlights { grid-template-columns:1fr; gap:24px; padding:32px 0 40px; } }

@@ -22,8 +22,12 @@ Invite links (`/j/<code>`) and `apple-app-site-association` are served by Fireba
 
 ## User help center
 
-`support/` is the iOS 1.0.0 help hub. Seven static guides cover getting started, expenses, Loops, balances, receipts and estimates, Pro, and account/sync issues. The hub filters guide topics locally with `assets/help.js`; every guide remains accessible without JavaScript. Each article includes a table of contents, steps, expected outcomes and related guides. Update button labels and behavior against the released app when changing these pages, and include new article URLs in `sitemap.xml`.
+`support/` is the iOS 1.1.0 help hub. Eight static guides cover getting started, expenses, Loops, balances, receipts and estimates, Pro, account/sync issues, and search/calculations. The hub filters guide topics locally with `assets/help.js`; every guide remains accessible without JavaScript. Each article includes a table of contents, steps, expected outcomes and related guides. Update button labels and behavior against the released app when changing these pages, and include new article URLs in `sitemap.xml`.
 
 ## Policy publication
 
 The October 26–27, 2026 edits are local review drafts, not evidence of publication or effectiveness. Before publication, set the actual effective date and version in the cross-platform Terms and record the effective date of the synchronized Android Terms and Privacy Policy; update them to match the actual rollout and notices.
+
+## Product overview video
+
+The homepage reuses approved ASC typography-r2 English media. Desktop uses the wide Header composition; at 640px and below it uses the Search composition, without cropping either video. Playback is visitor-controlled, with native controls, inline playback, posters and `preload="none"`. Both files have no audio. The video summary and text feature sections keep the overview accessible without playback. See `WEBSITE_RELEASE_ALIGNMENT.md` for provenance and release boundaries.

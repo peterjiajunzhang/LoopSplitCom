@@ -19,8 +19,8 @@
   <title>LoopSplit — Shared bills, kept fair</title>
   <link rel="icon" type="image/png" href="assets/app-icon.png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-  <link rel="stylesheet" href="assets/style.css">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "LoopSplit", "applicationCategory": "FinanceApplication", "operatingSystem": "iOS 26.2 or later; iPadOS 26.2 or later", "softwareVersion": "1.0.0", "url": "https://peterjiajunzhang.github.io/LoopSplitCom/", "downloadUrl": "https://apps.apple.com/app/id6817176363", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "description": "Shared expenses, receipt scanning, recurring bills and repayment tracking. Optional Pro subscriptions available."}</script>
+  <link rel="stylesheet" href="assets/style.css?v=release-110-video">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "LoopSplit", "applicationCategory": "FinanceApplication", "operatingSystem": "iOS 26.2 or later; iPadOS 26.2 or later", "softwareVersion": "1.1.0", "url": "https://peterjiajunzhang.github.io/LoopSplitCom/", "downloadUrl": "https://apps.apple.com/app/id6817176363", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "description": "Shared expenses, receipt scanning, recurring bills and repayment tracking. Optional Pro subscriptions available."}</script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -38,25 +38,33 @@
     </header>
 
     <main id="main">
-      <section class="hero" aria-labelledby="hero-title">
+      <section class="hero hero-with-film" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="release-note">Now on the App Store · Version 1.0.0</p>
-          <h1 id="hero-title">Shared bills,<br><span>kept fair.</span></h1>
+          <p class="release-note">Now on the App Store · Version 1.1.0</p>
+          <h1 id="hero-title">Shared bills, <span>kept fair.</span></h1>
           <p class="hero-description">A home for the costs you share. Scan a receipt, split everyday expenses and keep rent and utilities on a Loop. Everyone knows who owes whom.</p>
-          <div class="download-actions"><a class="button store-button" href="https://apps.apple.com/app/id6817176363"><span aria-hidden="true">↓</span> Download on the App Store</a><a class="text-link" href="#how-it-works">Take a look ↓</a></div>
+          <div class="download-actions"><a class="button store-button" href="https://apps.apple.com/app/id6817176363"><span aria-hidden="true">↓</span> Download on the App Store</a><a class="text-link" href="#product-video">Watch the 30-second demo ↓</a></div>
           <p class="compatibility">For iPhone and iPad · Requires iOS / iPadOS 26.2 or later</p>
           <ul class="hero-points" aria-label="Highlights">
             <li>Free to use</li>
             <li>No daily limits</li>
             <li>No ads</li>
-            <li>No tracking</li>
+            <li>On-device receipt scanning</li>
           </ul>
         </div>
-        <figure class="app-preview">
-          <img class="store-screen" src="assets/screen-scan.jpg" alt="Scan a receipt and review the expense in LoopSplit." width="598" height="1300" fetchpriority="high">
+        <figure class="product-film" id="product-video">
+          <video id="overview-video" controls playsinline muted loop preload="none" poster="assets/video/header-poster.jpg" src="assets/video/loopsplit-header-en.mp4" aria-label="LoopSplit product overview" aria-describedby="video-summary" width="3840" height="1646">
+            <p><a href="assets/video/loopsplit-header-en.mp4">Watch the LoopSplit overview</a>.</p>
+          </video>
+          <figcaption id="video-summary">Shared costs, from the first receipt to settling up. Press play to take a look.</figcaption>
+          <details class="film-summary"><summary>Read the video summary</summary><p>Split everyday bills without ads or daily expense limits. Scan receipts for amount, merchant and date suggestions, save recurring costs as Loops, and confirm estimated expenses when the amount is final. Review balances, record repayments made outside the app, and share Pro features within a Book when a member has an active subscription. Free accounts have 3 receipt scans total and free Books have up to 3 active Loops.</p></details>
         </figure>
       </section>
 
+      <section class="release-highlights" aria-labelledby="release-title">
+        <div class="release-intro"><p class="eyebrow">NEW IN 1.1</p><h2 id="release-title">Less calculating.<br>Less looking.</h2><p>Work out an amount while you enter it, then find past entries without scrolling through the whole Book.</p><a class="text-link" href="support/search-and-calculations/">Learn about search and calculations →</a></div>
+        <div class="release-cards"><article><span aria-hidden="true">＋ − × ÷</span><h3>Calculate where you type.</h3><p>Add up a shared shop or divide a total right in the amount field. Check the result before saving.</p></article><article><span aria-hidden="true">⌕</span><h3>Find the right entry.</h3><p>Search a Book by title or exact amount. Narrow the results by people, dates, category and more.</p></article></div>
+      </section>
       <section class="story" id="how-it-works" aria-labelledby="story-title">
         <p class="eyebrow">LESS ADMIN. MORE LIVING.</p>
         <h2 id="story-title">From the first receipt<br>to the last repayment.</h2>
@@ -112,7 +120,7 @@
         <div>
           <p class="eyebrow">PRIVATE</p>
           <h2>Your data stays yours.</h2>
-          <p>No ads or cross-app tracking. On iPhone and iPad, receipt recognition runs on your device. Photos saved as attachments are shared with your Book. Read our Privacy Policy for details, including Android SDK diagnostics.</p>
+          <p>No ads or cross-app advertising tracking. Receipt recognition runs on your device; saved attachments are shared with your Book. Released 1.1 versions use usage statistics and crash reports to improve the app. Read our Privacy Policy for details.</p>
         </div>
       </section>
 
@@ -134,5 +142,6 @@
       <a href="terms/">Terms of Use</a>
     </footer>
   </div>
+  <script src="assets/overview-video.js" defer></script>
 </body>
 </html>

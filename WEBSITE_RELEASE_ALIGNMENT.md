@@ -1,4 +1,18 @@
-# Website alignment with released iOS 1.1.0
+# Website alignment with released iOS 1.2.0
+
+## November 4, 2026 release alignment
+
+The public Apple US lookup endpoint (`https://itunes.apple.com/lookup?id=6817176363&country=us`) returns version 1.2.0, released November 3, 2026 at 18:19 UTC, with minimum OS 17.0. Fresh ASC readback confirms 1.2.0 is READY_FOR_DISTRIBUTION; 1.2.1 is PREPARE_FOR_SUBMISSION. Android production access is still pending, so this refresh does not advertise a public Android launch.
+
+The homepage now shows version 1.2.0 and iOS/iPadOS 17 compatibility. Release highlights cover independent Product Analytics and Crash Reports settings, stronger image access checks, and clearer Pro and account flows. Search and calculations remain in the core feature section. The existing approved videos, screenshots and app icon are retained: the new release does not replace their demonstrated core flows or branding.
+
+The help center now contains nine guides. The new Privacy & Diagnostics guide explains where to find both controls, independent choices, device-local persistence, regional defaults, essential services and the limits of deleting previously submitted diagnostics. Its labels match the current app source. Account and Pro guidance includes the new settings and account-linking clarification. All guides now state the 1.2.0 scope. English and Chinese privacy/terms availability statements reflect the public iOS release while retaining their existing October 30 effective dates and substantive disclosures.
+
+Local reference, metadata, heading, sitemap and JavaScript syntax checks pass. Browser inspection for this refresh is unavailable because local browser use is disabled in Work settings; the browser checks recorded below belong to the previous 1.1.0 publication. Verify the deployed files and GitHub Pages build after pushing this update.
+
+## Historical 1.1.0 publication record
+
+The remainder records the previous release audit and media validation. Its version/status observations describe that earlier publication, not the current App Store state.
 
 ## Release boundaries
 

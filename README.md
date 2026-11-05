@@ -1,6 +1,6 @@
 # LoopSplit website
 
-Static site for LoopSplit: home page, support and privacy policy. No build step or dependencies.
+Static site for LoopSplit: home page, support and privacy policy. No build step or dependencies. Download entry points use the verified App Store ID `6817176363` and Google Play package `com.loop.loopsplit`. Main navigation leads to the homepage’s two-store download section rather than assuming an Apple device.
 
 Preview locally from this folder:
 
@@ -22,11 +22,15 @@ Invite links (`/j/<code>`) and `apple-app-site-association` are served by Fireba
 
 ## User help center
 
-`support/` is the iOS 1.2.0 help hub. Nine static guides cover getting started, expenses, Loops, balances, receipts and estimates, Pro, account/sync issues, search/calculations, and privacy/diagnostics. The hub filters guide topics locally with `assets/help.js`; every guide remains accessible without JavaScript. Each article includes a table of contents, steps, expected outcomes and related guides. Update button labels and behavior against the released app when changing these pages, and include new article URLs in `sitemap.xml`.
+`support/` covers the released 1.2 series on iPhone, iPad and Android. Nine static guides cover getting started, expenses, Loops, balances, receipts and estimates, Pro, account/sync issues, search/calculations, and privacy/diagnostics. The hub filters guide topics locally with `assets/help.js`; every guide remains accessible without JavaScript. Each article includes a table of contents, steps, expected outcomes and related guides. Update button labels and behavior against the released app when changing these pages, and include new article URLs in `sitemap.xml`.
 
 ## Policy publication
 
-Privacy and Terms retain their October 30, 2026 effective dates. The November 4 website refresh updates the availability statements for the now-public iOS 1.2.0 privacy controls; it does not imply that Android has been publicly released. Preserve the existing data, regional defaults, deletion and access-cutover disclosures when revising these pages.
+Privacy and Terms retain their October 30, 2026 effective dates. The November 5 Android launch refresh updates only the factual availability statements for the already-released privacy controls on both platforms. Preserve the existing data, regional defaults, deletion and access-cutover disclosures when revising these pages.
+
+## Android launch update
+
+The November 5 homepage, support navigation and getting-started guide link to both stores. Android Pro help links to Google Play subscription management; diagnostic guidance uses each platform’s actual English control labels. Requirements are iOS/iPadOS 17+ and Android 9+ (Android minSdk 28). No new analytics, automatic store redirects, app builds or Firebase Hosting changes are introduced. See [release alignment and verification](WEBSITE_RELEASE_ALIGNMENT.md) for scope and evidence.
 
 ## Product overview video
 

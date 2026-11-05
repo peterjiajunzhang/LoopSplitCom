@@ -1,6 +1,24 @@
-# Website alignment with released iOS 1.2.0
+# Website release alignment
 
-## November 4, 2026 release alignment
+## November 5, 2026 Android public-launch alignment
+
+The owner requested updating the official website and adding the Play link after Android launch. An anonymous US Google Play response now contains the public title **LoopSplit: Shared Expenses**, the approved short description and an Install action. The current app release receipt independently records Android 1.2.1 (14) as publicly available. This website update does not infer the availability of every storefront or device from that US response.
+
+The homepage hero and final download section now show equally visible App Store and Google Play buttons. Get the app navigation opens that two-store section; there is no automatic platform redirect. Search/social description and SoftwareApplication download/platform data include Android. The page no longer advertises a single version for both platforms. iOS/iPadOS 17+ is retained; Android 9+ is grounded in the released source’s minSdk 28.
+
+Support navigation and the help hub lead to both platforms. Getting-started help covers Android invitations and the explicit web Open LoopSplit fallback. Pro help separates Apple and Google Play purchase/restore/cancellation paths and advises managing the original purchase rather than buying twice. Diagnostic help distinguishes Product Analytics / Crash Reports on Apple from Usage analytics / Crash diagnostics on Android. The policy/terms edits only change the previously planned or Apple-only availability wording to reflect released 1.2-series controls; the October 30 effective dates, legal rights, data categories, regional defaults and retention statements are preserved.
+
+The existing icon, screenshots and two approved ASC overview videos are unchanged. The video caption identifies its iPhone presentation. This update does not change the app, subscriptions, Firebase invite hosting, AASA/assetlinks, access permissions or telemetry behavior.
+
+Local verification: all 352 local HTML/asset/fragment references resolve across 15 HTML files; 14 sitemap locations and JSON-LD parse correctly; both shared JavaScript files pass syntax checks. Real Chrome inspection at 390×844 and 1280×900 found no horizontal overflow. The mobile store buttons are each 320px wide and about 56px high; desktop buttons sit beside each other. The existing player still selects Search on mobile and Header on desktop. Native app deep-link delivery and OEM camera behavior were not retested by this static website task.
+
+Publication is performed through the existing GitHub Pages main/root workflow. The matching deployment commit, build state and complete served-byte readback are recorded in the LoopSplit app repository’s current website publication receipt after deployment. Private browser screenshots remain outside Git.
+
+## Historical November 4 alignment
+
+The following sections retain their original release and account observations. They are not current Android launch status.
+
+### November 4, 2026 release alignment
 
 The public Apple US lookup endpoint (`https://itunes.apple.com/lookup?id=6817176363&country=us`) returns version 1.2.0, released November 3, 2026 at 18:19 UTC, with minimum OS 17.0. Fresh ASC readback confirms 1.2.0 is READY_FOR_DISTRIBUTION; 1.2.1 is PREPARE_FOR_SUBMISSION. Android production access is still pending, so this refresh does not advertise a public Android launch.
 

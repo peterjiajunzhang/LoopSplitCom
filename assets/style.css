@@ -197,3 +197,9 @@ summary:focus-visible { outline:3px solid var(--brand); outline-offset:5px; }
 .release-cards h3 { font-size:1.25rem; margin:8px 0; letter-spacing:-.02em; }
 .release-cards p { margin:0; }
 @media(max-width:640px) { .product-film { margin-top:32px; } .product-film video { aspect-ratio:3 / 2; border-radius:16px; } .release-highlights { grid-template-columns:1fr; gap:24px; padding:32px 0 40px; } }
+
+/* Equal access to both released app stores. */
+.download-banner .download-actions { justify-content:center; margin-top:20px; }
+.download-banner .download-actions .button { margin-top:0; }
+.download-banner { scroll-margin-top:24px; }
+@media(max-width:640px) { .download-actions .store-button { width:100%; max-width:320px; justify-content:center; min-height:52px; } }

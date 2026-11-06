@@ -1,5 +1,11 @@
 # Website release alignment
 
+## November 5, 2026 custom domain
+
+The owner registered `loopsplit.app` with Cloudflare and authorized DNS and hosting configuration. The existing GitHub Pages site is bound to the apex domain; Cloudflare DNS points the apex and `www` at the GitHub Pages user host. Website canonical, sharing, structured-data and sitemap URLs now use `https://loopsplit.app/`. This changes URLs only in the published policy pages, preserving their effective dates and substantive terms. The old GitHub Pages paths remain the compatibility redirects for released apps and store metadata.
+
+[HOSTING.md](HOSTING.md) records DNS targets, deployment ownership and the recommended separate Firebase Hosting / Cloud Run deployment for the future Web App and MCP service. Those future subdomains are not published by this website task.
+
 ## November 5, 2026 store-aligned brand copy
 
 The homepage headline, document/social titles and social image alt text now use **Scan receipts. Split costs.**, exactly matching the English subtitle read back from the READY_FOR_DISTRIBUTION App Store App Info record. This replaces the website-only “Shared bills, kept fair” line. Hero supporting copy and search/social descriptions retain the wider shared-expenses, recurring-bills and repayments story across both released platforms. No store metadata is changed.

@@ -10,7 +10,7 @@ python3 -m http.server 4173
 
 Then open `http://localhost:4173/`.
 
-The site deploys from the `main` branch with GitHub Pages to https://peterjiajunzhang.github.io/LoopSplitCom/.
+The site deploys from the `main` branch with GitHub Pages at https://loopsplit.app/. Cloudflare manages domain registration and DNS. The former `https://peterjiajunzhang.github.io/LoopSplitCom/` address is retained as a redirect for existing app and store links. See [domain configuration and the planned Web App/MCP hosting](HOSTING.md).
 
 These URLs are used by the app (`AppInfo`) and App Store Connect, so keep the paths stable:
 

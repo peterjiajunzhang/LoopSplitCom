@@ -93,4 +93,4 @@
 @media(max-width:760px) { .landing .site-header nav { width:100%; justify-content:space-between; gap:12px; } .landing .site-header nav > a:first-child { display:none; } .download-actions.hero-store-badges { justify-content:center; margin:16px -10px 0; } .hero-store-badges .store-badge-link { padding:10px; } .hero-store-badges img { height:40px; } .hero-scene { padding-bottom:45px; } .hero-scene figcaption { bottom:0; } }
 @media(max-width:760px) { .landing-proof { justify-content:center; font-size:.7rem; } .landing-hero h1 { font-size:clamp(2.4rem,8.9vw,4.9rem); } }
 @media(min-width:761px) and (max-width:1000px) { .landing-hero h1 { font-size:clamp(2.5rem,5.3vw,4.4rem); } }
-@media(max-width:760px) { .hero-scene { padding-bottom:70px; } }
+@media(max-width:760px) { .hero-scene { padding-bottom:70px; } .hero-scene::after { width:70%; } }

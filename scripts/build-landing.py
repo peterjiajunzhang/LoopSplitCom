@@ -6,6 +6,7 @@ from urllib.parse import urlencode
 import json
 import re
 import xml.etree.ElementTree as ET
+from check_store_badges import validate_home_badges
 
 ROOT = Path(__file__).resolve().parent.parent
 BASE = 'https://loopsplit.app'
@@ -56,16 +57,12 @@ def stores(kind='home', placement='hero', locale='en'):
     google = 'https://play.google.com/store/apps/details?' + urlencode({'id':'com.loop.loopsplit', **attribution, 'referrer':urlencode(attribution)})
     return apple, google
 
-def direct(locale, kind='home', placement='hero'):
+def store_badges(locale, kind='home', placement='hero'):
     c = COPY[locale]
     ios, android = stores(kind, placement, locale)
-    return f'<div class="direct-downloads"><a href="{e(ios)}" data-store="ios" data-placement="{placement}">{e(c["ios"])} <span aria-hidden="true">↗</span></a><a href="{e(android)}" data-store="android" data-placement="{placement}">{e(c["android"])} <span aria-hidden="true">↗</span></a></div>'
-
-def hero_badges(locale):
-    c = COPY[locale]
-    ios, android = stores('home', 'hero', locale)
     suffix = '' if locale == 'en' else '-' + locale
-    return f'<div class="download-actions store-badges hero-store-badges"><a class="store-badge-link" href="{e(ios)}" data-store="ios" data-placement="hero"><img src="/assets/store-badges/app-store{suffix}.svg" alt="{e(c["ios"])}" width="120" height="40"></a><a class="store-badge-link" href="{e(android)}" data-store="android" data-placement="hero"><img src="/assets/store-badges/google-play{suffix}.svg" alt="{e(c["android"])}" width="239" height="71"></a></div>'
+    hero_class = ' hero-store-badges' if placement == 'hero' else ''
+    return f'<div class="download-actions store-badges{hero_class}"><a class="store-badge-link" href="{e(ios)}" data-store="ios" data-placement="{placement}"><img src="/assets/store-badges/app-store{suffix}.svg" alt="{e(c["ios"])}" width="120" height="40"></a><a class="store-badge-link" href="{e(android)}" data-store="android" data-placement="{placement}"><img src="/assets/store-badges/google-play{suffix}.svg" alt="{e(c["android"])}" width="239" height="71"></a></div>'
 
 def screenshot(locale, kind, alt, css_class='', eager=False):
     asset = MEDIA[locale]['screenshots'][kind]
@@ -97,7 +94,7 @@ def head(locale, title, description, suffix='', article=None):
     if article:
         data['@graph'].append({'@type':'Article','headline':title,'mainEntityOfPage':url,'image':BASE+'/assets/social-card.png','inLanguage':c['tag'],'datePublished':DAY,'dateModified':DAY,'author':{'@type':'Organization','name':'LoopSplit','url':BASE+'/'},'publisher':{'@id':BASE+'/#publisher'}})
     return f'''<!doctype html>
-<html lang="{c['tag']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f8faf7"><title>{e(title)} — LoopSplit</title><meta name="description" content="{e(description)}"><link rel="canonical" href="{url}">{alternates(suffix)}<meta property="og:type" content="{'article' if article else 'website'}"><meta property="og:title" content="{e(title)} — LoopSplit"><meta property="og:description" content="{e(description)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{BASE}/assets/social-card.png?v=landing-20261105"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/assets/app-icon.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"><link rel="stylesheet" href="/assets/style.css?v=store-badges-20261105"><link rel="stylesheet" href="/assets/landing.css?v=localized-media-20261106">{schema(data)}</head>'''
+<html lang="{c['tag']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f8faf7"><title>{e(title)} — LoopSplit</title><meta name="description" content="{e(description)}"><link rel="canonical" href="{url}">{alternates(suffix)}<meta property="og:type" content="{'article' if article else 'website'}"><meta property="og:title" content="{e(title)} — LoopSplit"><meta property="og:description" content="{e(description)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{BASE}/assets/social-card.png?v=landing-20261105"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/assets/app-icon.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"><link rel="stylesheet" href="/assets/style.css?v=store-badges-20261105"><link rel="stylesheet" href="/assets/landing.css?v=store-badges-both-20261106">{schema(data)}</head>'''
 
 def header(locale, suffix=''):
     c = COPY[locale]
@@ -114,7 +111,7 @@ def guide_cards(locale):
 def render_home(locale):
     c = COPY[locale]
     html = head(locale,c['title'],c['intro']) + header(locale)
-    html += f'''<main id="main"><section class="landing-hero" aria-labelledby="hero-title"><div class="landing-hero-copy"><h1 id="hero-title">{e(c['headline'][0])}<br><span>{e(c['headline'][1])}</span></h1><p class="hero-description">{e(c['intro'])}</p>{hero_badges(locale)}<p class="landing-proof">{''.join('<span>'+e(t)+'</span>' for t in c['proof'])}</p></div><figure class="hero-scene">{screenshot(locale,'loops',c['pillars'][1]['title'],'scene-loops',True)}{screenshot(locale,'balances',c['pillars'][0]['title'],'scene-balances',True)}<figcaption>{e(c['screenNote'])}</figcaption></figure></section>'''
+    html += f'''<main id="main"><section class="landing-hero" aria-labelledby="hero-title"><div class="landing-hero-copy"><h1 id="hero-title">{e(c['headline'][0])}<br><span>{e(c['headline'][1])}</span></h1><p class="hero-description">{e(c['intro'])}</p>{store_badges(locale)}<p class="landing-proof">{''.join('<span>'+e(t)+'</span>' for t in c['proof'])}</p></div><figure class="hero-scene">{screenshot(locale,'loops',c['pillars'][1]['title'],'scene-loops',True)}{screenshot(locale,'balances',c['pillars'][0]['title'],'scene-balances',True)}<figcaption>{e(c['screenNote'])}</figcaption></figure></section>'''
     html += f'<section class="landing-section" id="why"><p class="eyebrow">{e(c["pillarsEyebrow"])}</p><h2>{lines(c["pillarsTitle"])}</h2><div class="value-grid">'
     for i,(card,art) in enumerate(zip(c['pillars'],['balances','loops','scan'])):
         html += f'<article class="value-card"><div class="card-copy"><span class="card-number">0{i+1}</span><h3>{e(card["title"])}</h3><p>{e(card["text"])}</p></div><div class="card-art">{screenshot(locale,art,card["title"])}</div></article>'
@@ -128,12 +125,12 @@ def render_home(locale):
     for title,items in [(c['freeTitle'],c['freeList']),(c['proTitle'],c['proList'])]:
         html += f'<article class="plan-card"><h3>{e(title)}</h3><ul>'+''.join(f'<li>{e(t)}</li>' for t in items)+'</ul></article>'
     html += f'</div><p class="plan-note">{e(c["planNote"])}</p></section><section class="landing-section"><h2>{e(c["guidesTitle"])}</h2><p>{e(c["guidesIntro"])}</p>{guide_cards(locale)}</section>'
-    html += f'''<section class="download-banner" id="download"><h2>{e(c['readyTitle'])}</h2><p>{e(c['readyText'])}</p>{direct(locale,'home','footer')}<p class="small-print">{e(c['compat'])}<br>{e(c['renewalNote'])}<br><a href="/terms/">{e(c['terms'])}</a> · <a href="/privacy/">{e(c['privacy'])}</a></p></section><section class="support-card"><div><h2>{e(c['supportTitle'])}</h2><p>{e(c['supportText'])}</p></div><a class="button" href="{path(locale,'support/')}">{e(c['supportAction'])} ↗</a></section></main><script src="/assets/overview-video.js?v=localized-media-20261106" defer></script>'''
+    html += f'''<section class="download-banner" id="download"><h2>{e(c['readyTitle'])}</h2><p>{e(c['readyText'])}</p>{store_badges(locale,'home','footer')}<p class="small-print">{e(c['compat'])}<br>{e(c['renewalNote'])}<br><a href="/terms/">{e(c['terms'])}</a> · <a href="/privacy/">{e(c['privacy'])}</a></p></section><section class="support-card"><div><h2>{e(c['supportTitle'])}</h2><p>{e(c['supportText'])}</p></div><a class="button" href="{path(locale,'support/')}">{e(c['supportAction'])} ↗</a></section></main><script src="/assets/overview-video.js?v=localized-media-20261106" defer></script>'''
     return html + footer(locale)
 
 def render_guide_index(locale):
     c = COPY[locale]
-    return head(locale,c['guideLabel'].title(),c['guidesIntro'],'guides/') + header(locale,'guides/') + f'<main class="help-home" id="main"><a class="back-link" href="{path(locale)}">← {e(c["home"])}</a><p class="eyebrow">{e(c["guideLabel"])}</p><h1>{e(c["guidesTitle"])}</h1><p class="help-lead">{e(c["guidesIntro"])}</p><p class="guide-version">{e(c["byline"])}</p>{guide_cards(locale)}<section class="quick-start"><div><h2>{e(c["readyTitle"])}</h2><p>{e(c["readyText"])}</p>{direct(locale,"guides","guide_index")}</div></section></main>' + footer(locale)
+    return head(locale,c['guideLabel'].title(),c['guidesIntro'],'guides/') + header(locale,'guides/') + f'<main class="help-home" id="main"><a class="back-link" href="{path(locale)}">← {e(c["home"])}</a><p class="eyebrow">{e(c["guideLabel"])}</p><h1>{e(c["guidesTitle"])}</h1><p class="help-lead">{e(c["guidesIntro"])}</p><p class="guide-version">{e(c["byline"])}</p>{guide_cards(locale)}<section class="quick-start"><div><h2>{e(c["readyTitle"])}</h2><p>{e(c["readyText"])}</p>{store_badges(locale,"guides","guide_index")}</div></section></main>' + footer(locale)
 
 def render_guide(locale, index):
     c = COPY[locale]
@@ -159,7 +156,7 @@ def render_guide(locale, index):
             html += f'</tbody></table></div><p class="guide-version">{e(g["currency"])}</p>'
     html += f'<p class="guide-version">{e(g["currency"])}</p><section class="related-guides"><h2>{e(c["relatedTitle"])}</h2>'
     html += ''.join(f'<a href="{path(locale,"guides/"+slug+"/")}">{e(item["title"])}</a>' for j,(slug,item) in enumerate(zip(SLUGS,c['guideCards'])) if j != index)
-    html += f'</section><h2>{e(c["navSupport"])}</h2><p>{e(c["englishDocs"])}</p><p><a href="{path(locale,"support/")}">{e(c["supportAction"])} ↗</a></p><section class="quick-start"><div><h2>{e(c["readyTitle"])}</h2>{direct(locale,"guides","guide_article")}</div></section></div></div></main>'
+    html += f'</section><h2>{e(c["navSupport"])}</h2><p>{e(c["englishDocs"])}</p><p><a href="{path(locale,"support/")}">{e(c["supportAction"])} ↗</a></p><section class="quick-start"><div><h2>{e(c["readyTitle"])}</h2>{store_badges(locale,"guides","guide_article")}</div></section></div></div></main>'
     return html + footer(locale)
 
 def render_help_index(locale):
@@ -173,7 +170,9 @@ def write(suffix, content):
     dest.write_text(content+'\n')
 
 for locale in COPY:
-    write(path(locale),render_home(locale))
+    home = render_home(locale)
+    validate_home_badges(home, locale)
+    write(path(locale), home)
     write(path(locale,'guides/'),render_guide_index(locale))
     if locale != 'en':
         write(path(locale,'support/'),render_help_index(locale))
@@ -189,13 +188,14 @@ for file in [*ROOT.glob('support/**/index.html'), *ROOT.glob('guides/*/index.htm
     text = text.replace('</nav></header>','<!-- language-menu -->'+language_menu('en',family)+'<!-- /language-menu --></nav></header>',1)
     text = text.replace('<body>','<body class="landing">',1)
     text = re.sub(r'<link rel="stylesheet" href="/assets/landing.css[^\"]*">','',text)
-    text = text.replace('</head>','<link rel="stylesheet" href="/assets/landing.css?v=localized-media-20261106"></head>')
+    text = text.replace('</head>','<link rel="stylesheet" href="/assets/landing.css?v=store-badges-both-20261106"></head>')
     if suffix == 'support/' or suffix.startswith('guides/'):
         text = re.sub(r'<link rel="alternate" hreflang="[^\"]+" href="[^\"]+">','',text)
         text = text.replace('</head>',alternates(suffix)+'</head>')
     ios, android = stores('guides','content','en')
     text = re.sub(r'<a[^>]+href="(?:\.\./)+(?:#download)">Get the app ↓</a>',f'<a href="{e(ios)}">App Store ↗</a><a href="{e(android)}">Google Play ↗</a>',text)
-    text = text.replace('<a class="button" href="../../#download">Get LoopSplit →</a>',direct('en','guides','guide_article'))
+    text = text.replace('<a class="button" href="../../#download">Get LoopSplit →</a>',store_badges('en','guides','guide_article'))
+    text = re.sub(r'<div class="(?:direct-downloads|download-actions store-badges)">.*?</div>', store_badges('en','guides','guide_article'), text, flags=re.S)
     def campaign_anchor(match):
         opening = match.group(0)
         href = re.search(r'href="([^\"]+)"',opening)

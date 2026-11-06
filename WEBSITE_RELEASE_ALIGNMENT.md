@@ -1,5 +1,13 @@
 # Website release alignment
 
+## November 6, 2026 official badges at both download locations
+
+The owner clarified that both the hero and final download section must use the official App Store and Google Play badges. All seven homepages now use the same `store_badges` component at both locations; prominent guide download calls to action also share that component. The old custom text-button component and its styles are removed. Original localized SVGs, direct store destinations, campaign parameters and media are preserved.
+
+This requirement is recorded in [AGENTS.md](AGENTS.md), the website README and the badge asset README. The build validates both actual page sections before generating each homepage. [scripts/check_store_badges.py](scripts/check_store_badges.py) independently checks both stores, their order, localized original SVG paths and direct listing destinations. Regression fixtures for a bottom text button, a removed bottom pair, a wrong-language badge, a misplaced pair and a wrong listing were all rejected.
+
+Chrome checks cover both placements in all seven languages at 320, 390, 768 and 1280px widths: all four badges load, preserve 40px phone / 48px desktop height, and stay within the page with no horizontal overflow. Both ends were visually inspected on phone and desktop. All 54 pages, 2138 local references, canonical URLs, JSON-LD and the sitemap pass checks; repeated generation is stable.
+
 ## November 6, 2026 complete localized media
 
 Fixed the feature-card image sizing: intrinsic HTML height previously remained fixed while CSS reduced image width, stretching screenshots; fixed-height artwork containers then cropped their bottom edges. Images now use automatic height and their native aspect ratio, containers expand around the full image, and narrow layouts stack copy above artwork.

@@ -45,7 +45,7 @@ The November 5 homepage, support navigation and getting-started guide link to bo
 
 ## Store badges
 
-Each homepage has one pair of official localized badges in its hero, App Store first, linking directly to the corresponding store. The final section uses direct text links. Original SVG artwork and provenance are in [assets/store-badges/](assets/store-badges/README.md). Desktop badges display at 48px with 12px clear space; phone badges at 40px with 10px clear space. Colors and proportions remain unchanged.
+Each homepage has two pairs of official localized badges: one in the hero and one in the final download section, App Store first. Both link directly to the corresponding store. All prominent guide download calls to action use the same `store_badges` component. Original SVG artwork and provenance are in [assets/store-badges/](assets/store-badges/README.md). Desktop badges display at 48px with 12px clear space; phone badges at 40px with 10px clear space. Colors and proportions remain unchanged. This is an owner requirement recorded in [AGENTS.md](AGENTS.md). `python3 scripts/build-landing.py` validates both placements before writing each homepage; `python3 scripts/check_store_badges.py` also checks the committed pages independently.
 
 Apple campaign links use the provider token actually generated in App Store Connect, with separate `website_home_20261105` and `website_guides_20261105` campaigns. Google Play uses matching UTM campaign names and encoded referrer parameters, with language and placement in `utm_content`. These are store attribution links, not a website click collector or proof of installation.
 

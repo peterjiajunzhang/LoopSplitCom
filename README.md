@@ -41,7 +41,7 @@ The November 5 homepage, support navigation and getting-started guide link to bo
 
 ## Store badges
 
-The homepage hero uses one pair of official English download badges, App Store first. Original SVG artwork is stored locally in `assets/store-badges/`; [asset sources and usage notes](assets/store-badges/README.md) record its provenance. Both badges display at 48px high with 12px clear space and preserve their intrinsic proportions. The final download section retains text buttons, so the App Store badge appears once in the page layout. Keep the footer trademark credits and the real app listing links when changing these entry points.
+The final download section uses one pair of official English download badges, App Store first. The hero’s Download LoopSplit button and the main navigation both lead to this section. Original SVG artwork is stored locally in `assets/store-badges/`; [asset sources and usage notes](assets/store-badges/README.md) record its provenance. Both badges display at 48px high with 12px clear space and preserve their intrinsic proportions. The App Store badge appears once in the page layout. Keep the footer trademark credits and the real app listing links when changing these entry points.
 
 ## Product overview video
 

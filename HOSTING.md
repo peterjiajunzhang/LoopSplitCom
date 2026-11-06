@@ -5,9 +5,13 @@ The production website uses `https://loopsplit.app/`. Cloudflare manages the dom
 | Name | DNS record | Target | Mode |
 |---|---|---|---|
 | `loopsplit.app` | Apex CNAME, flattened by Cloudflare | `peterjiajunzhang.github.io` | DNS only, Auto TTL |
-| `www.loopsplit.app` | CNAME | `peterjiajunzhang.github.io` | DNS only, Auto TTL |
+| `www.loopsplit.app` | CNAME | `peterjiajunzhang.github.io` | Proxied, Auto TTL; Cloudflare redirects at the edge |
 
-GitHub Pages manages the site's TLS certificate and HTTPS enforcement. `loopsplit.app` is the canonical hostname; GitHub redirects the `www` variant to it. The original `https://peterjiajunzhang.github.io/LoopSplitCom/` URLs remain important for already-released app and store links and must continue to redirect, including support/privacy paths. Keep the DNS target free of the repository path.
+GitHub Pages manages the apex TLS certificate; HTTPS enforcement is enabled. `loopsplit.app` is the canonical hostname. Cloudflare's active Universal SSL certificate covers `www`; a Single Redirect in `http_request_dynamic_redirect` matches only `www.loopsplit.app` and returns 301 to `concat("https://loopsplit.app", http.request.uri.path)`, preserving the query string. This handles `www` before an origin request, without depending on a GitHub certificate for that hostname. Keep this rule enabled while `www` is proxied.
+
+The original `https://peterjiajunzhang.github.io/LoopSplitCom/` URLs remain important for already-released app and store links and continue to redirect, including support/privacy paths. Keep the DNS target free of the repository path. On November 5, apex HTTPS returned 200 with valid certificate verification; `https://www.loopsplit.app/support/?ref=domain-check` returned 301 to the same apex path and query; the original GitHub privacy URL returned 301 to the HTTPS apex privacy page.
+
+Google Search Console uses a retained apex TXT verification record. Bing Webmaster Tools uses a separate DNS-only verification CNAME. These verification records are not website routing records and should remain in place. Personal-account GitHub Pages domain verification remains optional and requires the owner's GitHub browser login; the repository domain binding and HTTPS are already configured.
 
 Canonical links, social URLs, SoftwareApplication metadata, `robots.txt` and `sitemap.xml` use the new root domain. Existing Firebase-hosted invitation and app-association endpoints remain on their current host; this website deployment does not replace them.
 

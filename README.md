@@ -12,6 +12,8 @@ Then open `http://localhost:4173/`.
 
 The site deploys from the `main` branch with GitHub Pages at https://loopsplit.app/. Cloudflare manages domain registration and DNS. The former `https://peterjiajunzhang.github.io/LoopSplitCom/` address is retained as a redirect for existing app and store links. See [domain configuration and the planned Web App/MCP hosting](HOSTING.md).
 
+The [shared expense guides](https://loopsplit.app/guides/) cover rent and utilities, couples and recurring bills. Their static HTML, article/breadcrumb metadata, canonical links and sitemap are maintained alongside the Help Center. `llms.txt` is a convenience index of official facts and documentation, not a guarantee of AI citations. Search Console, Bing and IndexNow results are recorded separately from indexing and acquisition outcomes.
+
 These URLs are used by the app (`AppInfo`) and App Store Connect, so keep the paths stable:
 
 - Support: `/support/`

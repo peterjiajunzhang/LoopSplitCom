@@ -1,0 +1,26 @@
+# LoopSplit
+
+> Official website and user documentation for LoopSplit, a shared expense app for iPhone, iPad and Android. Updated November 5, 2026, for the 1.2 series.
+
+LoopSplit records shared expenses, recurring bills and repayments. It does not transfer money or connect to a bank. Users choose equal, shares, percentage or exact-amount splits. Receipt scanning suggests an amount, merchant and date when available; users review suggestions before saving.
+
+Free use has no ads or daily expense limits. Each free Book supports three active Loops. Free receipt scanning is three scans total per account across devices; attaching and viewing receipt photos is free. Optional Pro subscriptions add unlimited scanning, cropping, Loops and estimated expenses. A Pro member shares Book-level Pro benefits with the other members of that Book. Local prices and trial eligibility appear in the store purchase flow.
+
+## Product
+- [Official website](https://loopsplit.app/): Product overview and iOS/Android store links.
+- [Help Center](https://loopsplit.app/support/): Version-specific instructions and support contact.
+- [Free features and Pro](https://loopsplit.app/support/pro/): Limits, shared benefits, subscriptions and restore help.
+
+## Guides
+- [Splitting rent and utilities](https://loopsplit.app/guides/split-rent-and-utilities/): A worked roommate example.
+- [Shared expenses for couples](https://loopsplit.app/guides/shared-expenses-for-couples/): Equal, percentage and exact splits.
+- [Recurring shared bills](https://loopsplit.app/guides/recurring-shared-bills/): Schedules, expenses and repayments.
+
+## Detailed documentation
+- [Expenses, splits and refunds](https://loopsplit.app/support/expenses/)
+- [Loops and To Do](https://loopsplit.app/support/loops/)
+- [Balances and repayments](https://loopsplit.app/support/balances/)
+- [Receipts and estimates](https://loopsplit.app/support/receipts/)
+- [Privacy and diagnostics](https://loopsplit.app/support/privacy-and-diagnostics/)
+- [Privacy Policy](https://loopsplit.app/privacy/)
+- [Terms of Use](https://loopsplit.app/terms/)

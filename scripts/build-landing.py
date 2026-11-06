@@ -71,7 +71,7 @@ def head(locale, title, description, suffix='', article=None):
     if article:
         data['@graph'].append({'@type':'Article','headline':title,'mainEntityOfPage':url,'image':BASE+'/assets/social-card.png','inLanguage':c['tag'],'datePublished':DAY,'dateModified':DAY,'author':{'@type':'Organization','name':'LoopSplit','url':BASE+'/'},'publisher':{'@id':BASE+'/#publisher'}})
     return f'''<!doctype html>
-<html lang="{c['tag']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f8faf7"><title>{e(title)} — LoopSplit</title><meta name="description" content="{e(description)}"><link rel="canonical" href="{url}">{alternates(suffix)}<meta property="og:type" content="{'article' if article else 'website'}"><meta property="og:title" content="{e(title)} — LoopSplit"><meta property="og:description" content="{e(description)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{BASE}/assets/social-card.png?v=landing-20261105"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/assets/app-icon.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"><link rel="stylesheet" href="/assets/style.css?v=store-badges-20261105"><link rel="stylesheet" href="/assets/landing.css?v=landing-20261105-r2">{schema(data)}</head>'''
+<html lang="{c['tag']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f8faf7"><title>{e(title)} — LoopSplit</title><meta name="description" content="{e(description)}"><link rel="canonical" href="{url}">{alternates(suffix)}<meta property="og:type" content="{'article' if article else 'website'}"><meta property="og:title" content="{e(title)} — LoopSplit"><meta property="og:description" content="{e(description)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{BASE}/assets/social-card.png?v=landing-20261105"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/assets/app-icon.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"><link rel="stylesheet" href="/assets/style.css?v=store-badges-20261105"><link rel="stylesheet" href="/assets/landing.css?v=landing-20261105-r3">{schema(data)}</head>'''
 
 def header(locale, suffix=''):
     c = COPY[locale]
@@ -160,7 +160,7 @@ for file in [*ROOT.glob('support/**/index.html'), *ROOT.glob('guides/*/index.htm
     text = text.replace('</nav></header>','<!-- language-menu -->'+language_menu('en',family)+'<!-- /language-menu --></nav></header>',1)
     text = text.replace('<body>','<body class="landing">',1)
     text = re.sub(r'<link rel="stylesheet" href="/assets/landing.css[^\"]*">','',text)
-    text = text.replace('</head>','<link rel="stylesheet" href="/assets/landing.css?v=landing-20261105-r2"></head>')
+    text = text.replace('</head>','<link rel="stylesheet" href="/assets/landing.css?v=landing-20261105-r3"></head>')
     if suffix == 'support/' or suffix.startswith('guides/'):
         text = re.sub(r'<link rel="alternate" hreflang="[^\"]+" href="[^\"]+">','',text)
         text = text.replace('</head>',alternates(suffix)+'</head>')

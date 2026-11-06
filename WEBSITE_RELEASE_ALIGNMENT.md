@@ -1,5 +1,13 @@
 # Website release alignment
 
+## November 5, 2026 store-aligned brand copy
+
+The homepage headline, document/social titles and social image alt text now use **Scan receipts. Split costs.**, exactly matching the English subtitle read back from the READY_FOR_DISTRIBUTION App Store App Info record. This replaces the website-only “Shared bills, kept fair” line. Hero supporting copy and search/social descriptions retain the wider shared-expenses, recurring-bills and repayments story across both released platforms. No store metadata is changed.
+
+The old sharing image also contained the retired headline and an Apple-only availability line. It is replaced by a 1200×630 export of the new editable `assets/social-card.svg`, using the existing LoopSplit icon and brand colors, the store-aligned headline, and iPhone/iPad/Android availability. `scripts/render-social-card.swift` exports the vector source through system AppKit. The social image URL has a new cache key.
+
+The PNG export was visually inspected at full resolution. Browser checks at 1280×900 and 390×844 confirm the intended two-line headline, loaded store badges and no horizontal overflow. Metadata consistency, local references and vector/PNG dimensions pass checks.
+
 ## November 5, 2026 official store badge update
 
 The homepage hero now uses the official black English App Store and Google Play download badges. Apple artwork comes directly from Apple Developer; Google artwork is the English digital SVG from the current Partner Marketing Hub badge library. Both files retain their downloaded bytes; source links and hashes are recorded in `assets/store-badges/README.md`.

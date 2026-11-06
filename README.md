@@ -11,6 +11,7 @@ python3 -m http.server 4173
 Then open `http://localhost:4173/`.
 
 The site deploys from the `main` branch with GitHub Pages to https://peterjiajunzhang.github.io/LoopSplitCom/.
+
 These URLs are used by the app (`AppInfo`) and App Store Connect, so keep the paths stable:
 
 - Support: `/support/`
@@ -19,6 +20,12 @@ These URLs are used by the app (`AppInfo`) and App Store Connect, so keep the pa
 - Android Terms of Use (existing link retained): `/terms/android/`
 
 Invite links (`/j/<code>`) and `apple-app-site-association` are served by Firebase Hosting from the LoopSplit app repo, not from here.
+
+## Brand copy and sharing card
+
+The homepage headline is **Scan receipts. Split costs.**, matching the released App Store English subtitle. Keep the page title, social title, image alt text and sharing card aligned with this wording. Website copy covers both released stores; it does not change their listings.
+
+The editable sharing card is `assets/social-card.svg`; the website serves its 1200×630 PNG export for social platform compatibility. After editing the SVG, run `swift scripts/render-social-card.swift` on macOS and inspect the resulting PNG. This optional asset export uses system AppKit and adds no website build dependencies. Change the social image URL cache key when replacing the card.
 
 ## User help center
 

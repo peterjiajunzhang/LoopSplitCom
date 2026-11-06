@@ -1,5 +1,11 @@
 # Website release alignment
 
+## November 5, 2026 search launch
+
+Published the shared expense guide index and three original worked examples for roommates, couples and recurring bills. All 18 pages have matching canonical/title/description metadata; guides add Article and Breadcrumb data, and existing pages add social/breadcrumb metadata. The visible homepage headline remains aligned with the App Store; its browser title describes shared expenses and recurring bills. Policy heading levels were adjusted without changing visible policy wording or effective dates.
+
+Google domain ownership is verified; the sitemap reads Success with 18 discovered pages. Bing DNS verification is complete and its submitted sitemap initially reads Processing. IndexNow accepted one notification for the 18 URLs with HTTP 202. Valid HTTPS responses for 25 files match source, and 24 crawler User-Agent checks match normal page content. These checks do not establish indexing, AI recommendations or downloads. Details and follow-up are maintained in the [Monetization search launch receipt](https://github.com/peterjiajunzhang/LoopSplit/blob/main/docs/monetization/search-launch-2026-11-05.md).
+
 ## November 5, 2026 custom domain
 
 The owner registered `loopsplit.app` with Cloudflare and authorized DNS and hosting configuration. The existing GitHub Pages site is bound to the apex domain; Cloudflare DNS points the apex and `www` at the GitHub Pages user host. Website canonical, sharing, structured-data and sitemap URLs now use `https://loopsplit.app/`. This changes URLs only in the published policy pages, preserving their effective dates and substantive terms. The old GitHub Pages paths remain the compatibility redirects for released apps and store metadata.

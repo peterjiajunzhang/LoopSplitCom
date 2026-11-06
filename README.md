@@ -14,6 +14,8 @@ The site deploys from the `main` branch with GitHub Pages at https://loopsplit.a
 
 The [shared expense guides](https://loopsplit.app/guides/) cover rent and utilities, couples and recurring bills. Their static HTML, article/breadcrumb metadata, canonical links and sitemap are maintained alongside the Help Center. `llms.txt` is a convenience index of official facts and documentation, not a guarantee of AI citations. Search Console, Bing and IndexNow results are recorded separately from indexing and acquisition outcomes.
 
+See the app repository's [November 5 search launch receipt](https://github.com/peterjiajunzhang/LoopSplit/blob/main/docs/monetization/search-launch-2026-11-05.md) for backend verification, published content checks and acquisition follow-up.
+
 These URLs are used by the app (`AppInfo`) and App Store Connect, so keep the paths stable:
 
 - Support: `/support/`

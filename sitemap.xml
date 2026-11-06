@@ -1,47 +1,355 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://loopsplit.app/es/guides/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/es/guides/recurring-shared-bills/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/recurring-shared-bills/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/es/guides/shared-expenses-for-couples/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/shared-expenses-for-couples/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/es/guides/split-rent-and-utilities/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/split-rent-and-utilities/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/es/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/es/support/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/support/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/support/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/fr/guides/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/fr/guides/recurring-shared-bills/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/recurring-shared-bills/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/fr/guides/shared-expenses-for-couples/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/shared-expenses-for-couples/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/fr/guides/split-rent-and-utilities/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/split-rent-and-utilities/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/fr/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/fr/support/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/support/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/support/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/guides/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/guides/recurring-shared-bills/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/recurring-shared-bills/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/guides/shared-expenses-for-couples/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/shared-expenses-for-couples/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/guides/split-rent-and-utilities/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/split-rent-and-utilities/" />
+  </url>
   <url>
     <loc>https://loopsplit.app/</loc>
     <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/" />
   </url>
   <url>
-    <loc>https://loopsplit.app/support/</loc>
+    <loc>https://loopsplit.app/it/guides/</loc>
     <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/it/guides/recurring-shared-bills/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/recurring-shared-bills/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/it/guides/shared-expenses-for-couples/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/shared-expenses-for-couples/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/it/guides/split-rent-and-utilities/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/split-rent-and-utilities/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/it/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/it/support/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/support/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/support/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/ja/guides/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/ja/guides/recurring-shared-bills/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/recurring-shared-bills/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/ja/guides/shared-expenses-for-couples/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/shared-expenses-for-couples/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/ja/guides/split-rent-and-utilities/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/split-rent-and-utilities/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/ja/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/ja/support/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/support/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/support/" />
   </url>
   <url>
     <loc>https://loopsplit.app/privacy/</loc>
-    <lastmod>2026-11-05</lastmod>
-  </url>
-  <url>
-    <loc>https://loopsplit.app/terms/</loc>
-    <lastmod>2026-11-05</lastmod>
-  </url>
-  <url>
-    <loc>https://loopsplit.app/terms/android/</loc>
-    <lastmod>2026-11-05</lastmod>
-  </url>
-  <url>
-    <loc>https://loopsplit.app/support/getting-started/</loc>
-    <lastmod>2026-11-05</lastmod>
-  </url>
-  <url>
-    <loc>https://loopsplit.app/support/expenses/</loc>
-    <lastmod>2026-11-05</lastmod>
-  </url>
-  <url>
-    <loc>https://loopsplit.app/support/loops/</loc>
-    <lastmod>2026-11-05</lastmod>
-  </url>
-  <url>
-    <loc>https://loopsplit.app/support/balances/</loc>
-    <lastmod>2026-11-05</lastmod>
-  </url>
-  <url>
-    <loc>https://loopsplit.app/support/receipts/</loc>
-    <lastmod>2026-11-05</lastmod>
-  </url>
-  <url>
-    <loc>https://loopsplit.app/support/pro/</loc>
     <lastmod>2026-11-05</lastmod>
   </url>
   <url>
@@ -49,7 +357,31 @@
     <lastmod>2026-11-05</lastmod>
   </url>
   <url>
-    <loc>https://loopsplit.app/support/search-and-calculations/</loc>
+    <loc>https://loopsplit.app/support/balances/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://loopsplit.app/support/expenses/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://loopsplit.app/support/getting-started/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://loopsplit.app/support/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/support/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/support/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/support/loops/</loc>
     <lastmod>2026-11-05</lastmod>
   </url>
   <url>
@@ -57,19 +389,167 @@
     <lastmod>2026-11-05</lastmod>
   </url>
   <url>
-    <loc>https://loopsplit.app/guides/</loc>
+    <loc>https://loopsplit.app/support/pro/</loc>
     <lastmod>2026-11-05</lastmod>
   </url>
   <url>
-    <loc>https://loopsplit.app/guides/split-rent-and-utilities/</loc>
+    <loc>https://loopsplit.app/support/receipts/</loc>
     <lastmod>2026-11-05</lastmod>
   </url>
   <url>
-    <loc>https://loopsplit.app/guides/shared-expenses-for-couples/</loc>
+    <loc>https://loopsplit.app/support/search-and-calculations/</loc>
     <lastmod>2026-11-05</lastmod>
   </url>
   <url>
-    <loc>https://loopsplit.app/guides/recurring-shared-bills/</loc>
+    <loc>https://loopsplit.app/terms/android/</loc>
     <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://loopsplit.app/terms/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://loopsplit.app/zh-hans/guides/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/zh-hans/guides/recurring-shared-bills/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/recurring-shared-bills/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/zh-hans/guides/shared-expenses-for-couples/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/shared-expenses-for-couples/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/zh-hans/guides/split-rent-and-utilities/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/split-rent-and-utilities/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/zh-hans/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/zh-hans/support/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/support/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/support/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/zh-hant/guides/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/zh-hant/guides/recurring-shared-bills/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/recurring-shared-bills/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/recurring-shared-bills/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/zh-hant/guides/shared-expenses-for-couples/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/shared-expenses-for-couples/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/shared-expenses-for-couples/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/zh-hant/guides/split-rent-and-utilities/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/guides/split-rent-and-utilities/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/guides/split-rent-and-utilities/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/zh-hant/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/" />
+  </url>
+  <url>
+    <loc>https://loopsplit.app/zh-hant/support/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://loopsplit.app/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://loopsplit.app/zh-hans/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://loopsplit.app/zh-hant/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://loopsplit.app/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://loopsplit.app/es/support/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://loopsplit.app/it/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://loopsplit.app/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://loopsplit.app/support/" />
   </url>
 </urlset>

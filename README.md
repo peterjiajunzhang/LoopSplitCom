@@ -1,6 +1,6 @@
 # LoopSplit website
 
-Static site for LoopSplit: home page, support and privacy policy. No build step or dependencies. Download entry points use the verified App Store ID `6817176363` and Google Play package `com.loop.loopsplit`. Main navigation leads to the homepage’s two-store download section rather than assuming an Apple device.
+Static site for LoopSplit: home page, support and privacy policy. No build step or dependencies. Download entry points use the verified App Store ID `6817176363` and Google Play package `com.loop.loopsplit`. The homepage’s official store badges link directly to each store in one click.
 
 Preview locally from this folder:
 
@@ -27,7 +27,7 @@ Invite links (`/j/<code>`) and `apple-app-site-association` are served by Fireba
 
 ## Brand copy and sharing card
 
-The homepage headline is **Scan receipts. Split costs.**, matching the released App Store English subtitle. Keep the page title, social title, image alt text and sharing card aligned with this wording. Website copy covers both released stores; it does not change their listings.
+The homepage headline is **Less money talk. More good times.**, taken from the approved product video. Chinese uses **好好相处，账算清楚。** The original shared-expense / recurring-bill / repayment introduction is retained, with free expense tracking, no daily limits, no ads and on-device scanning as supporting labels. The hero pairs this copy with real released-product artwork; it does not change store listings.
 
 The editable sharing card is `assets/social-card.svg`; the website serves its 1200×630 PNG export for social platform compatibility. After editing the SVG, run `swift scripts/render-social-card.swift` on macOS and inspect the resulting PNG. This optional asset export uses system AppKit and adds no website build dependencies. Change the social image URL cache key when replacing the card.
 
@@ -45,8 +45,16 @@ The November 5 homepage, support navigation and getting-started guide link to bo
 
 ## Store badges
 
-The final download section uses one pair of official English download badges, App Store first. The hero’s Download LoopSplit button and the main navigation both lead to this section. Original SVG artwork is stored locally in `assets/store-badges/`; [asset sources and usage notes](assets/store-badges/README.md) record its provenance. Both badges display at 48px high with 12px clear space and preserve their intrinsic proportions. The App Store badge appears once in the page layout. Keep the footer trademark credits and the real app listing links when changing these entry points.
+Each homepage has one pair of official localized badges in its hero, App Store first, linking directly to the corresponding store. The final section uses direct text links. Original SVG artwork and provenance are in [assets/store-badges/](assets/store-badges/README.md). Desktop badges display at 48px with 12px clear space; phone badges at 40px with 10px clear space. Colors and proportions remain unchanged.
+
+Apple campaign links use the provider token actually generated in App Store Connect, with separate `website_home_20261105` and `website_guides_20261105` campaigns. Google Play uses matching UTM campaign names and encoded referrer parameters, with language and placement in `utm_content`. These are store attribution links, not a website click collector or proof of installation.
+
+## Seven website languages
+
+English is `/`; Simplified Chinese, Traditional Chinese, French, Spanish, Italian and Japanese use `/zh-hans/`, `/zh-hant/`, `/fr/`, `/es/`, `/it/` and `/ja/`. Each includes a homepage, guide index, three practical guides and a help hub. Detailed help articles remain English; localized hubs label those links accordingly. Privacy and Terms remain English / Simplified Chinese with their existing terms and effective dates.
+
+Edit `content/landing.json` and `content/guides.json`, then run `python3 scripts/build-landing.py`. Generated HTML is committed and served without a runtime build. The renderer maintains canonical URLs, reciprocal language alternates, language switching and the 54-page sitemap. Keep existing support and policy paths stable.
 
 ## Product overview video
 
-The homepage reuses approved ASC typography-r2 English media. Desktop uses the wide Header composition; at 640px and below it uses the Search composition, without cropping either video. Playback is visitor-controlled, with native controls, inline playback, posters and `preload="none"`. Both files have no audio. The video summary and text feature sections keep the overview accessible without playback. See `WEBSITE_RELEASE_ALIGNMENT.md` for provenance and release boundaries.
+The homepage reuses approved ASC typography-r2 English media. Desktop uses the wide Header composition; at 640px and below it uses the Search composition, without cropping either video. Muted playback starts when the player enters view, pauses outside view or when the tab is hidden, and respects reduced motion, data-saving preferences and manual pauses. Browser/device policy can still require pressing Play. Native controls, inline playback, posters and `preload="none"` remain available. Both files have no audio. The video summary and text feature sections keep the overview accessible without playback. See `WEBSITE_RELEASE_ALIGNMENT.md` for provenance and release boundaries.

@@ -1,0 +1,863 @@
+{
+  "en": {
+    "name": "English",
+    "tag": "en",
+    "route": "",
+    "title": "Shared Expenses & Recurring Bills",
+    "navFeatures": "Why LoopSplit",
+    "navGuides": "Guides",
+    "navSupport": "Support",
+    "language": "Language",
+    "skip": "Skip to content",
+    "eyebrow": "FOR THE LIFE YOU SHARE",
+    "headline": [
+      "Less money talk.",
+      "More good times."
+    ],
+    "intro": "Shared expenses, recurring bills and repayments, brought together. Scan a receipt, choose the split and keep everyone in sync.",
+    "ios": "Download for iOS",
+    "android": "Get it for Android",
+    "proof": [
+      "Free expense tracking",
+      "No daily limits",
+      "No ads",
+      "On-device receipt scanning"
+    ],
+    "compat": "iPhone & iPad: iOS 17+ · Android phones & tablets: Android 9+",
+    "screenNote": "LoopSplit on iPhone · English interface",
+    "pillarsEyebrow": "CLEAR COSTS. BETTER COMPANY.",
+    "pillarsTitle": "The bills can be complicated.\nSharing them can feel simple.",
+    "pillars": [
+      {
+        "title": "Skip the awkward reminder.",
+        "text": "See who owes whom and the repayments still to record. Everyone in the Book sees the same balances."
+      },
+      {
+        "title": "Keep next month in sight.",
+        "text": "Rent, internet, subscriptions. Save the schedule and split; check each due period in To Do before recording it."
+      },
+      {
+        "title": "Let the receipt do the typing.",
+        "text": "Scan for amount, merchant and date suggestions. Check the details, choose the split and save."
+      }
+    ],
+    "filmTitle": "See a shared bill\nbecome a clear next step.",
+    "filmIntro": "From the first receipt to the last repayment, in 30 seconds.",
+    "filmCaption": "LoopSplit demo on iPhone · English · Sound off",
+    "readSummary": "Read the video summary",
+    "filmSummary": "Scan a receipt and review the suggestions, save recurring costs as Loops, check due periods in To Do, review balances and record repayments made outside the app. Estimated expenses count toward balances once saved. Free accounts have 3 receipt scans total; free Books have 3 active Loops.",
+    "detailsTitle": "Made for real life.",
+    "details": [
+      {
+        "title": "Your split, your choice.",
+        "text": "Equal, percentage, shares or exact amounts. Record refunds and returned deposits, too."
+      },
+      {
+        "title": "A Book for everyone.",
+        "text": "Invite by link, code or QR. Share the same Book across iPhone, iPad and Android."
+      },
+      {
+        "title": "Keep going, offline.",
+        "text": "Add expenses without a signal. They sync when you reconnect; shared balances update after sync."
+      }
+    ],
+    "pricingEyebrow": "START WITH WHAT YOU NEED",
+    "pricingTitle": "Everyday essentials, free.\nMore flexibility with Pro.",
+    "freeTitle": "Free",
+    "proTitle": "LoopSplit Pro",
+    "freeList": [
+      "Shared expenses and repayments, without ads or daily limits",
+      "Up to 3 active Loops per Book",
+      "3 receipt scans total per account across devices; free receipt photo attachments"
+    ],
+    "proList": [
+      "Automatic, unlimited receipt scanning and cropping",
+      "Unlimited active Loops and estimated expenses you confirm later",
+      "One Pro member shares Book-level Pro features with everyone in that Book"
+    ],
+    "planNote": "Pro offers optional monthly and yearly subscriptions. Local prices and trial eligibility appear before purchase. LoopSplit records money owed and repayments; it does not transfer money or connect to your bank.",
+    "guidesTitle": "A clearer way to share.",
+    "guidesIntro": "Work through the numbers with practical examples.",
+    "guideCards": [
+      {
+        "title": "Split rent and utilities",
+        "text": "Unequal rent, equal utility bills: a three-roommate example."
+      },
+      {
+        "title": "Share expenses as a couple",
+        "text": "Choose a split together and account for different payers."
+      },
+      {
+        "title": "Manage recurring shared bills",
+        "text": "Keep the schedule, the expense and the repayment clear."
+      }
+    ],
+    "readyTitle": "Make room for the good stuff.",
+    "readyText": "Bring your people. Keep the costs clear.",
+    "renewalNote": "Optional auto-renewing Pro subscriptions. Manage or cancel through the store where you subscribed.",
+    "supportTitle": "A little help goes a long way.",
+    "supportText": "Find the steps for expenses, Loops, receipts and repayments.",
+    "supportAction": "Open the Help Center",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "legalNote": "Policies and terms are available in English and Simplified Chinese.",
+    "home": "Home",
+    "backGuides": "All guides",
+    "guideLabel": "SHARED EXPENSE GUIDES",
+    "byline": "By LoopSplit · Updated November 5, 2026 · For the 1.2 series",
+    "readGuide": "Read the guide",
+    "relatedTitle": "More shared expense guides",
+    "helpTitle": "A little help.\nA clearer Book.",
+    "helpIntro": "Find the steps for the task you want to do.",
+    "englishDocs": "Detailed Help Center articles are currently in English. The shared-expense guides are available in your selected language.",
+    "helpTopics": [
+      "Getting started",
+      "Expenses, splits & refunds",
+      "Loops & To Do",
+      "Balances & repayments",
+      "Receipts & estimated amounts",
+      "Free features & Pro",
+      "Account, sync & troubleshooting",
+      "Search & calculations",
+      "Privacy & Diagnostics"
+    ]
+  },
+  "zh-hans": {
+    "name": "简体中文",
+    "tag": "zh-Hans",
+    "route": "zh-hans",
+    "title": "共同支出与周期账单",
+    "navFeatures": "为什么选 LoopSplit",
+    "navGuides": "分账指南",
+    "navSupport": "帮助",
+    "language": "语言",
+    "skip": "跳到正文",
+    "eyebrow": "把账算清，把时间留给生活",
+    "headline": [
+      "好好相处，",
+      "账算清楚。"
+    ],
+    "intro": "共同支出、周期账单、还款记录，放在一起。扫描收据，选好分法，让每个人都心中有数。",
+    "ios": "在 iOS 上下载",
+    "android": "在 Android 上下载",
+    "proof": [
+      "免费记账",
+      "没有广告",
+      "记账不限笔数",
+      "本机扫描收据"
+    ],
+    "compat": "iPhone、iPad：iOS 17+ · Android 手机、平板：Android 9+",
+    "screenNote": "iPhone 上的 LoopSplit · 画面为英文界面",
+    "pillarsEyebrow": "账目清楚，相处轻松",
+    "pillarsTitle": "账单可以复杂，\n分账可以简单。",
+    "pillars": [
+      {
+        "title": "少一次难开口的提醒。",
+        "text": "谁欠谁、还需记录哪些还款，打开就清楚。同一账本里的成员看到一致的余额。"
+      },
+      {
+        "title": "下个月的账，心里有数。",
+        "text": "房租、网络、订阅，保存周期和分摊方式。每期到期后，在待办中核对并记入支出。"
+      },
+      {
+        "title": "让收据替你少打几个字。",
+        "text": "扫描获取金额、商户和日期建议。核对信息，选好分摊方式，再保存。"
+      }
+    ],
+    "filmTitle": "一笔共同开支，\n下一步清清楚楚。",
+    "filmIntro": "从第一张收据到最后一笔还款，30 秒看懂。",
+    "filmCaption": "iPhone 产品演示 · 英文界面 · 静音",
+    "readSummary": "阅读视频文字说明",
+    "filmSummary": "扫描收据并核对建议，把周期费用保存为 Loop，在待办中核对本期账单，查看余额，并记录在应用外完成的还款。估算支出保存后即计入余额。每个账户共可免费扫描 3 次，每个免费账本最多有 3 条启用中的 Loop。",
+    "detailsTitle": "为真实的共同生活而设计。",
+    "details": [
+      {
+        "title": "怎么分，你们决定。",
+        "text": "均分、百分比、份数或指定金额，都可以。退款和退回的押金也能记录。"
+      },
+      {
+        "title": "一个账本，大家一起。",
+        "text": "用链接、邀请码或二维码邀请，在 iPhone、iPad 和 Android 间共享同一账本。"
+      },
+      {
+        "title": "没信号，也能记。",
+        "text": "离线添加的支出先保存在设备上，联网后同步；共同余额会在同步后更新。"
+      }
+    ],
+    "pricingEyebrow": "按需要开始，按需要升级",
+    "pricingTitle": "日常分账，免费使用。\n更多灵活性，交给 Pro。",
+    "freeTitle": "免费版",
+    "proTitle": "LoopSplit Pro",
+    "freeList": [
+      "共同支出与还款，无广告、每日记账不限笔数",
+      "每个账本最多 3 条启用中的 Loop",
+      "每个账户跨设备共 3 次免费扫描；免费附加和查看收据照片"
+    ],
+    "proList": [
+      "自动、无限次收据扫描与裁剪",
+      "不限条数的启用中 Loop，以及可稍后确认的估算支出",
+      "同一账本中有一位 Pro 成员，大家都能使用该账本的相应 Pro 功能"
+    ],
+    "planNote": "Pro 为可选的月度或年度订阅。当地价格和试用资格会在购买前显示。LoopSplit 记录应还金额和还款，不实际转账，也不连接银行账户。",
+    "guidesTitle": "一起分账，更有章法。",
+    "guidesIntro": "用具体数字，理清共同开支。",
+    "guideCards": [
+      {
+        "title": "房租和水电怎么分",
+        "text": "房租不同份额、水电均分：三位室友的实际算例。"
+      },
+      {
+        "title": "伴侣共同支出怎么记",
+        "text": "一起约定分摊方式，也算清不同付款者的支出。"
+      },
+      {
+        "title": "周期共同账单怎么管",
+        "text": "分清周期安排、记入支出和实际还款。"
+      }
+    ],
+    "readyTitle": "把时间留给在乎的人。",
+    "readyText": "一起生活，账目清楚。",
+    "renewalNote": "Pro 为可选的自动续订订阅。请通过订阅时使用的商店管理或取消。",
+    "supportTitle": "需要时，有清楚的指引。",
+    "supportText": "查看支出、Loop、收据和还款的操作步骤。",
+    "supportAction": "打开帮助中心",
+    "privacy": "隐私政策",
+    "terms": "使用条款",
+    "legalNote": "隐私政策和使用条款提供英文及简体中文版。",
+    "home": "首页",
+    "backGuides": "全部指南",
+    "guideLabel": "共同支出指南",
+    "byline": "LoopSplit 编写 · 更新于 2026 年 11 月 5 日 · 适用于 1.2 系列",
+    "readGuide": "阅读指南",
+    "relatedTitle": "更多分账指南",
+    "helpTitle": "一点帮助，\n一个清楚的账本。",
+    "helpIntro": "找到你想完成的操作。",
+    "englishDocs": "帮助中心的详细操作文章目前为英文。分账场景指南可使用你选择的语言阅读。",
+    "helpTopics": [
+      "开始使用",
+      "支出、分摊与退款",
+      "Loop 与待办",
+      "余额与还款",
+      "收据与估算金额",
+      "免费功能与 Pro",
+      "账号、同步与问题排查",
+      "搜索与计算",
+      "隐私与诊断"
+    ]
+  },
+  "zh-hant": {
+    "name": "繁體中文",
+    "tag": "zh-Hant",
+    "route": "zh-hant",
+    "title": "共同支出與週期帳單",
+    "navFeatures": "為什麼選 LoopSplit",
+    "navGuides": "分帳指南",
+    "navSupport": "說明",
+    "language": "語言",
+    "skip": "跳至正文",
+    "eyebrow": "把帳算清，把時間留給生活",
+    "headline": [
+      "好好相處，",
+      "帳算清楚。"
+    ],
+    "intro": "共同支出、週期帳單、還款紀錄，放在一起。掃描收據，選好分法，讓每個人都心中有數。",
+    "ios": "下載 iOS 版",
+    "android": "下載 Android 版",
+    "proof": [
+      "免費記帳",
+      "沒有廣告",
+      "記帳不限筆數",
+      "本機掃描收據"
+    ],
+    "compat": "iPhone、iPad：iOS 17+ · Android 手機、平板：Android 9+",
+    "screenNote": "iPhone 上的 LoopSplit · 畫面為英文介面",
+    "pillarsEyebrow": "帳目清楚，相處輕鬆",
+    "pillarsTitle": "帳單可以複雜，\n分帳可以簡單。",
+    "pillars": [
+      {
+        "title": "少一次難開口的提醒。",
+        "text": "誰欠誰、還有哪些還款需要記錄，打開就清楚。同一帳本的成員看到一致的餘額。"
+      },
+      {
+        "title": "下個月的帳，心裡有數。",
+        "text": "房租、網路、訂閱，儲存週期和分攤方式。每期到期後，在待辦中確認並記入支出。"
+      },
+      {
+        "title": "讓收據替你少打幾個字。",
+        "text": "掃描取得金額、商家和日期建議。確認資訊、選好分攤方式，再儲存。"
+      }
+    ],
+    "filmTitle": "一筆共同開支，\n下一步清清楚楚。",
+    "filmIntro": "從第一張收據到最後一筆還款，30 秒看懂。",
+    "filmCaption": "iPhone 產品示範 · 英文介面 · 靜音",
+    "readSummary": "閱讀影片文字說明",
+    "filmSummary": "掃描收據並確認建議，將週期費用儲存為 Loop，在待辦中核對本期帳單、查看餘額，並記錄在 App 外完成的還款。估算支出儲存後即計入餘額。每個帳號合計可免費掃描 3 次，每個免費帳本最多有 3 條啟用中的 Loop。",
+    "detailsTitle": "為真實的共同生活而設計。",
+    "details": [
+      {
+        "title": "怎麼分，你們決定。",
+        "text": "均分、百分比、份數或指定金額，都可以。退款和退回的押金也能記錄。"
+      },
+      {
+        "title": "一個帳本，大家一起。",
+        "text": "透過連結、邀請碼或 QR Code 邀請，在 iPhone、iPad 與 Android 間共用同一帳本。"
+      },
+      {
+        "title": "沒訊號，也能記。",
+        "text": "離線新增的支出先儲存在裝置上，連線後同步；共同餘額會在同步後更新。"
+      }
+    ],
+    "pricingEyebrow": "按需要開始，按需要升級",
+    "pricingTitle": "日常分帳，免費使用。\n更多彈性，交給 Pro。",
+    "freeTitle": "免費版",
+    "proTitle": "LoopSplit Pro",
+    "freeList": [
+      "共同支出與還款，無廣告、每日記帳不限筆數",
+      "每個帳本最多 3 條啟用中的 Loop",
+      "每個帳號跨裝置合計 3 次免費掃描；免費附加和查看收據照片"
+    ],
+    "proList": [
+      "自動、無限次收據掃描與裁切",
+      "不限條數的啟用中 Loop，以及可稍後確認的估算支出",
+      "同一帳本有一位 Pro 成員，大家都能使用該帳本的相應 Pro 功能"
+    ],
+    "planNote": "Pro 為選用的月繳或年繳訂閱。當地價格和試用資格會在購買前顯示。LoopSplit 記錄應還金額與還款，不會實際轉帳，也不會連結銀行帳戶。",
+    "guidesTitle": "一起分帳，更有章法。",
+    "guidesIntro": "用具體數字，理清共同開支。",
+    "guideCards": [
+      {
+        "title": "房租和水電怎麼分",
+        "text": "房租不同份額、水電均分：三位室友的具體算例。"
+      },
+      {
+        "title": "伴侶共同支出怎麼記",
+        "text": "一起約定分攤方式，也算清不同付款者的支出。"
+      },
+      {
+        "title": "週期共同帳單怎麼管",
+        "text": "分清週期安排、記入支出與實際還款。"
+      }
+    ],
+    "readyTitle": "把時間留給在乎的人。",
+    "readyText": "一起生活，帳目清楚。",
+    "renewalNote": "Pro 為選用的自動續訂訂閱。請透過訂閱時使用的商店管理或取消。",
+    "supportTitle": "需要時，有清楚的指引。",
+    "supportText": "查看支出、Loop、收據與還款的操作步驟。",
+    "supportAction": "開啟說明中心",
+    "privacy": "隱私權政策",
+    "terms": "使用條款",
+    "legalNote": "隱私權政策和使用條款提供英文與簡體中文版。",
+    "home": "首頁",
+    "backGuides": "全部指南",
+    "guideLabel": "共同支出指南",
+    "byline": "LoopSplit 編寫 · 更新於 2026 年 11 月 5 日 · 適用於 1.2 系列",
+    "readGuide": "閱讀指南",
+    "relatedTitle": "更多分帳指南",
+    "helpTitle": "一點協助，\n一個清楚的帳本。",
+    "helpIntro": "找到你想完成的操作。",
+    "englishDocs": "說明中心的詳細操作文章目前為英文。分帳情境指南可使用你選擇的語言閱讀。",
+    "helpTopics": [
+      "開始使用",
+      "支出、分攤與退款",
+      "Loop 與待辦",
+      "餘額與還款",
+      "收據與估算金額",
+      "免費功能與 Pro",
+      "帳號、同步與疑難排解",
+      "搜尋與計算",
+      "隱私與診斷"
+    ]
+  },
+  "fr": {
+    "name": "Français",
+    "tag": "fr",
+    "route": "fr",
+    "title": "Dépenses partagées et factures récurrentes",
+    "navFeatures": "Pourquoi LoopSplit",
+    "navGuides": "Guides",
+    "navSupport": "Aide",
+    "language": "Langue",
+    "skip": "Aller au contenu",
+    "eyebrow": "POUR LA VIE QUE VOUS PARTAGEZ",
+    "headline": [
+      "Les comptes au clair.",
+      "Plus de bons moments."
+    ],
+    "intro": "Dépenses partagées, factures récurrentes et remboursements, réunis. Scannez un reçu, choisissez le partage et gardez tout le monde à jour.",
+    "ios": "Télécharger sur iOS",
+    "android": "Obtenir sur Android",
+    "proof": [
+      "Suivi des dépenses gratuit",
+      "Sans limite quotidienne",
+      "Sans publicité",
+      "Scan des reçus sur l’appareil"
+    ],
+    "compat": "iPhone et iPad : iOS 17+ · Téléphones et tablettes Android : Android 9+",
+    "screenNote": "LoopSplit sur iPhone · Interface en anglais",
+    "pillarsEyebrow": "DES COMPTES CLAIRS, DES MOMENTS PARTAGÉS",
+    "pillarsTitle": "Les factures se compliquent.\nLe partage peut rester simple.",
+    "pillars": [
+      {
+        "title": "Évitez la relance gênante.",
+        "text": "Voyez qui doit quoi et les remboursements à enregistrer. Tous les membres du carnet voient les mêmes soldes."
+      },
+      {
+        "title": "Gardez le mois prochain en vue.",
+        "text": "Loyer, internet, abonnements : enregistrez la fréquence et le partage. Vérifiez chaque échéance dans À faire avant de la comptabiliser."
+      },
+      {
+        "title": "Laissez le reçu vous épargner la saisie.",
+        "text": "Scannez pour obtenir des suggestions de montant, de commerçant et de date. Vérifiez, choisissez le partage et enregistrez."
+      }
+    ],
+    "filmTitle": "Une dépense partagée.\nUne prochaine étape claire.",
+    "filmIntro": "Du premier reçu au dernier remboursement, en 30 secondes.",
+    "filmCaption": "Démonstration sur iPhone · Anglais · Sans son",
+    "readSummary": "Lire le résumé de la vidéo",
+    "filmSummary": "Scannez un reçu et vérifiez les suggestions, enregistrez les dépenses récurrentes en Loops, vérifiez les échéances dans À faire, consultez les soldes et enregistrez les remboursements effectués hors de l’app. Une dépense estimée compte dans les soldes dès son enregistrement. Les comptes gratuits disposent de 3 scans au total ; chaque carnet gratuit permet 3 Loops actifs.",
+    "detailsTitle": "Pensé pour le quotidien.",
+    "details": [
+      {
+        "title": "Votre partage, votre choix.",
+        "text": "À parts égales, en pourcentage, par parts ou en montants exacts. Enregistrez aussi les remboursements et cautions rendues."
+      },
+      {
+        "title": "Un carnet pour tout le monde.",
+        "text": "Invitez par lien, code ou QR. Partagez le même carnet sur iPhone, iPad et Android."
+      },
+      {
+        "title": "Continuez même hors ligne.",
+        "text": "Ajoutez des dépenses sans réseau. Elles se synchronisent à la reconnexion ; les soldes partagés sont alors mis à jour."
+      }
+    ],
+    "pricingEyebrow": "COMMENCEZ SELON VOS BESOINS",
+    "pricingTitle": "L’essentiel, gratuitement.\nPlus de souplesse avec Pro.",
+    "freeTitle": "Gratuit",
+    "proTitle": "LoopSplit Pro",
+    "freeList": [
+      "Dépenses partagées et remboursements, sans publicité ni limite quotidienne",
+      "Jusqu’à 3 Loops actifs par carnet",
+      "3 scans de reçus au total par compte, tous appareils confondus ; ajout et consultation des photos gratuits"
+    ],
+    "proList": [
+      "Scan automatique illimité et recadrage des reçus",
+      "Loops actifs illimités et dépenses estimées à confirmer plus tard",
+      "Un membre Pro partage les fonctions Pro du carnet avec tous ses membres"
+    ],
+    "planNote": "Pro propose des abonnements mensuels et annuels facultatifs. Les prix locaux et l’éligibilité à l’essai s’affichent avant l’achat. LoopSplit enregistre les sommes dues et les remboursements ; il ne transfère pas d’argent et ne se connecte pas à votre banque.",
+    "guidesTitle": "Mieux partager, concrètement.",
+    "guidesIntro": "Des exemples chiffrés pour y voir clair.",
+    "guideCards": [
+      {
+        "title": "Partager le loyer et les charges",
+        "text": "Loyer inégal, charges à parts égales : l’exemple de trois colocataires."
+      },
+      {
+        "title": "Partager les dépenses en couple",
+        "text": "Choisissez une répartition et tenez compte de qui a payé."
+      },
+      {
+        "title": "Gérer les factures récurrentes",
+        "text": "Distinguez l’échéancier, la dépense et le remboursement."
+      }
+    ],
+    "readyTitle": "Faites de la place aux bons moments.",
+    "readyText": "Réunissez vos proches. Gardez les comptes clairs.",
+    "renewalNote": "Abonnements Pro facultatifs à renouvellement automatique. Gérez ou annulez votre abonnement dans la boutique utilisée pour souscrire.",
+    "supportTitle": "Un peu d’aide, au bon moment.",
+    "supportText": "Retrouvez les étapes pour les dépenses, Loops, reçus et remboursements.",
+    "supportAction": "Ouvrir le centre d’aide",
+    "privacy": "Confidentialité",
+    "terms": "Conditions d’utilisation",
+    "legalNote": "La politique de confidentialité et les conditions sont disponibles en anglais et en chinois simplifié.",
+    "home": "Accueil",
+    "backGuides": "Tous les guides",
+    "guideLabel": "GUIDES DES DÉPENSES PARTAGÉES",
+    "byline": "Par LoopSplit · Mis à jour le 5 novembre 2026 · Pour la série 1.2",
+    "readGuide": "Lire le guide",
+    "relatedTitle": "Autres guides",
+    "helpTitle": "Un peu d’aide.\nDes comptes plus clairs.",
+    "helpIntro": "Retrouvez les étapes correspondant à votre besoin.",
+    "englishDocs": "Les articles d’aide détaillés sont actuellement en anglais. Les guides pratiques sont disponibles dans la langue sélectionnée.",
+    "helpTopics": [
+      "Premiers pas",
+      "Dépenses, partage et remboursements",
+      "Loops et À faire",
+      "Soldes et remboursements entre membres",
+      "Reçus et montants estimés",
+      "Fonctions gratuites et Pro",
+      "Compte, synchronisation et dépannage",
+      "Recherche et calculs",
+      "Confidentialité et diagnostics"
+    ]
+  },
+  "es": {
+    "name": "Español",
+    "tag": "es",
+    "route": "es",
+    "title": "Gastos compartidos y facturas recurrentes",
+    "navFeatures": "Por qué LoopSplit",
+    "navGuides": "Guías",
+    "navSupport": "Ayuda",
+    "language": "Idioma",
+    "skip": "Ir al contenido",
+    "eyebrow": "PARA LA VIDA QUE COMPARTÍS",
+    "headline": [
+      "Cuentas claras.",
+      "Más buenos momentos."
+    ],
+    "intro": "Gastos compartidos, facturas recurrentes y reembolsos, en un solo lugar. Escanea un recibo, elige el reparto y mantén a todos al día.",
+    "ios": "Descargar para iOS",
+    "android": "Obtener para Android",
+    "proof": [
+      "Registro de gastos gratis",
+      "Sin límite diario",
+      "Sin anuncios",
+      "Escaneo de recibos en el dispositivo"
+    ],
+    "compat": "iPhone y iPad: iOS 17+ · Teléfonos y tabletas Android: Android 9+",
+    "screenNote": "LoopSplit en iPhone · Interfaz en inglés",
+    "pillarsEyebrow": "CUENTAS CLARAS, BUENOS MOMENTOS",
+    "pillarsTitle": "Las facturas se complican.\nCompartirlas puede ser sencillo.",
+    "pillars": [
+      {
+        "title": "Evita el recordatorio incómodo.",
+        "text": "Consulta quién debe a quién y qué devoluciones faltan por registrar. Todos los miembros del libro ven los mismos saldos."
+      },
+      {
+        "title": "Ten a la vista el próximo mes.",
+        "text": "Alquiler, internet, suscripciones. Guarda la frecuencia y el reparto; revisa cada periodo en Pendientes antes de registrarlo."
+      },
+      {
+        "title": "Deja que el recibo ahorre tecleo.",
+        "text": "Escanea para obtener sugerencias de importe, comercio y fecha. Revisa los datos, elige el reparto y guarda."
+      }
+    ],
+    "filmTitle": "Un gasto compartido.\nEl siguiente paso, claro.",
+    "filmIntro": "Del primer recibo a la última devolución, en 30 segundos.",
+    "filmCaption": "Demostración en iPhone · Inglés · Sin sonido",
+    "readSummary": "Leer el resumen del vídeo",
+    "filmSummary": "Escanea un recibo y revisa las sugerencias, guarda los gastos recurrentes como Loops, revisa los periodos en Pendientes, consulta los saldos y registra los pagos realizados fuera de la app. Los gastos estimados cuentan en los saldos desde que se guardan. Las cuentas gratuitas tienen 3 escaneos en total; cada libro gratuito admite 3 Loops activos.",
+    "detailsTitle": "Para la vida real.",
+    "details": [
+      {
+        "title": "Vuestro reparto, vuestra decisión.",
+        "text": "A partes iguales, por porcentaje, por participaciones o por importes exactos. Registra también reembolsos y fianzas devueltas."
+      },
+      {
+        "title": "Un libro para todos.",
+        "text": "Invita mediante enlace, código o QR. Comparte el mismo libro en iPhone, iPad y Android."
+      },
+      {
+        "title": "Sigue incluso sin conexión.",
+        "text": "Añade gastos sin cobertura. Se sincronizan al reconectar y entonces se actualizan los saldos compartidos."
+      }
+    ],
+    "pricingEyebrow": "EMPIEZA CON LO QUE NECESITES",
+    "pricingTitle": "Lo esencial, gratis.\nMás flexibilidad con Pro.",
+    "freeTitle": "Gratis",
+    "proTitle": "LoopSplit Pro",
+    "freeList": [
+      "Gastos compartidos y devoluciones, sin anuncios ni límite diario",
+      "Hasta 3 Loops activos por libro",
+      "3 escaneos de recibos en total por cuenta, entre todos tus dispositivos; fotos adjuntas y consulta gratuitas"
+    ],
+    "proList": [
+      "Escaneo automático ilimitado y recorte de recibos",
+      "Loops activos ilimitados e importes estimados que confirmarás después",
+      "Un miembro Pro comparte las funciones Pro del libro con todos sus miembros"
+    ],
+    "planNote": "Pro ofrece suscripciones mensuales y anuales opcionales. El precio local y la posibilidad de prueba se muestran antes de comprar. LoopSplit registra deudas y pagos; no transfiere dinero ni se conecta a tu banco.",
+    "guidesTitle": "Compartir con las cosas claras.",
+    "guidesIntro": "Ejemplos con números para entender cada reparto.",
+    "guideCards": [
+      {
+        "title": "Repartir alquiler y suministros",
+        "text": "Alquiler desigual y facturas a partes iguales: un ejemplo con tres compañeros."
+      },
+      {
+        "title": "Compartir gastos en pareja",
+        "text": "Acordad el reparto y tened en cuenta quién pagó cada cosa."
+      },
+      {
+        "title": "Organizar facturas recurrentes",
+        "text": "Distingue el calendario, el gasto y la devolución entre miembros."
+      }
+    ],
+    "readyTitle": "Haz sitio a los buenos momentos.",
+    "readyText": "Reúne a los tuyos. Mantén las cuentas claras.",
+    "renewalNote": "Suscripciones Pro opcionales con renovación automática. Gestiona o cancela en la tienda donde te suscribiste.",
+    "supportTitle": "Un poco de ayuda cuando la necesitas.",
+    "supportText": "Encuentra los pasos para gastos, Loops, recibos y devoluciones.",
+    "supportAction": "Abrir el centro de ayuda",
+    "privacy": "Privacidad",
+    "terms": "Condiciones de uso",
+    "legalNote": "La política de privacidad y las condiciones están disponibles en inglés y chino simplificado.",
+    "home": "Inicio",
+    "backGuides": "Todas las guías",
+    "guideLabel": "GUÍAS DE GASTOS COMPARTIDOS",
+    "byline": "Por LoopSplit · Actualizado el 5 de noviembre de 2026 · Serie 1.2",
+    "readGuide": "Leer la guía",
+    "relatedTitle": "Más guías",
+    "helpTitle": "Un poco de ayuda.\nUn libro más claro.",
+    "helpIntro": "Encuentra los pasos para lo que quieres hacer.",
+    "englishDocs": "Los artículos de ayuda detallados están actualmente en inglés. Las guías prácticas están disponibles en el idioma seleccionado.",
+    "helpTopics": [
+      "Primeros pasos",
+      "Gastos, repartos y reembolsos",
+      "Loops y Pendientes",
+      "Saldos y devoluciones entre miembros",
+      "Recibos e importes estimados",
+      "Funciones gratuitas y Pro",
+      "Cuenta, sincronización y solución de problemas",
+      "Búsqueda y cálculos",
+      "Privacidad y diagnósticos"
+    ]
+  },
+  "it": {
+    "name": "Italiano",
+    "tag": "it",
+    "route": "it",
+    "title": "Spese condivise e bollette ricorrenti",
+    "navFeatures": "Perché LoopSplit",
+    "navGuides": "Guide",
+    "navSupport": "Assistenza",
+    "language": "Lingua",
+    "skip": "Vai al contenuto",
+    "eyebrow": "PER LA VITA CHE CONDIVIDETE",
+    "headline": [
+      "Conti chiari.",
+      "Più bei momenti."
+    ],
+    "intro": "Spese condivise, bollette ricorrenti e rimborsi, tutto insieme. Scansiona uno scontrino, scegli la divisione e tieni tutti aggiornati.",
+    "ios": "Scarica per iOS",
+    "android": "Scarica per Android",
+    "proof": [
+      "Registro spese gratuito",
+      "Nessun limite giornaliero",
+      "Senza pubblicità",
+      "Scansione scontrini sul dispositivo"
+    ],
+    "compat": "iPhone e iPad: iOS 17+ · Telefoni e tablet Android: Android 9+",
+    "screenNote": "LoopSplit su iPhone · Interfaccia in inglese",
+    "pillarsEyebrow": "CONTI CHIARI, TEMPO INSIEME",
+    "pillarsTitle": "Le bollette si complicano.\nCondividerle può restare semplice.",
+    "pillars": [
+      {
+        "title": "Evita il sollecito imbarazzante.",
+        "text": "Vedi chi deve quanto e quali rimborsi restano da registrare. Tutti i membri del libro vedono gli stessi saldi."
+      },
+      {
+        "title": "Tieni d’occhio il prossimo mese.",
+        "text": "Affitto, internet, abbonamenti. Salva la frequenza e la divisione, poi controlla ogni periodo in Da fare prima di registrarlo."
+      },
+      {
+        "title": "Lascia allo scontrino un po’ di lavoro.",
+        "text": "Scansiona per ricevere suggerimenti su importo, esercente e data. Controlla i dati, scegli la divisione e salva."
+      }
+    ],
+    "filmTitle": "Una spesa condivisa.\nIl prossimo passo è chiaro.",
+    "filmIntro": "Dal primo scontrino all’ultimo rimborso, in 30 secondi.",
+    "filmCaption": "Demo su iPhone · Inglese · Senza audio",
+    "readSummary": "Leggi il riepilogo del video",
+    "filmSummary": "Scansiona uno scontrino e controlla i suggerimenti, salva le spese ricorrenti come Loop, controlla le scadenze in Da fare, consulta i saldi e registra i rimborsi effettuati fuori dall’app. Le spese stimate incidono sui saldi appena salvate. Gli account gratuiti hanno 3 scansioni totali; ogni libro gratuito consente 3 Loop attivi.",
+    "detailsTitle": "Pensato per la vita vera.",
+    "details": [
+      {
+        "title": "La divisione la decidete voi.",
+        "text": "In parti uguali, percentuali, quote o importi esatti. Registra anche rimborsi e cauzioni restituite."
+      },
+      {
+        "title": "Un libro per tutti.",
+        "text": "Invita con un link, un codice o un QR. Condividi lo stesso libro su iPhone, iPad e Android."
+      },
+      {
+        "title": "Continua anche offline.",
+        "text": "Aggiungi spese senza segnale. Si sincronizzano quando ti ricolleghi; i saldi condivisi si aggiornano dopo la sincronizzazione."
+      }
+    ],
+    "pricingEyebrow": "PARTI DA QUELLO CHE TI SERVE",
+    "pricingTitle": "L’essenziale, gratis.\nPiù flessibilità con Pro.",
+    "freeTitle": "Gratis",
+    "proTitle": "LoopSplit Pro",
+    "freeList": [
+      "Spese condivise e rimborsi, senza pubblicità né limiti giornalieri",
+      "Fino a 3 Loop attivi per libro",
+      "3 scansioni totali per account tra tutti i dispositivi; allegare e consultare foto degli scontrini è gratuito"
+    ],
+    "proList": [
+      "Scansione automatica illimitata e ritaglio degli scontrini",
+      "Loop attivi illimitati e spese stimate da confermare in seguito",
+      "Un membro Pro condivide le funzioni Pro del libro con tutti i suoi membri"
+    ],
+    "planNote": "Pro offre abbonamenti mensili e annuali facoltativi. Prezzi locali e disponibilità della prova sono mostrati prima dell’acquisto. LoopSplit registra debiti e rimborsi; non trasferisce denaro e non si collega alla banca.",
+    "guidesTitle": "Un modo più chiaro di condividere.",
+    "guidesIntro": "Esempi concreti, con tutti i conti.",
+    "guideCards": [
+      {
+        "title": "Dividere affitto e utenze",
+        "text": "Affitto diverso e bollette in parti uguali: un esempio con tre coinquilini."
+      },
+      {
+        "title": "Condividere le spese in coppia",
+        "text": "Concordate la divisione e considerate chi ha pagato ogni spesa."
+      },
+      {
+        "title": "Gestire le bollette ricorrenti",
+        "text": "Distingui il calendario, la spesa e il rimborso tra membri."
+      }
+    ],
+    "readyTitle": "Fate spazio ai bei momenti.",
+    "readyText": "Riunite le vostre persone. Tenete i conti chiari.",
+    "renewalNote": "Abbonamenti Pro facoltativi con rinnovo automatico. Gestisci o annulla tramite lo store in cui ti sei abbonato.",
+    "supportTitle": "Un piccolo aiuto al momento giusto.",
+    "supportText": "Trova i passaggi per spese, Loop, scontrini e rimborsi.",
+    "supportAction": "Apri il centro assistenza",
+    "privacy": "Privacy",
+    "terms": "Condizioni d’uso",
+    "legalNote": "L’informativa sulla privacy e le condizioni sono disponibili in inglese e cinese semplificato.",
+    "home": "Home",
+    "backGuides": "Tutte le guide",
+    "guideLabel": "GUIDE ALLE SPESE CONDIVISE",
+    "byline": "A cura di LoopSplit · Aggiornato il 5 novembre 2026 · Serie 1.2",
+    "readGuide": "Leggi la guida",
+    "relatedTitle": "Altre guide",
+    "helpTitle": "Un piccolo aiuto.\nUn libro più chiaro.",
+    "helpIntro": "Trova i passaggi per ciò che vuoi fare.",
+    "englishDocs": "Gli articoli di assistenza dettagliati sono attualmente in inglese. Le guide pratiche sono disponibili nella lingua selezionata.",
+    "helpTopics": [
+      "Per iniziare",
+      "Spese, divisioni e rimborsi",
+      "Loop e Da fare",
+      "Saldi e rimborsi tra membri",
+      "Scontrini e importi stimati",
+      "Funzioni gratuite e Pro",
+      "Account, sincronizzazione e risoluzione dei problemi",
+      "Ricerca e calcoli",
+      "Privacy e diagnostica"
+    ]
+  },
+  "ja": {
+    "name": "日本語",
+    "tag": "ja",
+    "route": "ja",
+    "title": "共有の支出と定期的な請求を管理",
+    "navFeatures": "LoopSplit の特長",
+    "navGuides": "ガイド",
+    "navSupport": "ヘルプ",
+    "language": "言語",
+    "skip": "本文へ移動",
+    "eyebrow": "一緒に過ごす毎日のために",
+    "headline": [
+      "お金はすっきり。",
+      "一緒の時間を、もっと。"
+    ],
+    "intro": "共有の支出、定期的な請求、精算の記録をひとつに。レシートをスキャンし、分担方法を選べば、みんなで同じ状況を確認できます。",
+    "ios": "iOS 版をダウンロード",
+    "android": "Android 版を入手",
+    "proof": [
+      "無料で支出を記録",
+      "1 日の記録数に制限なし",
+      "広告なし",
+      "端末内でレシートをスキャン"
+    ],
+    "compat": "iPhone・iPad：iOS 17 以降 · Android スマートフォン・タブレット：Android 9 以降",
+    "screenNote": "iPhone 版 LoopSplit · 画像は英語の画面です",
+    "pillarsEyebrow": "お金を明確に、時間を大切に",
+    "pillarsTitle": "複雑な請求も、\n分け方はわかりやすく。",
+    "pillars": [
+      {
+        "title": "言い出しにくい催促を、少なく。",
+        "text": "誰が誰にいくら返すのか、どの返済を記録するのかを確認。同じブックのメンバーは同じ残高を見られます。"
+      },
+      {
+        "title": "来月の支出も、見通せる。",
+        "text": "家賃、ネット、サブスク。周期と分担を保存し、期日が来たら To Do で金額を確認して記録します。"
+      },
+      {
+        "title": "レシートで、入力をひと手間少なく。",
+        "text": "スキャンすると金額・店舗・日付の候補が表示されます。内容と分担を確認してから保存します。"
+      }
+    ],
+    "filmTitle": "共有の支出から、\n次の一歩が見える。",
+    "filmIntro": "最初のレシートから最後の返済まで、30 秒で紹介。",
+    "filmCaption": "iPhone のデモ · 英語の画面 · 消音",
+    "readSummary": "動画の説明を読む",
+    "filmSummary": "レシートをスキャンして候補を確認し、定期的な費用を Loop に保存。To Do で対象期間を確認し、残高を見て、アプリ外で行った返済を記録します。概算の支出も保存した時点で残高に反映されます。無料アカウントのスキャンは合計 3 回、無料ブックの有効な Loop は最大 3 件です。",
+    "detailsTitle": "毎日の暮らしに合わせて。",
+    "details": [
+      {
+        "title": "分け方は、みんなで決める。",
+        "text": "均等、割合、口数、金額指定に対応。返金や戻ってきた保証金も記録できます。"
+      },
+      {
+        "title": "みんなで使う、一つのブック。",
+        "text": "リンク、コード、QR で招待。iPhone、iPad、Android で同じブックを共有できます。"
+      },
+      {
+        "title": "オフラインでも、記録を続ける。",
+        "text": "電波がなくても支出を追加できます。再接続後に同期され、共有の残高も更新されます。"
+      }
+    ],
+    "pricingEyebrow": "必要なところから始めよう",
+    "pricingTitle": "いつもの支出管理は無料。\nもっと柔軟に使うなら Pro。",
+    "freeTitle": "無料",
+    "proTitle": "LoopSplit Pro",
+    "freeList": [
+      "共有の支出と返済を記録。広告なし、1 日の記録数に制限なし",
+      "ブックごとに有効な Loop を最大 3 件まで",
+      "無料スキャンは全デバイス合計で 1 アカウント 3 回。レシート写真の添付・閲覧は無料"
+    ],
+    "proList": [
+      "レシートの自動・無制限スキャンとトリミング",
+      "有効な Loop 数の制限解除と、後から確定できる概算の支出",
+      "ブック内に Pro メンバーが 1 人いれば、そのブックの対象 Pro 機能を全員で利用可能"
+    ],
+    "planNote": "Pro は任意の月額・年額サブスクリプションです。地域の価格や無料体験の対象条件は購入前に表示されます。LoopSplit は債務と返済を記録するアプリです。送金や銀行口座への接続は行いません。",
+    "guidesTitle": "共有のお金を、わかりやすく。",
+    "guidesIntro": "具体的な数字を使って、分担の考え方を紹介します。",
+    "guideCards": [
+      {
+        "title": "家賃と光熱費の分け方",
+        "text": "家賃は異なる金額、光熱費は均等。3 人暮らしの計算例です。"
+      },
+      {
+        "title": "カップルで支出を共有する",
+        "text": "分担方法を決め、誰が支払ったかも含めて記録します。"
+      },
+      {
+        "title": "定期的な共有請求を管理する",
+        "text": "周期の設定、支出の記録、返済の違いを整理します。"
+      }
+    ],
+    "readyTitle": "大切な時間を、もっと。",
+    "readyText": "一緒に使って、お金のことを明確に。",
+    "renewalNote": "Pro は任意の自動更新サブスクリプションです。登録したストアで管理・解約できます。",
+    "supportTitle": "必要なときに、わかる手順を。",
+    "supportText": "支出、Loop、レシート、返済の操作方法を確認できます。",
+    "supportAction": "ヘルプセンターを開く",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "legalNote": "プライバシーポリシーと利用規約は英語・簡体字中国語で提供しています。",
+    "home": "ホーム",
+    "backGuides": "すべてのガイド",
+    "guideLabel": "共有の支出ガイド",
+    "byline": "LoopSplit 作成 · 2026 年 11 月 5 日更新 · 1.2 シリーズ対応",
+    "readGuide": "ガイドを読む",
+    "relatedTitle": "その他のガイド",
+    "helpTitle": "少しのヒントで、\nブックをもっと明確に。",
+    "helpIntro": "やりたい操作の手順を見つけましょう。",
+    "englishDocs": "詳しい操作方法の記事は現在英語で提供しています。共有支出のガイドは、選択した言語でお読みいただけます。",
+    "helpTopics": [
+      "はじめに",
+      "支出・分担・返金",
+      "Loop と To Do",
+      "残高と返済",
+      "レシートと概算金額",
+      "無料機能と Pro",
+      "アカウント・同期・トラブル解決",
+      "検索と計算",
+      "プライバシーと診断"
+    ]
+  }
+}

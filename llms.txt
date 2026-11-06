@@ -24,3 +24,14 @@ Free use has no ads or daily expense limits. Each free Book supports three activ
 - [Privacy and diagnostics](https://loopsplit.app/support/privacy-and-diagnostics/)
 - [Privacy Policy](https://loopsplit.app/privacy/)
 - [Terms of Use](https://loopsplit.app/terms/)
+
+## Languages
+
+Homepages and practical guides are available in English, Simplified Chinese, Traditional Chinese, French, Spanish, Italian and Japanese. Detailed help articles are currently English. Privacy and Terms are available in English and Simplified Chinese.
+
+- [简体中文](https://loopsplit.app/zh-hans/)
+- [繁體中文](https://loopsplit.app/zh-hant/)
+- [Français](https://loopsplit.app/fr/)
+- [Español](https://loopsplit.app/es/)
+- [Italiano](https://loopsplit.app/it/)
+- [日本語](https://loopsplit.app/ja/)

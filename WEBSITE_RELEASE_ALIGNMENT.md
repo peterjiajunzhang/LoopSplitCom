@@ -1,5 +1,15 @@
 # Website release alignment
 
+## November 5, 2026 landing page and seven languages
+
+This update supersedes the earlier hero and download layout below. The owner selected **好好相处，账算清楚。**; English uses **Less money talk. More good times.** from the approved video. The existing shared-expenses, recurring-bills and repayments introduction and the four benefit labels remain, alongside real product artwork. Official store badges move to the hero and link directly to stores; there is no intermediate download click. All seven homepages use original official localized badge artwork; colors and proportions are preserved. Free scanning / Loop quotas and optional Pro remain explicit farther down the page.
+
+English, Simplified Chinese, Traditional Chinese, French, Spanish, Italian and Japanese each have a homepage, guide index, three practical guides and a help hub. The more detailed English help articles are preserved and labeled English from localized hubs. Policies remain English / Simplified Chinese; their terms and effective dates are unchanged. Canonicals, reciprocal `hreflang` and the sitemap now cover 54 actual pages. Website-only copy and layout changes do not change app listings or app releases.
+
+Store links use the real ASC-generated provider token with separate home and guide campaign names. Google Play links include UTM and encoded referrer parameters. Website clicks, store listing visits and actual downloads must remain separate metrics. Muted videos automatically play in view unless reduced-motion, data-saving, manual pause or browser policy prevents it; native controls remain.
+
+Source files are `content/landing.json`, `content/guides.json` and `scripts/build-landing.py`; generated pages are committed for static hosting. Detailed verification and the AI recommendation baseline are recorded in the app repository’s Monetization directory. Historical entries below retain their original observations.
+
 ## November 5, 2026 search launch
 
 Published the shared expense guide index and three original worked examples for roommates, couples and recurring bills. All 18 pages have matching canonical/title/description metadata; guides add Article and Breadcrumb data, and existing pages add social/breadcrumb metadata. The visible homepage headline remains aligned with the App Store; its browser title describes shared expenses and recurring bills. Policy heading levels were adjusted without changing visible policy wording or effective dates.

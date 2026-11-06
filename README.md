@@ -32,6 +32,10 @@ Privacy and Terms retain their October 30, 2026 effective dates. The November 5 
 
 The November 5 homepage, support navigation and getting-started guide link to both stores. Android Pro help links to Google Play subscription management; diagnostic guidance uses each platform’s actual English control labels. Requirements are iOS/iPadOS 17+ and Android 9+ (Android minSdk 28). No new analytics, automatic store redirects, app builds or Firebase Hosting changes are introduced. See [release alignment and verification](WEBSITE_RELEASE_ALIGNMENT.md) for scope and evidence.
 
+## Store badges
+
+The homepage hero uses one pair of official English download badges, App Store first. Original SVG artwork is stored locally in `assets/store-badges/`; [asset sources and usage notes](assets/store-badges/README.md) record its provenance. Both badges display at 48px high with 12px clear space and preserve their intrinsic proportions. The final download section retains text buttons, so the App Store badge appears once in the page layout. Keep the footer trademark credits and the real app listing links when changing these entry points.
+
 ## Product overview video
 
 The homepage reuses approved ASC typography-r2 English media. Desktop uses the wide Header composition; at 640px and below it uses the Search composition, without cropping either video. Playback is visitor-controlled, with native controls, inline playback, posters and `preload="none"`. Both files have no audio. The video summary and text feature sections keep the overview accessible without playback. See `WEBSITE_RELEASE_ALIGNMENT.md` for provenance and release boundaries.

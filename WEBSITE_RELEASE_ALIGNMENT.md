@@ -1,5 +1,15 @@
 # Website release alignment
 
+## November 5, 2026 official store badge update
+
+The homepage hero now uses the official black English App Store and Google Play download badges. Apple artwork comes directly from Apple Developer; Google artwork is the English digital SVG from the current Partner Marketing Hub badge library. Both files retain their downloaded bytes; source links and hashes are recorded in `assets/store-badges/README.md`.
+
+The App Store badge comes first. Both display at 48px high with 12px clear space on all sides and retain their intrinsic aspect ratios. Each link has an accessible app-specific name. The page contains one pair of artwork badges; the final download section retains its existing text buttons. Footer credits identify the relevant Apple and Google trademarks. No store account, app listing, policy terms, tracking behavior or deployment destination is changed.
+
+Public responses checked for this update return the correct LoopSplit listing in both stores: Apple ID 6817176363 and Google Play package com.loop.loopsplit. The Google Play US page returns HTTP 200 with the product title and an InStock software offer; the earlier Android-pending observations below remain historical.
+
+Browser checks at 1280×900, 390×844 and 320×760 confirm loaded badge images, 48px image heights, 12px padding, correct listing links and no horizontal overflow. The pair sits on one row at 390px and wraps into two centered rows at 320px. Existing Android launch content is preserved.
+
 ## November 5, 2026 Android public-launch alignment
 
 The owner requested updating the official website and adding the Play link after Android launch. An anonymous US Google Play response now contains the public title **LoopSplit: Shared Expenses**, the approved short description and an Install action. The current app release receipt independently records Android 1.2.1 (14) as publicly available. This website update does not infer the availability of every storefront or device from that US response.

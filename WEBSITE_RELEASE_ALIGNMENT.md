@@ -1,5 +1,13 @@
 # Website release alignment
 
+## November 6, 2026 complete localized media
+
+Fixed the feature-card image sizing: intrinsic HTML height previously remained fixed while CSS reduced image width, stretching screenshots; fixed-height artwork containers then cropped their bottom edges. Images now use automatic height and their native aspect ratio, containers expand around the full image, and narrow layouts stack copy above artwork.
+
+All seven homepages now select their own released 1.2.1 screenshots and approved typography-r2 Header/Search videos and posters. The 21 PNGs are the complete 1284×2778 screenshots read from the released ASC localizations. The 12 non-English videos were recovered from the existing approved App Asset Library assets, matched uniquely to the frozen campaign by original file size and canvas. They use Apple's processed H.264 SDR rendition, encoded for web delivery without changing the 30-second story. They are not byte-identical to the frozen original MP4s. The two existing English MP4s remain unchanged. No ASC metadata or assets were modified. Provenance, source IDs and delivered-file hashes are recorded in [assets/media/manifest.json](assets/media/manifest.json).
+
+`content/media.json` is the single locale-to-media mapping. The renderer checks complete locale coverage, screenshot dimensions, existing files and separate paths for every language. Video selection and posters follow the page language and responsive composition. Captions no longer describe localized media as an English interface. Existing store attribution links, language navigation, policy text and app release state are preserved. The historical entries below retain their original observations.
+
 ## November 5, 2026 landing page and seven languages
 
 This update supersedes the earlier hero and download layout below. The owner selected **好好相处，账算清楚。**; English uses **Less money talk. More good times.** from the approved video. The existing shared-expenses, recurring-bills and repayments introduction and the four benefit labels remain, alongside real product artwork. Official store badges move to the hero and link directly to stores; there is no intermediate download click. All seven homepages use original official localized badge artwork; colors and proportions are preserved. Free scanning / Loop quotas and optional Pro remain explicit farther down the page.

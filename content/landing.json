@@ -24,7 +24,7 @@
       "On-device receipt scanning"
     ],
     "compat": "iPhone & iPad: iOS 17+ · Android phones & tablets: Android 9+",
-    "screenNote": "LoopSplit on iPhone · English interface",
+    "screenNote": "LoopSplit on iPhone",
     "pillarsEyebrow": "CLEAR COSTS. BETTER COMPANY.",
     "pillarsTitle": "The bills can be complicated.\nSharing them can feel simple.",
     "pillars": [
@@ -43,7 +43,7 @@
     ],
     "filmTitle": "See a shared bill\nbecome a clear next step.",
     "filmIntro": "From the first receipt to the last repayment, in 30 seconds.",
-    "filmCaption": "LoopSplit demo on iPhone · English · Sound off",
+    "filmCaption": "LoopSplit demo on iPhone · Sound off",
     "readSummary": "Read the video summary",
     "filmSummary": "Scan a receipt and review the suggestions, save recurring costs as Loops, check due periods in To Do, review balances and record repayments made outside the app. Estimated expenses count toward balances once saved. Free accounts have 3 receipt scans total; free Books have 3 active Loops.",
     "detailsTitle": "Made for real life.",
@@ -147,7 +147,7 @@
       "本机扫描收据"
     ],
     "compat": "iPhone、iPad：iOS 17+ · Android 手机、平板：Android 9+",
-    "screenNote": "iPhone 上的 LoopSplit · 画面为英文界面",
+    "screenNote": "iPhone 上的 LoopSplit",
     "pillarsEyebrow": "账目清楚，相处轻松",
     "pillarsTitle": "账单可以复杂，\n分账可以简单。",
     "pillars": [
@@ -166,7 +166,7 @@
     ],
     "filmTitle": "一笔共同开支，\n下一步清清楚楚。",
     "filmIntro": "从第一张收据到最后一笔还款，30 秒看懂。",
-    "filmCaption": "iPhone 产品演示 · 英文界面 · 静音",
+    "filmCaption": "iPhone 产品演示 · 静音",
     "readSummary": "阅读视频文字说明",
     "filmSummary": "扫描收据并核对建议，把周期费用保存为 Loop，在待办中核对本期账单，查看余额，并记录在应用外完成的还款。估算支出保存后即计入余额。每个账户共可免费扫描 3 次，每个免费账本最多有 3 条启用中的 Loop。",
     "detailsTitle": "为真实的共同生活而设计。",
@@ -270,7 +270,7 @@
       "本機掃描收據"
     ],
     "compat": "iPhone、iPad：iOS 17+ · Android 手機、平板：Android 9+",
-    "screenNote": "iPhone 上的 LoopSplit · 畫面為英文介面",
+    "screenNote": "iPhone 上的 LoopSplit",
     "pillarsEyebrow": "帳目清楚，相處輕鬆",
     "pillarsTitle": "帳單可以複雜，\n分帳可以簡單。",
     "pillars": [
@@ -289,7 +289,7 @@
     ],
     "filmTitle": "一筆共同開支，\n下一步清清楚楚。",
     "filmIntro": "從第一張收據到最後一筆還款，30 秒看懂。",
-    "filmCaption": "iPhone 產品示範 · 英文介面 · 靜音",
+    "filmCaption": "iPhone 產品示範 · 靜音",
     "readSummary": "閱讀影片文字說明",
     "filmSummary": "掃描收據並確認建議，將週期費用儲存為 Loop，在待辦中核對本期帳單、查看餘額，並記錄在 App 外完成的還款。估算支出儲存後即計入餘額。每個帳號合計可免費掃描 3 次，每個免費帳本最多有 3 條啟用中的 Loop。",
     "detailsTitle": "為真實的共同生活而設計。",
@@ -393,7 +393,7 @@
       "Scan des reçus sur l’appareil"
     ],
     "compat": "iPhone et iPad : iOS 17+ · Téléphones et tablettes Android : Android 9+",
-    "screenNote": "LoopSplit sur iPhone · Interface en anglais",
+    "screenNote": "LoopSplit sur iPhone",
     "pillarsEyebrow": "DES COMPTES CLAIRS, DES MOMENTS PARTAGÉS",
     "pillarsTitle": "Les factures se compliquent.\nLe partage peut rester simple.",
     "pillars": [
@@ -412,7 +412,7 @@
     ],
     "filmTitle": "Une dépense partagée.\nUne prochaine étape claire.",
     "filmIntro": "Du premier reçu au dernier remboursement, en 30 secondes.",
-    "filmCaption": "Démonstration sur iPhone · Anglais · Sans son",
+    "filmCaption": "Démonstration sur iPhone · Sans son",
     "readSummary": "Lire le résumé de la vidéo",
     "filmSummary": "Scannez un reçu et vérifiez les suggestions, enregistrez les dépenses récurrentes en Loops, vérifiez les échéances dans À faire, consultez les soldes et enregistrez les remboursements effectués hors de l’app. Une dépense estimée compte dans les soldes dès son enregistrement. Les comptes gratuits disposent de 3 scans au total ; chaque carnet gratuit permet 3 Loops actifs.",
     "detailsTitle": "Pensé pour le quotidien.",
@@ -516,7 +516,7 @@
       "Escaneo de recibos en el dispositivo"
     ],
     "compat": "iPhone y iPad: iOS 17+ · Teléfonos y tabletas Android: Android 9+",
-    "screenNote": "LoopSplit en iPhone · Interfaz en inglés",
+    "screenNote": "LoopSplit en iPhone",
     "pillarsEyebrow": "CUENTAS CLARAS, BUENOS MOMENTOS",
     "pillarsTitle": "Las facturas se complican.\nCompartirlas puede ser sencillo.",
     "pillars": [
@@ -535,7 +535,7 @@
     ],
     "filmTitle": "Un gasto compartido.\nEl siguiente paso, claro.",
     "filmIntro": "Del primer recibo a la última devolución, en 30 segundos.",
-    "filmCaption": "Demostración en iPhone · Inglés · Sin sonido",
+    "filmCaption": "Demostración en iPhone · Sin sonido",
     "readSummary": "Leer el resumen del vídeo",
     "filmSummary": "Escanea un recibo y revisa las sugerencias, guarda los gastos recurrentes como Loops, revisa los periodos en Pendientes, consulta los saldos y registra los pagos realizados fuera de la app. Los gastos estimados cuentan en los saldos desde que se guardan. Las cuentas gratuitas tienen 3 escaneos en total; cada libro gratuito admite 3 Loops activos.",
     "detailsTitle": "Para la vida real.",
@@ -639,7 +639,7 @@
       "Scansione scontrini sul dispositivo"
     ],
     "compat": "iPhone e iPad: iOS 17+ · Telefoni e tablet Android: Android 9+",
-    "screenNote": "LoopSplit su iPhone · Interfaccia in inglese",
+    "screenNote": "LoopSplit su iPhone",
     "pillarsEyebrow": "CONTI CHIARI, TEMPO INSIEME",
     "pillarsTitle": "Le bollette si complicano.\nCondividerle può restare semplice.",
     "pillars": [
@@ -658,7 +658,7 @@
     ],
     "filmTitle": "Una spesa condivisa.\nIl prossimo passo è chiaro.",
     "filmIntro": "Dal primo scontrino all’ultimo rimborso, in 30 secondi.",
-    "filmCaption": "Demo su iPhone · Inglese · Senza audio",
+    "filmCaption": "Demo su iPhone · Senza audio",
     "readSummary": "Leggi il riepilogo del video",
     "filmSummary": "Scansiona uno scontrino e controlla i suggerimenti, salva le spese ricorrenti come Loop, controlla le scadenze in Da fare, consulta i saldi e registra i rimborsi effettuati fuori dall’app. Le spese stimate incidono sui saldi appena salvate. Gli account gratuiti hanno 3 scansioni totali; ogni libro gratuito consente 3 Loop attivi.",
     "detailsTitle": "Pensato per la vita vera.",
@@ -762,7 +762,7 @@
       "端末内でレシートをスキャン"
     ],
     "compat": "iPhone・iPad：iOS 17 以降 · Android スマートフォン・タブレット：Android 9 以降",
-    "screenNote": "iPhone 版 LoopSplit · 画像は英語の画面です",
+    "screenNote": "iPhone 版 LoopSplit",
     "pillarsEyebrow": "お金を明確に、時間を大切に",
     "pillarsTitle": "複雑な請求も、\n分け方はわかりやすく。",
     "pillars": [
@@ -781,7 +781,7 @@
     ],
     "filmTitle": "共有の支出から、\n次の一歩が見える。",
     "filmIntro": "最初のレシートから最後の返済まで、30 秒で紹介。",
-    "filmCaption": "iPhone のデモ · 英語の画面 · 消音",
+    "filmCaption": "iPhone のデモ · 消音",
     "readSummary": "動画の説明を読む",
     "filmSummary": "レシートをスキャンして候補を確認し、定期的な費用を Loop に保存。To Do で対象期間を確認し、残高を見て、アプリ外で行った返済を記録します。概算の支出も保存した時点で残高に反映されます。無料アカウントのスキャンは合計 3 回、無料ブックの有効な Loop は最大 3 件です。",
     "detailsTitle": "毎日の暮らしに合わせて。",

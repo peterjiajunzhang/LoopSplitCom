@@ -1,0 +1,233 @@
+{
+  "en": {
+    "screenshots": {
+      "scan": {
+        "src": "/assets/screenshots/en/scan.png",
+        "width": 1284,
+        "height": 2778
+      },
+      "loops": {
+        "src": "/assets/screenshots/en/loops.png",
+        "width": 1284,
+        "height": 2778
+      },
+      "balances": {
+        "src": "/assets/screenshots/en/balances.png",
+        "width": 1284,
+        "height": 2778
+      }
+    },
+    "videos": {
+      "header": {
+        "src": "/assets/video/loopsplit-header-en.mp4",
+        "poster": "/assets/video/header-poster.jpg",
+        "width": 3840,
+        "height": 1646
+      },
+      "search": {
+        "src": "/assets/video/loopsplit-search-en.mp4",
+        "poster": "/assets/video/search-poster.jpg",
+        "width": 1920,
+        "height": 1280
+      }
+    }
+  },
+  "zh-hans": {
+    "screenshots": {
+      "scan": {
+        "src": "/assets/screenshots/zh-hans/scan.png",
+        "width": 1284,
+        "height": 2778
+      },
+      "loops": {
+        "src": "/assets/screenshots/zh-hans/loops.png",
+        "width": 1284,
+        "height": 2778
+      },
+      "balances": {
+        "src": "/assets/screenshots/zh-hans/balances.png",
+        "width": 1284,
+        "height": 2778
+      }
+    },
+    "videos": {
+      "header": {
+        "src": "/assets/video/zh-hans/header.mp4",
+        "poster": "/assets/video/zh-hans/header-poster.jpg",
+        "width": 1918,
+        "height": 822
+      },
+      "search": {
+        "src": "/assets/video/zh-hans/search.mp4",
+        "poster": "/assets/video/zh-hans/search-poster.jpg",
+        "width": 1284,
+        "height": 856
+      }
+    }
+  },
+  "zh-hant": {
+    "screenshots": {
+      "scan": {
+        "src": "/assets/screenshots/zh-hant/scan.png",
+        "width": 1284,
+        "height": 2778
+      },
+      "loops": {
+        "src": "/assets/screenshots/zh-hant/loops.png",
+        "width": 1284,
+        "height": 2778
+      },
+      "balances": {
+        "src": "/assets/screenshots/zh-hant/balances.png",
+        "width": 1284,
+        "height": 2778
+      }
+    },
+    "videos": {
+      "header": {
+        "src": "/assets/video/zh-hant/header.mp4",
+        "poster": "/assets/video/zh-hant/header-poster.jpg",
+        "width": 1918,
+        "height": 822
+      },
+      "search": {
+        "src": "/assets/video/zh-hant/search.mp4",
+        "poster": "/assets/video/zh-hant/search-poster.jpg",
+        "width": 1284,
+        "height": 856
+      }
+    }
+  },
+  "fr": {
+    "screenshots": {
+      "scan": {
+        "src": "/assets/screenshots/fr/scan.png",
+        "width": 1284,
+        "height": 2778
+      },
+      "loops": {
+        "src": "/assets/screenshots/fr/loops.png",
+        "width": 1284,
+        "height": 2778
+      },
+      "balances": {
+        "src": "/assets/screenshots/fr/balances.png",
+        "width": 1284,
+        "height": 2778
+      }
+    },
+    "videos": {
+      "header": {
+        "src": "/assets/video/fr/header.mp4",
+        "poster": "/assets/video/fr/header-poster.jpg",
+        "width": 1918,
+        "height": 822
+      },
+      "search": {
+        "src": "/assets/video/fr/search.mp4",
+        "poster": "/assets/video/fr/search-poster.jpg",
+        "width": 1284,
+        "height": 856
+      }
+    }
+  },
+  "es": {
+    "screenshots": {
+      "scan": {
+        "src": "/assets/screenshots/es/scan.png",
+        "width": 1284,
+        "height": 2778
+      },
+      "loops": {
+        "src": "/assets/screenshots/es/loops.png",
+        "width": 1284,
+        "height": 2778
+      },
+      "balances": {
+        "src": "/assets/screenshots/es/balances.png",
+        "width": 1284,
+        "height": 2778
+      }
+    },
+    "videos": {
+      "header": {
+        "src": "/assets/video/es/header.mp4",
+        "poster": "/assets/video/es/header-poster.jpg",
+        "width": 1918,
+        "height": 822
+      },
+      "search": {
+        "src": "/assets/video/es/search.mp4",
+        "poster": "/assets/video/es/search-poster.jpg",
+        "width": 1284,
+        "height": 856
+      }
+    }
+  },
+  "it": {
+    "screenshots": {
+      "scan": {
+        "src": "/assets/screenshots/it/scan.png",
+        "width": 1284,
+        "height": 2778
+      },
+      "loops": {
+        "src": "/assets/screenshots/it/loops.png",
+        "width": 1284,
+        "height": 2778
+      },
+      "balances": {
+        "src": "/assets/screenshots/it/balances.png",
+        "width": 1284,
+        "height": 2778
+      }
+    },
+    "videos": {
+      "header": {
+        "src": "/assets/video/it/header.mp4",
+        "poster": "/assets/video/it/header-poster.jpg",
+        "width": 1918,
+        "height": 822
+      },
+      "search": {
+        "src": "/assets/video/it/search.mp4",
+        "poster": "/assets/video/it/search-poster.jpg",
+        "width": 1284,
+        "height": 856
+      }
+    }
+  },
+  "ja": {
+    "screenshots": {
+      "scan": {
+        "src": "/assets/screenshots/ja/scan.png",
+        "width": 1284,
+        "height": 2778
+      },
+      "loops": {
+        "src": "/assets/screenshots/ja/loops.png",
+        "width": 1284,
+        "height": 2778
+      },
+      "balances": {
+        "src": "/assets/screenshots/ja/balances.png",
+        "width": 1284,
+        "height": 2778
+      }
+    },
+    "videos": {
+      "header": {
+        "src": "/assets/video/ja/header.mp4",
+        "poster": "/assets/video/ja/header-poster.jpg",
+        "width": 1918,
+        "height": 822
+      },
+      "search": {
+        "src": "/assets/video/ja/search.mp4",
+        "poster": "/assets/video/ja/search-poster.jpg",
+        "width": 1284,
+        "height": 856
+      }
+    }
+  }
+}

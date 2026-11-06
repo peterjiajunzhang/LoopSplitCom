@@ -4,7 +4,6 @@
   const narrow = window.matchMedia('(max-width: 640px)');
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const connection = navigator.connection;
-  const assetRoot = video.dataset.assetRoot || 'assets/video/';
   let inView = false;
   let viewerPaused = false;
   let automaticPauses = 0;
@@ -46,9 +45,13 @@
   function chooseLayout() {
     const layout = narrow.matches ? 'search' : 'header';
     if (video.dataset.layout === layout) return;
+    const src = video.dataset[`${layout}Src`];
+    const poster = video.dataset[`${layout}Poster`];
+    if (!src || !poster) return;
     video.dataset.layout = layout;
-    const src = `${assetRoot}loopsplit-${layout}-en.mp4`;
-    video.poster = `${assetRoot}${layout}-poster.jpg`;
+    video.poster = poster;
+    video.width = Number(video.dataset[`${layout}Width`]);
+    video.height = Number(video.dataset[`${layout}Height`]);
     if (video.getAttribute('src') !== src) {
       pauseOutsideView();
       video.setAttribute('src', src);

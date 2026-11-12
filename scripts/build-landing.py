@@ -12,6 +12,8 @@ ROOT = Path(__file__).resolve().parent.parent
 BASE = 'https://loopsplit.app'
 COPY = json.loads((ROOT / 'content/landing.json').read_text())
 GUIDE_COPY = json.loads((ROOT / 'content/guides.json').read_text())
+SEO = json.loads((ROOT / 'content/seo.json').read_text())
+assert set(SEO) == set(COPY)
 MEDIA = json.loads((ROOT / 'content/media.json').read_text())
 assert set(MEDIA) == set(COPY), 'Every page language needs its own media mapping.'
 media_paths = []
@@ -94,7 +96,7 @@ def head(locale, title, description, suffix='', article=None):
     if article:
         data['@graph'].append({'@type':'Article','headline':title,'mainEntityOfPage':url,'image':BASE+'/assets/social-card.png','inLanguage':c['tag'],'datePublished':DAY,'dateModified':DAY,'author':{'@type':'Organization','name':'LoopSplit','url':BASE+'/'},'publisher':{'@id':BASE+'/#publisher'}})
     return f'''<!doctype html>
-<html lang="{c['tag']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f8faf7"><title>{e(title)} — LoopSplit</title><meta name="description" content="{e(description)}"><link rel="canonical" href="{url}">{alternates(suffix)}<meta property="og:type" content="{'article' if article else 'website'}"><meta property="og:title" content="{e(title)} — LoopSplit"><meta property="og:description" content="{e(description)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{BASE}/assets/social-card.png?v=landing-20261105"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/assets/app-icon.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"><link rel="stylesheet" href="/assets/style.css?v=store-badges-20261105"><link rel="stylesheet" href="/assets/landing.css?v=store-badges-both-20261106">{schema(data)}</head>'''
+<html lang="{c['tag']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f8faf7"><title>{e(title)} — LoopSplit</title><meta name="description" content="{e(description)}"><link rel="canonical" href="{url}">{alternates(suffix)}<meta property="og:type" content="{'article' if article else 'website'}"><meta property="og:title" content="{e(title)} — LoopSplit"><meta property="og:description" content="{e(description)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{BASE}/assets/social-card.png?v=landing-20261105"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/assets/app-icon.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"><link rel="stylesheet" href="/assets/style.css?v=store-badges-20261105"><link rel="stylesheet" href="/assets/landing.css?v=android-search-20261111">{schema(data)}</head>'''
 
 def header(locale, suffix=''):
     c = COPY[locale]
@@ -110,7 +112,7 @@ def guide_cards(locale):
 
 def render_home(locale):
     c = COPY[locale]
-    html = head(locale,c['title'],c['intro']) + header(locale)
+    html = head(locale,SEO[locale]['title'],SEO[locale]['description']) + header(locale)
     html += f'''<main id="main"><section class="landing-hero" aria-labelledby="hero-title"><div class="landing-hero-copy"><h1 id="hero-title">{e(c['headline'][0])}<br><span>{e(c['headline'][1])}</span></h1><p class="hero-description">{e(c['intro'])}</p>{store_badges(locale)}<p class="landing-proof">{''.join('<span>'+e(t)+'</span>' for t in c['proof'])}</p></div><figure class="hero-scene">{screenshot(locale,'loops',c['pillars'][1]['title'],'scene-loops',True)}{screenshot(locale,'balances',c['pillars'][0]['title'],'scene-balances',True)}<figcaption>{e(c['screenNote'])}</figcaption></figure></section>'''
     html += f'<section class="landing-section" id="why"><p class="eyebrow">{e(c["pillarsEyebrow"])}</p><h2>{lines(c["pillarsTitle"])}</h2><div class="value-grid">'
     for i,(card,art) in enumerate(zip(c['pillars'],['balances','loops','scan'])):
@@ -125,6 +127,7 @@ def render_home(locale):
     for title,items in [(c['freeTitle'],c['freeList']),(c['proTitle'],c['proList'])]:
         html += f'<article class="plan-card"><h3>{e(title)}</h3><ul>'+''.join(f'<li>{e(t)}</li>' for t in items)+'</ul></article>'
     html += f'</div><p class="plan-note">{e(c["planNote"])}</p></section><section class="landing-section"><h2>{e(c["guidesTitle"])}</h2><p>{e(c["guidesIntro"])}</p>{guide_cards(locale)}</section>'
+    html += '<section class="landing-section" id="questions"><h2>'+e(SEO[locale]['faqTitle'])+'</h2>' + ''.join('<details class="faq-item"><summary>'+e(q)+'</summary><p>'+e(a)+'</p></details>' for q,a in SEO[locale]['faq']) + '</section>'
     html += f'''<section class="download-banner" id="download"><h2>{e(c['readyTitle'])}</h2><p>{e(c['readyText'])}</p>{store_badges(locale,'home','footer')}<p class="small-print">{e(c['compat'])}<br>{e(c['renewalNote'])}<br><a href="/terms/">{e(c['terms'])}</a> · <a href="/privacy/">{e(c['privacy'])}</a></p></section><section class="support-card"><div><h2>{e(c['supportTitle'])}</h2><p>{e(c['supportText'])}</p></div><a class="button" href="{path(locale,'support/')}">{e(c['supportAction'])} ↗</a></section></main><script src="/assets/overview-video.js?v=localized-media-20261106" defer></script>'''
     return html + footer(locale)
 
@@ -188,7 +191,7 @@ for file in [*ROOT.glob('support/**/index.html'), *ROOT.glob('guides/*/index.htm
     text = text.replace('</nav></header>','<!-- language-menu -->'+language_menu('en',family)+'<!-- /language-menu --></nav></header>',1)
     text = text.replace('<body>','<body class="landing">',1)
     text = re.sub(r'<link rel="stylesheet" href="/assets/landing.css[^\"]*">','',text)
-    text = text.replace('</head>','<link rel="stylesheet" href="/assets/landing.css?v=store-badges-both-20261106"></head>')
+    text = text.replace('</head>','<link rel="stylesheet" href="/assets/landing.css?v=android-search-20261111"></head>')
     if suffix == 'support/' or suffix.startswith('guides/'):
         text = re.sub(r'<link rel="alternate" hreflang="[^\"]+" href="[^\"]+">','',text)
         text = text.replace('</head>',alternates(suffix)+'</head>')
@@ -223,7 +226,7 @@ for file in sorted(ROOT.rglob('index.html')):
     uri = '/' + str(file.relative_to(ROOT)).removesuffix('index.html')
     node = ET.SubElement(site,'{'+ns+'}url')
     ET.SubElement(node,'{'+ns+'}loc').text = BASE + uri
-    ET.SubElement(node,'{'+ns+'}lastmod').text = '2026-11-06' if uri in {path(locale) for locale in COPY} else DAY
+    ET.SubElement(node,'{'+ns+'}lastmod').text = '2026-11-11' if uri in {path(locale) for locale in COPY} | {'/guides/split-rent-and-utilities/'} else DAY
     if uri in routes:
         suffix = routes[uri]
         for locale,c in COPY.items():

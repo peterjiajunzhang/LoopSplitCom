@@ -62,3 +62,7 @@ Edit `content/landing.json` and `content/guides.json`, then run `python3 scripts
 ## Product overview video
 
 All seven homepage languages reuse the approved ASC typography-r2 campaign in their own language. Desktop uses the wide Header composition; at 640px and below it uses the Search composition, without cropping either video. Non-English videos are web delivery encodes of Apple's processed approved assets; the existing English files are unchanged. Muted playback starts when the player enters view, pauses outside view or when the tab is hidden, and respects reduced motion, data-saving preferences and manual pauses. Browser/device policy can still require pressing Play. Native controls, inline playback, posters and `preload="none"` remain available. All files have no audio. The video summary and text feature sections keep the overview accessible without playback. See `WEBSITE_RELEASE_ALIGNMENT.md` for provenance and release boundaries.
+
+## November 11 Android search follow-up
+
+Seven homepage search titles and descriptions now explicitly describe bill splitting on Android and iPhone. Visible localized questions cover cross-platform sharing, free limits and receipt scanning. The rent guide also answers the electricity-bill query already observed in Search Console. See [the baseline and follow-up measurement plan](SEO-2026-11-11.md). Edit `content/seo.json` for this copy; the existing hero headline remains in `content/landing.json`.

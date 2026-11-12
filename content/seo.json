@@ -1,0 +1,135 @@
+{
+  "en": {
+    "title": "Free Bill Splitting App for Android & iPhone",
+    "description": "Split bills with roommates, couples and friends on Android and iPhone. Free expense tracking, no ads, recurring bills, receipt scanning and clear balances.",
+    "faqTitle": "Questions about splitting bills",
+    "faq": [
+      [
+        "Can Android and iPhone users split bills together?",
+        "Yes. Invite people to the same Book with a link, code or QR code. Android, iPhone and iPad users can share expenses and balances; changes sync when connected."
+      ],
+      [
+        "Is LoopSplit free to use?",
+        "Shared expense tracking and repayments are free, with no ads or daily expense limits. Free Books allow 3 active Loops, and each account gets 3 receipt scans total. Pro is optional."
+      ],
+      [
+        "What does receipt scanning do?",
+        "It suggests the amount, merchant and date using on-device recognition. Review the suggestions and choose how to split the expense before saving. LoopSplit records repayments; it does not transfer money."
+      ]
+    ]
+  },
+  "zh-hans": {
+    "title": "Android 与 iPhone 免费分账 App",
+    "description": "和室友、伴侣、朋友在 Android 与 iPhone 上一起分账。免费记账，没有广告，支持周期账单、收据扫描、余额和还款记录。",
+    "faqTitle": "关于共同记账与分账",
+    "faq": [
+      [
+        "安卓和 iPhone 用户可以一起分账吗？",
+        "可以。通过链接、邀请码或二维码加入同一账本，Android、iPhone 和 iPad 用户可以共享支出与余额，联网后同步更新。"
+      ],
+      [
+        "LoopSplit 可以免费使用吗？",
+        "共同支出与还款记录免费，没有广告，每日记账不限笔数。每个免费账本最多有 3 条启用中的 Loop，每个账户共可免费扫描 3 次收据。Pro 为可选订阅。"
+      ],
+      [
+        "扫描收据能做什么？",
+        "通过本机识别，提供金额、商户和日期建议。核对后选择分摊方式，再保存支出。LoopSplit 记录还款，不实际转账。"
+      ]
+    ]
+  },
+  "zh-hant": {
+    "title": "Android 與 iPhone 免費分帳 App",
+    "description": "和室友、伴侶、朋友在 Android 與 iPhone 上一起分帳。免費記帳，沒有廣告，支援週期帳單、收據掃描、餘額和還款紀錄。",
+    "faqTitle": "關於共同記帳與分帳",
+    "faq": [
+      [
+        "Android 和 iPhone 使用者可以一起分帳嗎？",
+        "可以。透過連結、邀請碼或 QR 碼加入同一帳本，Android、iPhone 和 iPad 使用者可以共享支出與餘額，連線後同步更新。"
+      ],
+      [
+        "LoopSplit 可以免費使用嗎？",
+        "共同支出與還款紀錄免費，沒有廣告，每日記帳不限筆數。每個免費帳本最多有 3 條啟用中的 Loop，每個帳戶共可免費掃描 3 次收據。Pro 為可選訂閱。"
+      ],
+      [
+        "掃描收據能做什麼？",
+        "透過本機辨識，提供金額、商家和日期建議。核對後選擇分攤方式，再儲存支出。LoopSplit 記錄還款，不實際轉帳。"
+      ]
+    ]
+  },
+  "fr": {
+    "title": "Partage de dépenses sur Android et iPhone",
+    "description": "Partagez les dépenses en colocation, en couple ou entre amis sur Android et iPhone. Suivi gratuit, sans publicité, factures récurrentes et scan de reçus.",
+    "faqTitle": "Questions sur les dépenses partagées",
+    "faq": [
+      [
+        "Peut-on partager des dépenses entre Android et iPhone ?",
+        "Oui. Rejoignez le même Book par lien, code ou QR code. Les utilisateurs Android, iPhone et iPad partagent dépenses et soldes ; les changements se synchronisent en ligne."
+      ],
+      [
+        "LoopSplit est-il gratuit ?",
+        "Le suivi des dépenses et des remboursements est gratuit, sans publicité ni limite quotidienne de saisie. Chaque Book gratuit permet 3 Loops actifs et chaque compte dispose de 3 scans au total. Pro est facultatif."
+      ],
+      [
+        "Que fait le scan de reçus ?",
+        "La reconnaissance sur l’appareil propose le montant, le commerçant et la date. Vérifiez ces suggestions et choisissez le partage avant d’enregistrer. LoopSplit consigne les remboursements sans transférer d’argent."
+      ]
+    ]
+  },
+  "es": {
+    "title": "App para dividir gastos en Android y iPhone",
+    "description": "Divide gastos con compañeros de piso, pareja y amigos en Android y iPhone. Registro gratis, sin anuncios, facturas recurrentes y escaneo de recibos.",
+    "faqTitle": "Preguntas sobre gastos compartidos",
+    "faq": [
+      [
+        "¿Se pueden compartir gastos entre Android y iPhone?",
+        "Sí. Únete al mismo Book mediante enlace, código o QR. Los usuarios de Android, iPhone y iPad comparten gastos y saldos; los cambios se sincronizan con conexión."
+      ],
+      [
+        "¿LoopSplit es gratis?",
+        "Registrar gastos y reembolsos es gratis, sin anuncios ni límites diarios de registro. Cada Book gratuito admite 3 Loops activos y cada cuenta tiene 3 escaneos en total. Pro es opcional."
+      ],
+      [
+        "¿Qué hace el escaneo de recibos?",
+        "El reconocimiento en el dispositivo sugiere el importe, el comercio y la fecha. Revisa las sugerencias y elige el reparto antes de guardar. LoopSplit registra reembolsos; no transfiere dinero."
+      ]
+    ]
+  },
+  "it": {
+    "title": "App per dividere le spese su Android e iPhone",
+    "description": "Dividi le spese tra coinquilini, coppie e amici su Android e iPhone. Registrazione gratuita, senza pubblicità, bollette ricorrenti e scansione scontrini.",
+    "faqTitle": "Domande sulle spese condivise",
+    "faq": [
+      [
+        "Android e iPhone possono condividere le spese?",
+        "Sì. Entra nello stesso Book tramite link, codice o QR. Gli utenti Android, iPhone e iPad condividono spese e saldi; le modifiche si sincronizzano online."
+      ],
+      [
+        "LoopSplit è gratuito?",
+        "Registrare spese e rimborsi è gratuito, senza pubblicità né limiti giornalieri di registrazione. Ogni Book gratuito consente 3 Loops attivi e ogni account dispone di 3 scansioni totali. Pro è facoltativo."
+      ],
+      [
+        "Cosa fa la scansione degli scontrini?",
+        "Il riconoscimento sul dispositivo suggerisce importo, esercente e data. Controlla i suggerimenti e scegli la ripartizione prima di salvare. LoopSplit registra i rimborsi, senza trasferire denaro."
+      ]
+    ]
+  },
+  "ja": {
+    "title": "Android・iPhone向け無料割り勘アプリ",
+    "description": "同居人、パートナー、友人との支出をAndroidとiPhoneで共有。無料で記録、広告なし。定期的な請求、レシート読み取り、残高と精算の記録をまとめて管理。",
+    "faqTitle": "割り勘と共有の支出に関する質問",
+    "faq": [
+      [
+        "AndroidとiPhoneで一緒に割り勘できますか？",
+        "はい。リンク、招待コード、QRコードで同じBookに参加できます。Android、iPhone、iPadで支出と残高を共有し、オンライン時に変更を同期します。"
+      ],
+      [
+        "LoopSplitは無料で使えますか？",
+        "支出と精算の記録は無料で、広告や1日の記録件数の上限はありません。無料のBookでは有効なLoopを3件まで利用でき、レシート読み取りはアカウントごとに合計3回です。Proは任意です。"
+      ],
+      [
+        "レシート読み取りで何ができますか？",
+        "端末上の認識で金額、店舗名、日付の候補を取得します。内容を確認し、分担方法を選んで保存してください。LoopSplitは精算を記録しますが、送金は行いません。"
+      ]
+    ]
+  }
+}

@@ -12,7 +12,7 @@ Then open `http://localhost:4173/`.
 
 The site deploys from the `main` branch with GitHub Pages at https://loopsplit.app/. Cloudflare manages domain registration and DNS. The former `https://peterjiajunzhang.github.io/LoopSplitCom/` address is retained as a redirect for existing app and store links. See [domain configuration and the planned Web App/MCP hosting](HOSTING.md).
 
-The [shared expense guides](https://loopsplit.app/guides/) cover rent and utilities, couples and recurring bills. Their static HTML, article/breadcrumb metadata, canonical links and sitemap are maintained alongside the Help Center. `llms.txt` is a convenience index of official facts and documentation, not a guarantee of AI citations. Search Console, Bing and IndexNow results are recorded separately from indexing and acquisition outcomes.
+The [shared expense guides](https://loopsplit.app/guides/) cover rent and utilities, couples, recurring bills, pending tips and receipt scanning. Their static HTML, article/breadcrumb metadata, canonical links and sitemap are maintained alongside the Help Center. `llms.txt` is a convenience index of official facts and documentation, not a guarantee of AI citations. Search Console, Bing and IndexNow results are recorded separately from indexing and acquisition outcomes.
 
 See the app repository's [November 5 search launch receipt](https://github.com/peterjiajunzhang/LoopSplit/blob/main/docs/monetization/search-launch-2026-11-05.md) for backend verification, published content checks and acquisition follow-up.
 
@@ -51,9 +51,9 @@ Apple campaign links use the provider token actually generated in App Store Conn
 
 ## Seven website languages
 
-English is `/`; Simplified Chinese, Traditional Chinese, French, Spanish, Italian and Japanese use `/zh-hans/`, `/zh-hant/`, `/fr/`, `/es/`, `/it/` and `/ja/`. Each includes a homepage, guide index, three practical guides and a help hub. Detailed help articles remain English; localized hubs label those links accordingly. Privacy and Terms remain English / Simplified Chinese with their existing terms and effective dates.
+English is `/`; Simplified Chinese, Traditional Chinese, French, Spanish, Italian and Japanese use `/zh-hans/`, `/zh-hant/`, `/fr/`, `/es/`, `/it/` and `/ja/`. Each includes a homepage, guide index, five practical guides and a help hub. Detailed help articles remain English; localized hubs label those links accordingly. Privacy and Terms remain English / Simplified Chinese with their existing terms and effective dates.
 
-Edit `content/landing.json` and `content/guides.json`, then run `python3 scripts/build-landing.py`. Generated HTML is committed and served without a runtime build. The renderer maintains canonical URLs, reciprocal language alternates, language switching and the 54-page sitemap. Keep existing support and policy paths stable.
+Edit `content/landing.json`, `content/guides.json` and `content/search-guides.json`, then run `python3 scripts/build-landing.py`. Generated HTML is committed and served without a runtime build. The renderer maintains canonical URLs, reciprocal language alternates, language switching and the 68-page sitemap. Keep existing support and policy paths stable. The two original English rent/couple articles remain hand-maintained; the other three guide families use the shared renderer in every language.
 
 ### Localized screenshots and video
 
@@ -66,3 +66,7 @@ All seven homepage languages reuse the approved ASC typography-r2 campaign in th
 ## November 11 Android search follow-up
 
 Seven homepage search titles and descriptions now explicitly describe bill splitting on Android and iPhone. Visible localized questions cover cross-platform sharing, free limits and receipt scanning. The rent guide also answers the electricity-bill query already observed in Search Console. See [the baseline and follow-up measurement plan](SEO-2026-11-11.md). Edit `content/seo.json` for this copy; the existing hero headline remains in `content/landing.json`.
+
+## November 12 AI search content
+
+Three seven-language guide families directly answer recurring-bill splitting, pending tips and receipt auto-fill. Each has a visible answer, instructions, a USD worked example, free/Pro boundaries, related guides and direct official store badges. They are linked from every localized homepage and guide index. The existing recurring-bill URLs are retained; two new families add 14 pages. See [scope and verification](AI-SEARCH-2026-11-12.md). This is published product documentation for retrieval, not evidence that any AI has indexed, cited or recommended it.

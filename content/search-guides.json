@@ -1,0 +1,262 @@
+{
+  "bylines": {
+    "en": "By LoopSplit · Updated November 12, 2026 · For the released 1.2 series",
+    "zh-hans": "LoopSplit 编写 · 更新于 2026 年 11 月 12 日 · 适用于已上线的 1.2 系列",
+    "zh-hant": "LoopSplit 編寫 · 更新於 2026 年 11 月 12 日 · 適用於已上線的 1.2 系列",
+    "fr": "Par LoopSplit · Mis à jour le 12 novembre 2026 · Série 1.2 publiée",
+    "es": "Por LoopSplit · Actualizado el 12 de noviembre de 2026 · Serie 1.2 publicada",
+    "it": "A cura di LoopSplit · Aggiornato il 12 novembre 2026 · Serie 1.2 pubblicata",
+    "ja": "LoopSplit 作成 · 2026 年 11 月 12 日更新 · 公開済みの 1.2 シリーズ対応"
+  },
+  "guides": {
+    "recurring-shared-bills": {
+      "published": "2026-11-05",
+      "modified": "2026-11-12",
+      "locales": {
+        "en": {
+          "title": "An app to split recurring bills with roommates or a partner",
+          "description": "Track recurring shared bills on iPhone and Android with LoopSplit. Save the schedule and split, review due periods, and record repayments.",
+          "answer": "LoopSplit is a bill-splitting app for iPhone, iPad and Android that tracks recurring shared bills as Loops. Save the schedule, payer and split for rent, internet or subscriptions, then review each due period in To Do before recording it. Each free Book allows 3 active Loops; Pro removes that limit.",
+          "sections": [
+            {"title": "Set up the bill once; review it each period", "list": ["Create a shared Book and invite your roommates or partner.", "Create a Loop with the schedule, payer, participants and agreed split.", "When a period is due, open To Do and check the amount before recording it.", "Review the synced balances. Record a repayment after members pay one another outside the app."], "text": "A Loop saves a recurring arrangement. A due period is a task to review, not an automatic bank payment. Check the period history before recording the same bill again."},
+            {"title": "Example: monthly rent and internet", "text": "Alex pays USD 1,800 rent and USD 60 internet each month. Alex and Sam split both equally: (1,800 + 60) ÷ 2 = USD 930 each. After both expenses sync, Sam owes Alex USD 930 if there are no other entries. When Sam pays Alex, record a repayment instead of another shared expense."},
+            {"title": "What if the electricity bill changes?", "text": "The schedule can repeat while the amount varies. Check the bill and enter the actual amount when recording the period. A receipt photo can stay attached to the expense. Pro also supports estimated expenses: a saved, synced estimate already affects balances, and confirming its final amount updates the same entry."},
+            {"title": "Free limits and what LoopSplit does", "text": "Shared expense tracking and repayments are free, without ads or daily expense limits. Each free Book supports 3 active Loops. Pro adds unlimited active Loops and estimated expenses. Members can share the same Book across Android, iPhone and iPad. LoopSplit records costs and repayments; it does not connect to your bank, pay providers or transfer money."}
+          ]
+        },
+        "zh-hans": {
+          "title": "有没有能记录重复账单、和室友或伴侣分账的 App？",
+          "description": "用 LoopSplit 管理房租、网费和订阅等周期共同账单：保存周期与分摊，到期核对后记账，iPhone 与 Android 共享。",
+          "answer": "有。LoopSplit 在 iPhone、iPad 和 Android 上用 Loop 管理重复共同账单。房租、网费或订阅可保存周期、付款人和分摊方式，每期到期后在 To Do 核对再记账。每个免费账本支持 3 条启用中的 Loop，Pro 不限条数。",
+          "sections": [
+            {"title": "设好周期，每期核对", "list": ["创建共享账本，邀请室友或伴侣加入。", "为账单创建 Loop，保存周期、付款人、参与者和约定的分摊方式。", "本期到期后打开 To Do，核对金额再记账。", "查看同步后的余额；成员在 App 外付款后，记录还款。"], "text": "Loop 保存的是周期安排，到期项是待核对任务，不会自动扣款。再次记账前先查看本期历史，避免重复记录。"},
+            {"title": "算例：每月房租和网费", "text": "Alex 每月支付 1,800 美元房租和 60 美元网费，与 Sam 均分。每人承担 (1,800 + 60) ÷ 2 = 930 美元。两笔支出同步后，假设没有其他记录，Sam 应还 Alex 930 美元。Sam 实际付款后记录一笔还款，不再新增共同支出。"},
+            {"title": "电费每个月不一样怎么办？", "text": "周期可以固定，金额可以变化。拿到账单后核对实际金额，再记录本期，也可以附上账单照片。Pro 还支持金额待确认的预估支出：保存并同步后已计入余额，确认最终金额时更新原记录。"},
+            {"title": "免费范围与功能边界", "text": "共同支出和还款记录免费，没有广告，每日记账不限笔数。每个免费账本支持 3 条启用中的 Loop；Pro 支持不限条数的 Loop 和预估支出。Android、iPhone 和 iPad 成员可共享同一账本。LoopSplit 记录账目与还款，不连接银行、不代付账单，也不实际转账。"}
+          ]
+        },
+        "zh-hant": {
+          "title": "有能記錄週期帳單、與室友或伴侶分帳的 App 嗎？",
+          "description": "用 LoopSplit 管理房租、網路費和訂閱等週期共同帳單：儲存週期與分攤，到期核對後記帳，iPhone 與 Android 共享。",
+          "answer": "有。LoopSplit 在 iPhone、iPad 和 Android 上以 Loop 管理週期共同帳單。房租、網路費或訂閱可儲存週期、付款人和分攤方式，每期到期後在 To Do 核對再記帳。每個免費帳本支援 3 個啟用中的 Loop，Pro 不限數量。",
+          "sections": [
+            {"title": "設定週期，每期核對", "list": ["建立共享帳本，邀請室友或伴侶加入。", "為帳單建立 Loop，儲存週期、付款人、參與者和約定的分攤方式。", "本期到期後開啟 To Do，核對金額再記帳。", "查看同步後的餘額；成員在 App 外付款後，記錄還款。"], "text": "Loop 儲存的是週期安排，到期項目是待核對任務，不會自動扣款。再次記帳前先查看本期歷史，避免重複記錄。"},
+            {"title": "範例：每月房租與網路費", "text": "Alex 每月支付 1,800 美元房租和 60 美元網路費，與 Sam 均分。每人負擔 (1,800 + 60) ÷ 2 = 930 美元。兩筆支出同步後，假設沒有其他記錄，Sam 應還 Alex 930 美元。Sam 實際付款後記錄一筆還款，不再新增共同支出。"},
+            {"title": "電費每個月不一樣怎麼辦？", "text": "週期可以固定，金額可以變動。拿到帳單後核對實際金額，再記錄本期，也能附上帳單照片。Pro 還支援金額待確認的預估支出：儲存並同步後已計入餘額，確認最終金額時更新原記錄。"},
+            {"title": "免費範圍與功能界線", "text": "共同支出與還款記錄免費，沒有廣告，每日記帳不限筆數。每個免費帳本支援 3 個啟用中的 Loop；Pro 支援不限數量的 Loop 和預估支出。Android、iPhone 和 iPad 成員可共享同一帳本。LoopSplit 記錄帳目與還款，不連接銀行、不代付帳單，也不實際轉帳。"}
+          ]
+        },
+        "fr": {
+          "title": "Une app pour partager les factures récurrentes à deux ou en colocation",
+          "description": "Suivez les factures partagées récurrentes avec LoopSplit sur iPhone et Android : fréquence, payeur, partage et vérification à chaque échéance.",
+          "answer": "LoopSplit est une app de partage de dépenses sur iPhone, iPad et Android. Ses Loops conservent la fréquence, le payeur et le partage du loyer, d’internet ou d’un abonnement. À chaque échéance, vérifiez la période dans À faire avant de l’enregistrer. Chaque carnet gratuit permet 3 Loops actifs ; Pro supprime cette limite.",
+          "sections": [
+            {"title": "Configurez la facture, puis vérifiez chaque période", "list": ["Créez un carnet partagé et invitez vos colocataires ou votre partenaire.", "Créez un Loop avec la fréquence, le payeur, les participants et le partage convenu.", "À l’échéance, ouvrez À faire et vérifiez le montant avant de le comptabiliser.", "Consultez les soldes synchronisés. Enregistrez un remboursement après le paiement entre membres hors de l’app."], "text": "Un Loop conserve un accord récurrent. Une période échue reste une tâche à vérifier, pas un paiement bancaire automatique. Consultez son historique pour éviter un doublon."},
+            {"title": "Exemple : loyer et internet chaque mois", "text": "Alex paie un loyer de 1 800 USD et internet à 60 USD. Alex et Sam partagent également : (1 800 + 60) ÷ 2 = 930 USD chacun. Après synchronisation, sans autre écriture, Sam doit 930 USD à Alex. Après le paiement, enregistrez un remboursement plutôt qu’une nouvelle dépense commune."},
+            {"title": "Et si la facture d’électricité varie ?", "text": "La fréquence peut rester fixe malgré un montant variable. Vérifiez la facture et saisissez le montant réel pour la période ; vous pouvez joindre sa photo. Pro permet aussi les dépenses estimées : enregistrées et synchronisées, elles comptent déjà dans les soldes. La confirmation du montant final met à jour la même écriture."},
+            {"title": "Gratuité et limites du service", "text": "Le suivi des dépenses et des remboursements est gratuit, sans publicité ni limite quotidienne. Chaque carnet gratuit permet 3 Loops actifs. Pro ajoute les Loops illimités et les dépenses estimées. Un même carnet se partage entre Android, iPhone et iPad. LoopSplit ne se connecte pas à la banque, ne paie pas les fournisseurs et ne transfère pas d’argent."}
+          ]
+        },
+        "es": {
+          "title": "Una app para repartir facturas recurrentes en pareja o entre compañeros",
+          "description": "Gestiona facturas compartidas recurrentes con LoopSplit en iPhone y Android: frecuencia, pagador, reparto y revisión de cada periodo.",
+          "answer": "LoopSplit es una app para compartir gastos en iPhone, iPad y Android. Los Loops guardan la frecuencia, el pagador y el reparto del alquiler, internet o las suscripciones. Revisa cada periodo en Pendientes antes de registrarlo. Cada libro gratuito permite 3 Loops activos; Pro elimina ese límite.",
+          "sections": [
+            {"title": "Configura la factura y revisa cada periodo", "list": ["Crea un libro compartido e invita a tus compañeros o pareja.", "Crea un Loop con la frecuencia, el pagador, los participantes y el reparto acordado.", "Cuando venza, abre Pendientes y revisa el importe antes de registrarlo.", "Consulta los saldos sincronizados. Registra una devolución después del pago entre miembros fuera de la app."], "text": "Un Loop guarda un acuerdo recurrente. Un periodo vencido es una tarea por revisar, no un pago bancario automático. Consulta su historial para evitar duplicados."},
+            {"title": "Ejemplo: alquiler e internet mensuales", "text": "Alex paga 1.800 USD de alquiler y 60 USD de internet. Alex y Sam reparten ambos por igual: (1.800 + 60) ÷ 2 = 930 USD cada uno. Tras sincronizar, sin otros movimientos, Sam debe 930 USD a Alex. Después del pago, registra una devolución en lugar de otro gasto compartido."},
+            {"title": "¿Y si cambia la factura de electricidad?", "text": "La frecuencia puede mantenerse aunque cambie el importe. Revisa la factura e introduce el importe real del periodo; puedes adjuntar su foto. Pro también admite gastos estimados: una vez guardados y sincronizados, ya cuentan en los saldos. Confirmar el importe final actualiza el mismo movimiento."},
+            {"title": "Qué es gratis y qué hace la app", "text": "Registrar gastos y devoluciones es gratis, sin anuncios ni límites diarios. Cada libro gratuito admite 3 Loops activos. Pro añade Loops ilimitados y gastos estimados. El mismo libro se comparte entre Android, iPhone y iPad. LoopSplit no conecta con el banco, paga a proveedores ni transfiere dinero."}
+          ]
+        },
+        "it": {
+          "title": "Un’app per dividere le bollette ricorrenti in coppia o tra coinquilini",
+          "description": "Gestisci le spese condivise ricorrenti con LoopSplit su iPhone e Android: frequenza, pagatore, divisione e controllo di ogni periodo.",
+          "answer": "LoopSplit è un’app per dividere le spese su iPhone, iPad e Android. I Loop salvano frequenza, pagatore e divisione di affitto, internet e abbonamenti. Controlla ogni periodo in Da fare prima di registrarlo. Ogni libro gratuito consente 3 Loop attivi; Pro elimina questo limite.",
+          "sections": [
+            {"title": "Imposta la spesa, poi controlla ogni periodo", "list": ["Crea un libro condiviso e invita i coinquilini o il partner.", "Crea un Loop con frequenza, pagatore, partecipanti e divisione concordata.", "Alla scadenza apri Da fare e controlla l’importo prima di registrarlo.", "Consulta i saldi sincronizzati. Registra un rimborso dopo il pagamento tra membri fuori dall’app."], "text": "Un Loop salva un accordo ricorrente. Un periodo scaduto è un’attività da controllare, non un pagamento bancario automatico. Consulta lo storico per evitare duplicati."},
+            {"title": "Esempio: affitto e internet mensili", "text": "Alex paga 1.800 USD di affitto e 60 USD di internet. Alex e Sam dividono tutto in parti uguali: (1.800 + 60) ÷ 2 = 930 USD a testa. Dopo la sincronizzazione, senza altre registrazioni, Sam deve 930 USD ad Alex. Dopo il pagamento, registra un rimborso e non una nuova spesa condivisa."},
+            {"title": "E se cambia la bolletta della luce?", "text": "La frequenza può restare fissa anche se l’importo varia. Controlla la bolletta e inserisci il costo effettivo del periodo; puoi allegarne la foto. Pro supporta anche le spese stimate: salvate e sincronizzate, incidono già sui saldi. Confermare l’importo finale aggiorna la stessa registrazione."},
+            {"title": "Funzioni gratuite e limiti del servizio", "text": "Registrare spese e rimborsi è gratuito, senza pubblicità né limiti giornalieri. Ogni libro gratuito consente 3 Loop attivi. Pro aggiunge Loop illimitati e spese stimate. Lo stesso libro si condivide tra Android, iPhone e iPad. LoopSplit non si collega alla banca, non paga i fornitori e non trasferisce denaro."}
+          ]
+        },
+        "ja": {
+          "title": "家賃やサブスクなど、毎月の支払いを分担できるアプリ",
+          "description": "LoopSplit で定期的な共有支出を管理。周期・支払者・分担を保存し、毎期確認して記録できます。iPhone・Android 対応。",
+          "answer": "LoopSplit は iPhone、iPad、Android で使える割り勘アプリです。家賃、ネット代、サブスクの周期・支払者・分担を Loop に保存し、毎期 To Do で確認してから記録できます。無料ブックでは有効な Loop を 3 件まで利用でき、Pro ではこの件数制限がなくなります。",
+          "sections": [
+            {"title": "一度設定して、毎期確認する", "list": ["共有ブックを作り、ルームメイトやパートナーを招待します。", "周期・支払者・参加者・合意した分担を指定して Loop を作ります。", "期日が来たら To Do を開き、金額を確認して記録します。", "同期後の残高を確認し、アプリ外で支払った後に返済を記録します。"], "text": "Loop が保存するのは繰り返しの取り決めです。期日が来た項目は確認するタスクであり、銀行の自動引き落としではありません。同じ期間を二重に記録しないよう履歴を確認してください。"},
+            {"title": "例：毎月の家賃とネット代", "text": "Alex が家賃 1,800 米ドルとネット代 60 米ドルを払い、Sam と均等に分ける例です。各自の負担は (1,800 + 60) ÷ 2 = 930 米ドル。同期後、ほかに記録がなければ Sam は Alex に 930 米ドルを返します。実際に支払った後は、新しい共有支出ではなく返済として記録します。"},
+            {"title": "電気代が毎月変わる場合", "text": "周期が同じでも、金額は変えられます。請求を確認し、その期間の実際の金額を記録してください。請求書の写真も添付できます。Pro では概算の支出も使えます。保存・同期した概算はすでに残高に含まれ、最終金額の確定で同じ記録が更新されます。"},
+            {"title": "無料の範囲とアプリの役割", "text": "支出と返済の記録は無料で、広告も 1 日の記録件数の上限もありません。無料ブックでは有効な Loop は 3 件までです。Pro は Loop の件数制限を解除し、概算の支出にも対応します。Android・iPhone・iPad で同じブックを共有できます。銀行接続、請求の支払い、送金は行いません。"}
+          ]
+        }
+      }
+    },
+    "split-bills-with-pending-tips": {
+      "published": "2026-11-12",
+      "modified": "2026-11-12",
+      "locales": {
+        "en": {
+          "title": "Split a restaurant bill while the final tip is still pending",
+          "description": "Record an estimated shared expense in LoopSplit, then confirm the final total including the tip. See how the same entry and balances update.",
+          "answer": "LoopSplit supports shared expenses whose final amount is still pending, including a restaurant bill with a tip that posts later. With Pro, save an estimated total and the split now, then confirm the final total on the same expense. The estimate already counts toward balances; it is not a draft or a bank transaction status.",
+          "sections": [
+            {"title": "Example: USD 120 estimated, USD 132 final", "text": "Alex pays for a meal shared equally with Sam and Jo. Alex records an estimated total of USD 120, so each person’s share is USD 40. The final total, including the tip, is USD 132: confirming it changes each share to USD 44. If there are no other entries or repayments, Sam and Jo each owe Alex USD 44. The total increased by USD 12, or USD 4 per person; do not add a second USD 132 expense."},
+            {"title": "Record now, confirm the total later", "list": ["Create an expense and enter your best estimate of the total, including the expected tip.", "Enable the estimated-amount option, then choose the payer, participants and a supported split. Review and save.", "When the final amount is known, open the estimated expense in To Do or its details and choose the final-amount confirmation action.", "Enter the final total, not just the extra tip. Review and save the same expense."], "text": "After saving and syncing, the estimate affects balances and remains in To Do until confirmed. Confirmation updates its split and balances and completes that task. This example assumes no other transactions; check the Book’s current balances before settling."},
+            {"title": "Which split methods can use an estimate?", "text": "Estimated expenses support equal, percentage and shares splits. Exact-amount splits cannot be estimated. Creating an estimated expense requires Pro; an existing pending expense can be confirmed by a Book member without requiring their own Pro subscription. Control names follow your app language and version."},
+            {"title": "What “pending” means here", "text": "You mark the amount as not final and confirm it yourself. LoopSplit does not monitor a card or bank account, detect when a tip posts, calculate the tip for you or transfer money. A known final bill can be recorded as an ordinary shared expense for free, with no ads or daily expense limits."}
+          ]
+        },
+        "zh-hans": {
+          "title": "小费还没确定，能先记账分账吗？",
+          "description": "用 LoopSplit 先记录金额待确认的共同支出，小费或最终金额出来后更新原记录，分摊和余额随之重算。",
+          "answer": "可以。LoopSplit 的 Pro 支持金额待确认的共同支出，例如小费稍后才入账的餐费。先填预估总额和分摊方式，最终金额出来后确认同一笔支出。预估金额已经计入余额；它不是不入账的草稿，也不是银行交易的 pending 状态。",
+          "sections": [
+            {"title": "算例：预估 120 美元，最终 132 美元", "text": "Alex 为自己、Sam 和 Jo 垫付餐费，三人均分。先记录预估总额 120 美元，每人承担 40 美元；含小费的最终总额是 132 美元，确认后每人变为 44 美元。假设没有其他账目或还款，Sam 和 Jo 各应还 Alex 44 美元。总额增加 12 美元，每人增加 4 美元，不要再新增一笔 132 美元的支出。"},
+            {"title": "先记录，再确认最终总额", "list": ["新建支出，填入尽量合理的预估总额，包含预计的小费。", "开启预估金额选项，选择付款人、参与者和支持的分摊方式，核对后保存。", "知道最终金额后，从 To Do 或支出详情打开这笔预估支出，选择确认最终金额。", "输入最终总额，不是只填追加的小费；核对后保存同一笔记录。"], "text": "保存并同步后，预估金额已影响余额，并留在 To Do 等待确认。确认后，原支出的分摊和余额重算，待确认任务完成。算例假设没有其他账目；实际结算前请查看账本当前余额。"},
+            {"title": "支持哪些分摊方式？", "text": "预估支出支持均分、百分比和份数分摊，不支持按固定金额分摊。新建预估支出需要 Pro；账本成员确认已有待确认支出，无需各自订阅 Pro。按钮名称会随 App 语言和版本变化。"},
+            {"title": "这里的 pending 是什么意思？", "text": "由你标记金额尚未确定，也由你确认最终金额。LoopSplit 不监控银行卡或银行账户，不自动检测小费入账，不替你计算小费，也不实际转账。已知最终金额的账单，可作为普通共同支出免费记录，没有广告，每日记账不限笔数。"}
+          ]
+        },
+        "zh-hant": {
+          "title": "小費還沒確定，可以先記帳分帳嗎？",
+          "description": "用 LoopSplit 先記錄金額待確認的共同支出，小費或最終金額確定後更新原記錄，分攤和餘額隨之重算。",
+          "answer": "可以。LoopSplit 的 Pro 支援金額待確認的共同支出，例如小費稍後才入帳的餐費。先填預估總額和分攤方式，最終金額確定後確認同一筆支出。預估金額已計入餘額；它不是不入帳的草稿，也不是銀行交易的 pending 狀態。",
+          "sections": [
+            {"title": "範例：預估 120 美元，最終 132 美元", "text": "Alex 為自己、Sam 和 Jo 墊付餐費，三人均分。先記錄預估總額 120 美元，每人負擔 40 美元；含小費的最終總額是 132 美元，確認後每人變為 44 美元。假設沒有其他帳目或還款，Sam 和 Jo 各應還 Alex 44 美元。總額增加 12 美元，每人增加 4 美元，不要再新增一筆 132 美元的支出。"},
+            {"title": "先記錄，再確認最終總額", "list": ["新增支出，填入合理的預估總額，包含預計的小費。", "開啟預估金額選項，選擇付款人、參與者和支援的分攤方式，核對後儲存。", "知道最終金額後，從 To Do 或支出詳情開啟這筆預估支出，選擇確認最終金額。", "輸入最終總額，而非只有追加的小費；核對後儲存同一筆記錄。"], "text": "儲存並同步後，預估金額已影響餘額，並留在 To Do 等待確認。確認後，原支出的分攤和餘額重算，待確認任務完成。範例假設沒有其他帳目；實際結算前請查看帳本目前餘額。"},
+            {"title": "支援哪些分攤方式？", "text": "預估支出支援均分、百分比和份數分攤，不支援按固定金額分攤。新增預估支出需要 Pro；帳本成員確認已有待確認支出，無需各自訂閱 Pro。按鈕名稱會隨 App 語言和版本變化。"},
+            {"title": "這裡的 pending 是什麼意思？", "text": "由你標記金額尚未確定，也由你確認最終金額。LoopSplit 不監控銀行卡或銀行帳戶，不自動偵測小費入帳，不替你計算小費，也不實際轉帳。已知最終金額的帳單，可作為普通共同支出免費記錄，沒有廣告，每日記帳不限筆數。"}
+          ]
+        },
+        "fr": {
+          "title": "Partager une addition quand le pourboire final reste à confirmer",
+          "description": "Enregistrez une dépense partagée estimée dans LoopSplit, puis confirmez le total avec pourboire. La même écriture et les soldes sont mis à jour.",
+          "answer": "LoopSplit gère les dépenses partagées dont le montant final reste à confirmer, comme une addition avec un pourboire débité plus tard. Avec Pro, enregistrez un total estimé et son partage, puis confirmez le total final dans la même dépense. L’estimation compte déjà dans les soldes ; ce n’est ni un brouillon ni un statut bancaire.",
+          "sections": [
+            {"title": "Exemple : 120 USD estimés, 132 USD définitifs", "text": "Alex paie un repas partagé également avec Sam et Jo. Un total estimé de 120 USD donne 40 USD par personne. Le total final, pourboire compris, est de 132 USD : sa confirmation porte chaque part à 44 USD. Sans autre écriture ni remboursement, Sam et Jo doivent chacun 44 USD à Alex. L’écart est de 12 USD, soit 4 USD chacun ; ne créez pas une seconde dépense de 132 USD."},
+            {"title": "Enregistrez maintenant, confirmez le total ensuite", "list": ["Créez une dépense avec votre meilleure estimation du total, pourboire prévu compris.", "Activez l’option de montant estimé, choisissez le payeur, les participants et un partage compatible, puis vérifiez et enregistrez.", "Une fois le montant final connu, ouvrez cette dépense dans À faire ou ses détails et choisissez la confirmation du montant final.", "Saisissez le total final, pas seulement le pourboire ajouté, puis vérifiez et enregistrez la même dépense."], "text": "Après enregistrement et synchronisation, l’estimation affecte les soldes et reste dans À faire jusqu’à confirmation. Celle-ci recalcule le partage et les soldes, puis termine la tâche. Avant de régler, vérifiez les soldes actuels du carnet."},
+            {"title": "Quels partages sont compatibles ?", "text": "Les estimations acceptent les parts égales, les pourcentages et les parts pondérées, pas les montants exacts. Créer une dépense estimée nécessite Pro. Un membre du carnet peut confirmer une estimation existante sans son propre abonnement Pro. Les intitulés varient selon la langue et la version."},
+            {"title": "Que signifie « en attente » ici ?", "text": "Vous indiquez que le montant n’est pas définitif et vous le confirmez vous-même. LoopSplit ne surveille pas vos comptes ou cartes, ne détecte pas le débit du pourboire, ne le calcule pas et ne transfère pas d’argent. Une addition au montant définitif se saisit comme dépense partagée ordinaire, gratuitement, sans publicité ni limite quotidienne."}
+          ]
+        },
+        "es": {
+          "title": "Repartir una cuenta cuando la propina final está pendiente",
+          "description": "Registra un gasto compartido estimado en LoopSplit y confirma después el total con propina. Se actualizan el mismo movimiento y los saldos.",
+          "answer": "LoopSplit admite gastos compartidos cuyo importe final está pendiente, como una comida cuya propina se carga más tarde. Con Pro, guarda el total estimado y el reparto, y confirma después el total final en el mismo gasto. La estimación ya cuenta en los saldos; no es un borrador ni un estado bancario.",
+          "sections": [
+            {"title": "Ejemplo: 120 USD estimados y 132 USD finales", "text": "Alex paga una comida compartida por igual con Sam y Jo. Un total estimado de 120 USD supone 40 USD por persona. El total final con propina es 132 USD: al confirmarlo, cada parte pasa a 44 USD. Sin otros movimientos ni devoluciones, Sam y Jo deben 44 USD cada uno a Alex. La diferencia es 12 USD, o 4 USD por persona; no añadas otro gasto de 132 USD."},
+            {"title": "Registra ahora y confirma el total después", "list": ["Crea un gasto con tu mejor estimación del total, incluida la propina prevista.", "Activa la opción de importe estimado, elige pagador, participantes y un reparto compatible; revisa y guarda.", "Cuando conozcas el importe final, abre ese gasto en Pendientes o en sus detalles y elige confirmar el importe final.", "Introduce el total final, no solo la propina adicional; revisa y guarda el mismo gasto."], "text": "Tras guardar y sincronizar, la estimación afecta a los saldos y permanece en Pendientes hasta confirmarse. La confirmación recalcula el reparto y los saldos y completa la tarea. Antes de liquidar, revisa los saldos actuales del libro."},
+            {"title": "¿Qué repartos admiten estimaciones?", "text": "Se admiten partes iguales, porcentajes y participaciones, pero no importes exactos. Crear un gasto estimado requiere Pro. Un miembro del libro puede confirmar una estimación existente sin tener su propia suscripción Pro. Los nombres de los controles varían según idioma y versión."},
+            {"title": "Qué significa «pendiente» aquí", "text": "Tú marcas que el importe no es definitivo y lo confirmas después. LoopSplit no vigila tarjetas ni cuentas bancarias, no detecta el cargo de la propina, no la calcula ni transfiere dinero. Una cuenta con total definitivo se registra como gasto compartido normal, gratis, sin anuncios ni límites diarios."}
+          ]
+        },
+        "it": {
+          "title": "Dividere un conto quando la mancia finale è ancora da confermare",
+          "description": "Registra una spesa condivisa stimata in LoopSplit e conferma poi il totale con mancia. Si aggiornano la stessa registrazione e i saldi.",
+          "answer": "LoopSplit supporta spese condivise con un importo finale ancora da confermare, come un pasto con mancia addebitata più tardi. Con Pro, salva subito totale stimato e divisione, poi conferma il totale finale nella stessa spesa. La stima incide già sui saldi: non è una bozza né uno stato bancario.",
+          "sections": [
+            {"title": "Esempio: 120 USD stimati, 132 USD finali", "text": "Alex paga un pasto diviso in parti uguali con Sam e Jo. Un totale stimato di 120 USD dà 40 USD a persona. Il totale finale, mancia inclusa, è 132 USD: confermandolo, ogni quota diventa 44 USD. Senza altre registrazioni o rimborsi, Sam e Jo devono ciascuno 44 USD ad Alex. La differenza è 12 USD, cioè 4 USD a testa; non aggiungere una seconda spesa di 132 USD."},
+            {"title": "Registra subito, conferma il totale dopo", "list": ["Crea una spesa con la migliore stima del totale, includendo la mancia prevista.", "Attiva l’opzione di importo stimato, scegli pagatore, partecipanti e una divisione compatibile; controlla e salva.", "Quando conosci l’importo finale, apri la stessa spesa in Da fare o nei dettagli e scegli la conferma dell’importo finale.", "Inserisci il totale finale, non solo la mancia aggiunta; controlla e salva la stessa spesa."], "text": "Dopo salvataggio e sincronizzazione, la stima incide sui saldi e resta in Da fare fino alla conferma. La conferma ricalcola divisione e saldi e completa l’attività. Prima di saldare, consulta i saldi attuali del libro."},
+            {"title": "Quali divisioni supportano le stime?", "text": "Sono supportate parti uguali, percentuali e quote, non gli importi esatti. Creare una spesa stimata richiede Pro. Un membro del libro può confermare una stima esistente senza un proprio abbonamento Pro. I nomi dei controlli variano con lingua e versione."},
+            {"title": "Cosa significa «in attesa» qui", "text": "Sei tu a indicare che l’importo non è definitivo e a confermarlo. LoopSplit non monitora carte o conti, non rileva l’addebito della mancia, non la calcola e non trasferisce denaro. Un conto con totale definitivo si registra come normale spesa condivisa, gratis, senza pubblicità né limiti giornalieri."}
+          ]
+        },
+        "ja": {
+          "title": "チップの最終額が未確定でも、先に割り勘を記録できる？",
+          "description": "LoopSplit で共有支出を概算で記録し、チップを含む最終総額を後から確定。同じ記録の分担額と残高が更新されます。",
+          "answer": "はい。LoopSplit は、チップの請求が後から確定する食事代など、最終額が未確定の共有支出に対応します。Pro で概算の総額と分担を保存し、後から同じ支出で最終総額を確定できます。概算はすでに残高に含まれます。下書きや銀行取引の保留状態ではありません。",
+          "sections": [
+            {"title": "例：概算 120 米ドル、最終額 132 米ドル", "text": "Alex が Sam、Jo と均等に分ける食事代を払います。概算総額 120 米ドルなら各自 40 米ドル。チップ込みの最終総額 132 米ドルを確定すると、各自 44 米ドルに変わります。ほかの記録や返済がなければ、Sam と Jo はそれぞれ Alex に 44 米ドルを返します。増額は合計 12 米ドル、1 人 4 米ドルです。132 米ドルの支出を別に追加しないでください。"},
+            {"title": "先に記録し、後から総額を確定する", "list": ["支出を作り、予定のチップを含む総額をできるだけ正確に見積もります。", "概算のオプションを有効にし、支払者・参加者・対応する分担方法を選んで確認し、保存します。", "最終額が分かったら、To Do または詳細から同じ支出を開き、最終金額の確定を選びます。", "追加のチップだけでなく最終総額を入力し、確認して同じ支出を保存します。"], "text": "保存・同期した概算は残高に反映され、確定まで To Do に残ります。確定すると分担額と残高が再計算され、タスクが完了します。精算前にはブックの現在の残高を確認してください。"},
+            {"title": "概算で使える分担方法", "text": "均等・割合・口数での分担に対応し、金額指定では概算を使えません。概算の支出を新規作成するには Pro が必要です。既存の未確定支出は、ブックのメンバーが自分の Pro 契約なしで確定できます。操作名は言語やバージョンで異なります。"},
+            {"title": "ここでの「未確定」の意味", "text": "金額が未確定であることも、最終額の確定も、自分で操作します。LoopSplit はカードや銀行口座を監視せず、チップの請求確定の検知、チップ計算、送金も行いません。最終額が分かっている請求は通常の共有支出として無料で記録でき、広告や 1 日の件数上限もありません。"}
+          ]
+        }
+      }
+    },
+    "scan-receipts-split-expenses": {
+      "published": "2026-11-12",
+      "modified": "2026-11-12",
+      "locales": {
+        "en": {
+          "title": "Scan a receipt, fill in the details and split the expense",
+          "description": "LoopSplit suggests a receipt’s amount, merchant and date with on-device scanning on iPhone and Android. Review the details and choose the split.",
+          "answer": "LoopSplit is a shared expense app for iPhone, iPad and Android with receipt scanning that helps fill the amount, merchant and date when available. Pro scans automatically; free accounts can request 3 scans total across devices. Review the suggestions, choose the payer and split, then save. Scanning does not assign individual receipt items to people.",
+          "sections": [
+            {"title": "From receipt photo to shared expense", "list": ["Use Scan or the expense form’s receipt area to take or select a clear receipt photo and choose the Book when prompted.", "With a free scan available, choose the action to fill the amount from the receipt. Pro scans automatically.", "Check the suggested total, merchant and date against the receipt, and check the Book’s currency. Correct any missing or incorrect details.", "Choose the actual payer, participants and split. Review everyone’s share before saving."], "text": "Recognition helps fill the form; it does not save an expense for you. A receipt with no readable amount can still be attached, and you can enter the details manually."},
+            {"title": "Example: a USD 90 shared receipt", "text": "Alex paid a USD 90 meal for Alex, Sam and Jo. After checking the scanned total and choosing an equal split, each person’s share is USD 30. Once the expense syncs, Sam and Jo each owe Alex USD 30 if there are no other entries. If the receipt excludes a pending tip, review the total rather than assuming it is final; Pro supports estimated expenses you confirm later."},
+            {"title": "Free photos, 3 free scans, automatic scanning with Pro", "text": "Attaching and viewing receipt photos is free. Each LoopSplit account has 3 free scans total across devices, not 3 per day or month. Free scanning requires a connection to confirm the shared allowance. Pro adds automatic, unlimited scanning and cropping. Ordinary shared expense tracking remains free, without ads or daily expense limits."},
+            {"title": "On-device recognition and shared attachments", "text": "Text recognition runs on your device, using Apple Vision on iPhone and iPad and Google ML Kit on Android; the image is not sent to a cloud OCR service. A receipt saved as a shared attachment is uploaded to the Book so its members can view it. This is form assistance, not item-by-item allocation, automatic tip calculation, currency conversion or a bank payment."}
+          ]
+        },
+        "zh-hans": {
+          "title": "有没有扫描小票、自动填入再分账的 App？",
+          "description": "LoopSplit 在 iPhone 和 Android 上通过本机识别提供金额、商家和日期建议。核对小票信息，选择付款人与分摊后保存。",
+          "answer": "有。LoopSplit 是 iPhone、iPad 和 Android 上的共同记账分账 App，可从小票识别金额、商家和日期，并在有结果时辅助填写。Pro 自动扫描；免费账号可主动使用共 3 次、跨设备共享的扫描额度。核对建议，选好付款人和分摊方式再保存；不会逐项自动判断每件商品由谁承担。",
+          "sections": [
+            {"title": "从小票照片到共同支出", "list": ["使用 Scan 或支出表单的收据入口，拍摄或选择清晰的小票照片，按提示选择账本。", "免费次数可用时，选择从收据填入金额；Pro 会自动扫描。", "对照小票核对总额、商家和日期，也核对账本币种，补充或修改缺失、错误的信息。", "选择实际付款人、参与者和分摊方式，检查每个人的份额后保存。"], "text": "识别用于辅助填表，不会替你自动保存支出。读不出金额时仍可保留照片，并手动输入信息。"},
+            {"title": "算例：一张 90 美元的餐费小票", "text": "Alex 为自己、Sam 和 Jo 支付 90 美元餐费。核对识别的总额后选择三人均分，每人承担 30 美元。支出同步后，假设没有其他记录，Sam 和 Jo 各应还 Alex 30 美元。如果小票尚未包含待确定的小费，先核对总额是否已确定；Pro 支持预估支出，之后确认最终金额。"},
+            {"title": "附件免费、免费扫描共 3 次、Pro 自动扫描", "text": "添加和查看收据照片免费。每个 LoopSplit 账号共可免费扫描 3 次，所有设备共享，不是每天或每月 3 次。免费扫描需要联网确认共用额度。Pro 支持自动、不限次数的扫描和裁剪。普通共同记账保持免费，没有广告，每日记账不限笔数。"},
+            {"title": "本机识别与共享附件有什么区别？", "text": "文字识别在设备上进行：iPhone 和 iPad 使用 Apple Vision，Android 使用 Google ML Kit，不将照片发送给云端 OCR 服务。保存为共享附件的照片会上传至账本，供成员查看。扫描是填表辅助，不是逐件商品自动分摊、自动计算小费、自动换汇或银行支付。"}
+          ]
+        },
+        "zh-hant": {
+          "title": "有能掃描收據、自動填入再分帳的 App 嗎？",
+          "description": "LoopSplit 在 iPhone 和 Android 上透過本機辨識提供金額、商家和日期建議。核對收據資訊，選擇付款人與分攤後儲存。",
+          "answer": "有。LoopSplit 是 iPhone、iPad 和 Android 上的共同記帳分帳 App，可從收據辨識金額、商家和日期，並在有結果時協助填入。Pro 自動掃描；免費帳戶可主動使用共 3 次、跨裝置共享的掃描額度。核對建議，選好付款人和分攤方式再儲存；不會逐項自動判斷每件商品由誰負擔。",
+          "sections": [
+            {"title": "從收據照片到共同支出", "list": ["使用 Scan 或支出表單的收據入口，拍攝或選擇清晰的收據照片，依提示選擇帳本。", "免費次數可用時，選擇從收據填入金額；Pro 會自動掃描。", "對照收據核對總額、商家和日期，也核對帳本幣別，補充或修改缺漏、錯誤的資訊。", "選擇實際付款人、參與者和分攤方式，檢查每個人的份額後儲存。"], "text": "辨識用於協助填表，不會替你自動儲存支出。讀不出金額時仍可保留照片，並手動輸入資訊。"},
+            {"title": "範例：一張 90 美元的餐費收據", "text": "Alex 為自己、Sam 和 Jo 支付 90 美元餐費。核對辨識的總額後選擇三人均分，每人負擔 30 美元。支出同步後，假設沒有其他記錄，Sam 和 Jo 各應還 Alex 30 美元。如果收據尚未包含待確定的小費，先核對總額是否已確定；Pro 支援預估支出，之後確認最終金額。"},
+            {"title": "附件免費、免費掃描共 3 次、Pro 自動掃描", "text": "新增和查看收據照片免費。每個 LoopSplit 帳戶共可免費掃描 3 次，所有裝置共享，不是每天或每月 3 次。免費掃描需連線確認共用額度。Pro 支援自動、不限次數的掃描與裁切。普通共同記帳維持免費，沒有廣告，每日記帳不限筆數。"},
+            {"title": "本機辨識與共享附件有何不同？", "text": "文字辨識在裝置上進行：iPhone 和 iPad 使用 Apple Vision，Android 使用 Google ML Kit，不將照片傳送給雲端 OCR 服務。儲存為共享附件的照片會上傳至帳本，供成員查看。掃描是填表輔助，不是逐件商品自動分攤、自動計算小費、自動換匯或銀行支付。"}
+          ]
+        },
+        "fr": {
+          "title": "Scanner un reçu, remplir les détails et partager la dépense",
+          "description": "LoopSplit propose montant, commerçant et date grâce au scan sur l’appareil, sur iPhone et Android. Vérifiez les détails, puis choisissez le partage.",
+          "answer": "LoopSplit est une app de dépenses partagées sur iPhone, iPad et Android dont le scan aide à remplir montant, commerçant et date lorsqu’ils sont reconnus. Pro scanne automatiquement ; les comptes gratuits disposent de 3 scans au total, tous appareils confondus. Vérifiez les suggestions, choisissez le payeur et le partage, puis enregistrez. Le scan ne répartit pas chaque article entre les personnes.",
+          "sections": [
+            {"title": "De la photo du reçu à la dépense partagée", "list": ["Utilisez Scan ou la zone de reçu du formulaire pour prendre ou sélectionner une photo nette et choisissez le carnet si demandé.", "Avec un scan gratuit disponible, choisissez de remplir le montant depuis le reçu. Pro scanne automatiquement.", "Vérifiez le total, le commerçant et la date sur le reçu, ainsi que la devise du carnet. Corrigez les erreurs ou les détails manquants.", "Choisissez le payeur réel, les participants et le partage. Vérifiez chaque part avant d’enregistrer."], "text": "La reconnaissance aide à remplir le formulaire ; elle n’enregistre pas la dépense à votre place. Si aucun montant n’est lisible, gardez la photo et saisissez les détails vous-même."},
+            {"title": "Exemple : un reçu partagé de 90 USD", "text": "Alex a payé un repas de 90 USD pour Alex, Sam et Jo. Après vérification du total et choix d’un partage égal, chacun supporte 30 USD. Après synchronisation, sans autre écriture, Sam et Jo doivent chacun 30 USD à Alex. Si le pourboire reste à confirmer, vérifiez si le total est définitif ; Pro permet de confirmer une estimation plus tard."},
+            {"title": "Photos gratuites, 3 scans gratuits, scan automatique avec Pro", "text": "Joindre et consulter des photos de reçus est gratuit. Chaque compte LoopSplit dispose de 3 scans gratuits au total, tous appareils confondus, et non par jour ou par mois. Le scan gratuit nécessite une connexion pour vérifier ce quota commun. Pro ajoute le scan automatique illimité et le recadrage. Le suivi ordinaire reste gratuit, sans publicité ni limite quotidienne."},
+            {"title": "Reconnaissance locale et pièces jointes partagées", "text": "La reconnaissance fonctionne sur l’appareil avec Apple Vision sur iPhone et iPad, et Google ML Kit sur Android ; l’image n’est pas envoyée à un service OCR cloud. Une photo enregistrée en pièce jointe est envoyée au carnet pour être consultable par ses membres. Le scan ne fait ni répartition article par article, ni calcul de pourboire, conversion de devise ou paiement bancaire."}
+          ]
+        },
+        "es": {
+          "title": "Escanear un recibo, rellenar los datos y repartir el gasto",
+          "description": "LoopSplit sugiere importe, comercio y fecha con reconocimiento en el dispositivo, en iPhone y Android. Revisa los datos y elige el reparto.",
+          "answer": "LoopSplit es una app de gastos compartidos para iPhone, iPad y Android cuyo escaneo ayuda a rellenar importe, comercio y fecha cuando se reconocen. Pro escanea automáticamente; las cuentas gratuitas disponen de 3 escaneos en total entre todos sus dispositivos. Revisa las sugerencias, elige pagador y reparto, y guarda. El escaneo no asigna cada producto a una persona.",
+          "sections": [
+            {"title": "De la foto del recibo al gasto compartido", "list": ["Usa Scan o el área de recibos del formulario para tomar o elegir una foto nítida y selecciona el libro si se solicita.", "Si tienes un escaneo gratuito, elige rellenar el importe desde el recibo. Pro escanea automáticamente.", "Contrasta total, comercio y fecha con el recibo, y revisa la moneda del libro. Corrige los datos erróneos o incompletos.", "Elige el pagador real, los participantes y el reparto. Revisa cada parte antes de guardar."], "text": "El reconocimiento ayuda a rellenar el formulario; no guarda el gasto por ti. Si no puede leer un importe, puedes conservar la foto e introducir los datos manualmente."},
+            {"title": "Ejemplo: un recibo compartido de 90 USD", "text": "Alex paga una comida de 90 USD para Alex, Sam y Jo. Tras revisar el total y elegir partes iguales, cada uno asume 30 USD. Al sincronizar, sin otros movimientos, Sam y Jo deben 30 USD cada uno a Alex. Si la propina está pendiente, comprueba si el total es definitivo; Pro permite confirmar una estimación más tarde."},
+            {"title": "Fotos gratis, 3 escaneos gratuitos y escaneo automático con Pro", "text": "Adjuntar y consultar fotos de recibos es gratis. Cada cuenta LoopSplit tiene 3 escaneos gratuitos en total entre todos sus dispositivos, no por día ni por mes. El escaneo gratuito necesita conexión para comprobar esa cuota común. Pro añade escaneo automático ilimitado y recorte. El registro normal sigue siendo gratis, sin anuncios ni límites diarios."},
+            {"title": "Reconocimiento local y adjuntos compartidos", "text": "El reconocimiento funciona en el dispositivo con Apple Vision en iPhone y iPad, y Google ML Kit en Android; la imagen no se envía a un servicio OCR en la nube. Una foto guardada como adjunto se sube al libro para que sus miembros la vean. El escaneo no reparte producto por producto, calcula propinas, convierte monedas ni realiza pagos bancarios."}
+          ]
+        },
+        "it": {
+          "title": "Scansionare uno scontrino, compilare i dati e dividere la spesa",
+          "description": "LoopSplit suggerisce importo, esercente e data con riconoscimento sul dispositivo, su iPhone e Android. Controlla i dati e scegli la divisione.",
+          "answer": "LoopSplit è un’app di spese condivise per iPhone, iPad e Android. La scansione aiuta a compilare importo, esercente e data quando vengono riconosciuti. Pro scansiona automaticamente; gli account gratuiti hanno 3 scansioni totali tra tutti i dispositivi. Controlla i suggerimenti, scegli pagatore e divisione e salva. La scansione non assegna ogni prodotto a una persona.",
+          "sections": [
+            {"title": "Dalla foto dello scontrino alla spesa condivisa", "list": ["Usa Scan o l’area scontrino del modulo per scattare o scegliere una foto nitida e seleziona il libro se richiesto.", "Se hai una scansione gratuita, scegli di compilare l’importo dallo scontrino. Pro scansiona automaticamente.", "Confronta totale, esercente e data con lo scontrino e controlla la valuta del libro. Correggi dati errati o mancanti.", "Scegli pagatore effettivo, partecipanti e divisione. Controlla ogni quota prima di salvare."], "text": "Il riconoscimento aiuta a compilare il modulo, non salva la spesa al posto tuo. Se l’importo non è leggibile, puoi conservare la foto e inserire i dati manualmente."},
+            {"title": "Esempio: uno scontrino condiviso da 90 USD", "text": "Alex paga un pasto di 90 USD per Alex, Sam e Jo. Dopo il controllo del totale e la scelta di parti uguali, ciascuno sostiene 30 USD. Dopo la sincronizzazione, senza altre registrazioni, Sam e Jo devono ciascuno 30 USD ad Alex. Se la mancia è ancora da confermare, controlla se il totale è definitivo; Pro permette di confermare una stima in seguito."},
+            {"title": "Foto gratuite, 3 scansioni gratis, scansione automatica con Pro", "text": "Allegare e vedere foto di scontrini è gratuito. Ogni account LoopSplit ha 3 scansioni gratuite totali tra tutti i dispositivi, non al giorno o al mese. La scansione gratuita richiede una connessione per verificare la quota condivisa. Pro aggiunge scansione automatica illimitata e ritaglio. La registrazione ordinaria resta gratuita, senza pubblicità né limiti giornalieri."},
+            {"title": "Riconoscimento locale e allegati condivisi", "text": "Il riconoscimento funziona sul dispositivo con Apple Vision su iPhone e iPad e Google ML Kit su Android; l’immagine non viene inviata a un servizio OCR cloud. Una foto salvata come allegato viene caricata nel libro perché i membri possano vederla. La scansione non ripartisce i singoli prodotti, non calcola mance, non converte valute e non esegue pagamenti bancari."}
+          ]
+        },
+        "ja": {
+          "title": "レシートを読み取り、明細を入力して割り勘できるアプリ",
+          "description": "LoopSplit は iPhone・Android の端末上でレシートの金額・店舗名・日付を認識。候補を確認し、支払者と分担を選んで保存できます。",
+          "answer": "LoopSplit は iPhone、iPad、Android の共有支出アプリです。レシートから認識できた金額・店舗名・日付の入力を補助します。Pro は自動で読み取り、無料アカウントは全端末共通で合計 3 回利用できます。候補を確認し、支払者と分担を選んで保存してください。商品ごとの負担者を自動で決める機能ではありません。",
+          "sections": [
+            {"title": "レシート写真から共有支出へ", "list": ["Scan または支出フォームのレシート欄から鮮明な写真を撮るか選び、求められた場合はブックを選びます。", "無料回数がある場合は、レシートから金額を入力する操作を選びます。Pro は自動で読み取ります。", "総額・店舗名・日付の候補をレシートと照合し、ブックの通貨も確認します。誤りや不足を修正します。", "実際の支払者・参加者・分担方法を選び、各自の負担を確認して保存します。"], "text": "認識はフォーム入力の補助であり、支出を自動で保存するものではありません。金額を読み取れなくても、写真を添付したまま手入力できます。"},
+            {"title": "例：90 米ドルの食事のレシート", "text": "Alex が自分、Sam、Jo の食事代 90 米ドルを払った例です。総額を確認し、均等分担を選ぶと各自 30 米ドル。同期後、ほかに記録がなければ Sam と Jo はそれぞれ Alex に 30 米ドルを返します。チップが未確定なら総額が最終額か確認してください。Pro では概算の支出を後から確定できます。"},
+            {"title": "写真添付は無料、無料読み取りは合計 3 回", "text": "レシート写真の添付と閲覧は無料です。無料読み取りは LoopSplit アカウントごとに全端末共通で合計 3 回で、毎日・毎月の回数ではありません。共通の残り回数を確認するため、無料読み取りには通信が必要です。Pro は自動・回数無制限の読み取りと切り抜きに対応します。通常の記録は無料で、広告や 1 日の件数上限もありません。"},
+            {"title": "端末上の認識と共有添付の違い", "text": "文字認識には iPhone・iPad で Apple Vision、Android で Google ML Kit を使用し、画像をクラウド OCR サービスに送りません。共有添付として保存する写真は、メンバーが閲覧できるようブックにアップロードされます。商品別の自動分担、チップ計算、通貨換算、銀行決済は行いません。"}
+          ]
+        }
+      }
+    }
+  }
+}

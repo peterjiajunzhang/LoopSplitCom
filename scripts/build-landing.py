@@ -12,6 +12,15 @@ ROOT = Path(__file__).resolve().parent.parent
 BASE = 'https://loopsplit.app'
 COPY = json.loads((ROOT / 'content/landing.json').read_text())
 GUIDE_COPY = json.loads((ROOT / 'content/guides.json').read_text())
+SEARCH_COPY = json.loads((ROOT / 'content/search-guides.json').read_text())
+SEARCH_GUIDES = SEARCH_COPY['guides']
+assert set(SEARCH_COPY['bylines']) == set(COPY)
+for slug, guide in SEARCH_GUIDES.items():
+    assert set(guide['locales']) == set(COPY), f'{slug} needs all seven languages.'
+    assert guide['published'] <= guide['modified']
+    for guide_copy in guide['locales'].values():
+        assert all(guide_copy.get(key) for key in ['title', 'description', 'answer', 'sections'])
+        assert all(section.get('title') and section.get('text') for section in guide_copy['sections'])
 SEO = json.loads((ROOT / 'content/seo.json').read_text())
 assert set(SEO) == set(COPY)
 MEDIA = json.loads((ROOT / 'content/media.json').read_text())
@@ -35,7 +44,7 @@ for locale, media in MEDIA.items():
             assert (ROOT / video[key].lstrip('/')).is_file(), video[key]
             media_paths.append(video[key])
 assert len(media_paths) == len(set(media_paths)), 'Languages must not silently reuse another language’s media.'
-SLUGS = ['split-rent-and-utilities', 'shared-expenses-for-couples', 'recurring-shared-bills']
+SLUGS = ['split-rent-and-utilities', 'shared-expenses-for-couples', 'recurring-shared-bills', 'split-bills-with-pending-tips', 'scan-receipts-split-expenses']
 HELP = ['getting-started', 'expenses', 'loops', 'balances', 'receipts', 'pro', 'account', 'search-and-calculations', 'privacy-and-diagnostics']
 DAY = '2026-11-05'
 assert len(COPY) == 7
@@ -94,9 +103,11 @@ def head(locale, title, description, suffix='', article=None):
             {'@type':'SoftwareApplication','@id':BASE+'/#app','name':'LoopSplit','applicationCategory':'FinanceApplication','operatingSystem':['iOS 17 or later','iPadOS 17 or later','Android 9 or later'],'url':url,'image':BASE+'/assets/app-icon.png','downloadUrl':['https://apps.apple.com/app/id6817176363','https://play.google.com/store/apps/details?id=com.loop.loopsplit'],'offers':{'@type':'Offer','price':'0','priceCurrency':'USD'},'description':description}
         ]
     if article:
-        data['@graph'].append({'@type':'Article','headline':title,'mainEntityOfPage':url,'image':BASE+'/assets/social-card.png','inLanguage':c['tag'],'datePublished':DAY,'dateModified':DAY,'author':{'@type':'Organization','name':'LoopSplit','url':BASE+'/'},'publisher':{'@id':BASE+'/#publisher'}})
+        dates = article if isinstance(article, dict) else {'published':DAY, 'modified':'2026-11-12'}
+        data['@graph'].append({'@type':'Article','@id':url+'#article','headline':title,'description':description,'mainEntityOfPage':url,'about':{'@id':BASE+'/#app'},'image':BASE+'/assets/social-card.png','inLanguage':c['tag'],'datePublished':dates['published'],'dateModified':dates['modified'],'author':{'@type':'Organization','name':'LoopSplit','url':BASE+'/'},'publisher':{'@id':BASE+'/#publisher'}})
+        data['@graph'].append({'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':c['home'],'item':BASE+path(locale)},{'@type':'ListItem','position':2,'name':c['navGuides'],'item':BASE+path(locale,'guides/')},{'@type':'ListItem','position':3,'name':title,'item':url}]})
     return f'''<!doctype html>
-<html lang="{c['tag']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f8faf7"><title>{e(title)} — LoopSplit</title><meta name="description" content="{e(description)}"><link rel="canonical" href="{url}">{alternates(suffix)}<meta property="og:type" content="{'article' if article else 'website'}"><meta property="og:title" content="{e(title)} — LoopSplit"><meta property="og:description" content="{e(description)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{BASE}/assets/social-card.png?v=landing-20261105"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/assets/app-icon.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"><link rel="stylesheet" href="/assets/style.css?v=store-badges-20261105"><link rel="stylesheet" href="/assets/landing.css?v=android-search-20261111">{schema(data)}</head>'''
+<html lang="{c['tag']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f8faf7"><title>{e(title)} — LoopSplit</title><meta name="description" content="{e(description)}"><link rel="canonical" href="{url}">{alternates(suffix)}<meta property="og:type" content="{'article' if article else 'website'}"><meta property="og:title" content="{e(title)} — LoopSplit"><meta property="og:description" content="{e(description)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{BASE}/assets/social-card.png?v=landing-20261105"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/assets/app-icon.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"><link rel="stylesheet" href="/assets/style.css?v=store-badges-20261105"><link rel="stylesheet" href="/assets/landing.css?v=intent-guides-20261112">{schema(data)}</head>'''
 
 def header(locale, suffix=''):
     c = COPY[locale]
@@ -106,9 +117,16 @@ def footer(locale):
     c = COPY[locale]
     return f'''<footer class="site-footer"><span>© 2026 LoopSplit</span><a href="{path(locale,'guides/')}">{e(c['navGuides'])}</a><a href="{path(locale,'support/')}">{e(c['navSupport'])}</a><a href="/privacy/">{e(c['privacy'])}</a><a href="/terms/">{e(c['terms'])}</a><p class="trademark-notice">{e(c['legalNote'])}</p><p class="trademark-notice">Apple, the Apple logo and App Store are trademarks of Apple Inc., registered in the U.S. and other countries. Google Play and the Google Play logo are trademarks of Google LLC.</p></footer></div></body></html>'''
 
+def guide_card(locale, index):
+    slug = SLUGS[index]
+    if slug in SEARCH_GUIDES:
+        guide = SEARCH_GUIDES[slug]['locales'][locale]
+        return {'title':guide['title'], 'text':guide['description']}
+    return COPY[locale]['guideCards'][index]
+
 def guide_cards(locale):
     c = COPY[locale]
-    return '<div class="help-topics">' + ''.join(f'<article class="help-topic"><a href="{path(locale,"guides/"+slug+"/")}"><h2>{e(card["title"])} <span aria-hidden="true">↗</span></h2><p>{e(card["text"])}</p></a></article>' for slug,card in zip(SLUGS,c['guideCards'])) + '</div>'
+    return '<div class="help-topics">' + ''.join(f'<article class="help-topic"><a href="{path(locale,"guides/"+slug+"/")}"><h2>{e(guide_card(locale,index)["title"])} <span aria-hidden="true">↗</span></h2><p>{e(guide_card(locale,index)["text"])}</p></a></article>' for index,slug in enumerate(SLUGS)) + '</div>'
 
 def render_home(locale):
     c = COPY[locale]
@@ -133,15 +151,22 @@ def render_home(locale):
 
 def render_guide_index(locale):
     c = COPY[locale]
-    return head(locale,c['guideLabel'].title(),c['guidesIntro'],'guides/') + header(locale,'guides/') + f'<main class="help-home" id="main"><a class="back-link" href="{path(locale)}">← {e(c["home"])}</a><p class="eyebrow">{e(c["guideLabel"])}</p><h1>{e(c["guidesTitle"])}</h1><p class="help-lead">{e(c["guidesIntro"])}</p><p class="guide-version">{e(c["byline"])}</p>{guide_cards(locale)}<section class="quick-start"><div><h2>{e(c["readyTitle"])}</h2><p>{e(c["readyText"])}</p>{store_badges(locale,"guides","guide_index")}</div></section></main>' + footer(locale)
+    return head(locale,c['guideLabel'].title(),c['guidesIntro'],'guides/') + header(locale,'guides/') + f'<main class="help-home" id="main"><a class="back-link" href="{path(locale)}">← {e(c["home"])}</a><p class="eyebrow">{e(c["guideLabel"])}</p><h1>{e(c["guidesTitle"])}</h1><p class="help-lead">{e(c["guidesIntro"])}</p><p class="guide-version">{e(SEARCH_COPY["bylines"][locale])}</p>{guide_cards(locale)}<section class="quick-start"><div><h2>{e(c["readyTitle"])}</h2><p>{e(c["readyText"])}</p>{store_badges(locale,"guides","guide_index")}</div></section></main>' + footer(locale)
 
 def render_guide(locale, index):
     c = COPY[locale]
-    g = GUIDE_COPY[locale][index]
-    card = c['guideCards'][index]
+    source = SEARCH_GUIDES.get(SLUGS[index])
+    if source:
+        g = source['locales'][locale]
+    else:
+        g = GUIDE_COPY[locale][index]
+    card = guide_card(locale,index)
     suffix = 'guides/' + SLUGS[index] + '/'
-    html = head(locale,card['title'],card['text'],suffix,article=True) + header(locale,suffix)
-    html += f'<main class="help-article" id="main"><a class="back-link" href="{path(locale,"guides/")}">← {e(c["backGuides"])}</a><p class="eyebrow">{e(c["guideLabel"])}</p><h1>{e(card["title"])}</h1><p class="help-lead">{e(card["text"])}</p><p class="guide-version">{e(c["byline"])}</p><div class="article-layout"><aside><nav class="article-toc" aria-label="{e(card["title"])}">'
+    html = head(locale,card['title'],card['text'],suffix,article=source or True) + header(locale,suffix)
+    html += f'<main class="help-article" id="main"><a class="back-link" href="{path(locale,"guides/")}">← {e(c["backGuides"])}</a><p class="eyebrow">{e(c["guideLabel"])}</p><h1>{e(card["title"])}</h1><p class="help-lead">{e(card["text"])}</p><p class="guide-version">{e(SEARCH_COPY["bylines"][locale])}</p>'
+    if source:
+        html += f'<p class="guide-answer">{e(g["answer"])}</p>'
+    html += f'<div class="article-layout"><aside><nav class="article-toc" aria-label="{e(card["title"])}">'
     html += ''.join(f'<a href="#step-{i+1}">{e(section["title"])}</a>' for i,section in enumerate(g['sections']))
     html += '</nav></aside><div class="policy-content guide-content">'
     for i,section in enumerate(g['sections']):
@@ -157,8 +182,10 @@ def render_guide(locale, index):
             for label,amounts in zip(section['rows'],values):
                 html += f'<tr><th scope="row">{e(label)}</th>'+''.join(f'<td>{e(format(n,",").replace(",",separator))}</td>' for n in amounts)+'</tr>'
             html += f'</tbody></table></div><p class="guide-version">{e(g["currency"])}</p>'
-    html += f'<p class="guide-version">{e(g["currency"])}</p><section class="related-guides"><h2>{e(c["relatedTitle"])}</h2>'
-    html += ''.join(f'<a href="{path(locale,"guides/"+slug+"/")}">{e(item["title"])}</a>' for j,(slug,item) in enumerate(zip(SLUGS,c['guideCards'])) if j != index)
+    if 'currency' in g:
+        html += f'<p class="guide-version">{e(g["currency"])}</p>'
+    html += f'<section class="related-guides"><h2>{e(c["relatedTitle"])}</h2>'
+    html += ''.join(f'<a href="{path(locale,"guides/"+slug+"/")}">{e(guide_card(locale,j)["title"])}</a>' for j,slug in enumerate(SLUGS) if j != index)
     html += f'</section><h2>{e(c["navSupport"])}</h2><p>{e(c["englishDocs"])}</p><p><a href="{path(locale,"support/")}">{e(c["supportAction"])} ↗</a></p><section class="quick-start"><div><h2>{e(c["readyTitle"])}</h2>{store_badges(locale,"guides","guide_article")}</div></section></div></div></main>'
     return html + footer(locale)
 
@@ -179,19 +206,22 @@ for locale in COPY:
     write(path(locale,'guides/'),render_guide_index(locale))
     if locale != 'en':
         write(path(locale,'support/'),render_help_index(locale))
-        for index in range(3):
+    for index,slug in enumerate(SLUGS):
+        if locale != 'en' or slug in SEARCH_GUIDES:
             write(path(locale,'guides/'+SLUGS[index]+'/'),render_guide(locale,index))
 
 # Retain the more detailed English articles and the existing help search behavior.
 for file in [*ROOT.glob('support/**/index.html'), *ROOT.glob('guides/*/index.html')]:
     text = file.read_text()
     suffix = str(file.relative_to(ROOT)).removesuffix('index.html')
+    if suffix in {'guides/'+slug+'/' for slug in SEARCH_GUIDES}:
+        continue  # These English articles already use the shared, fully localized renderer.
     family = suffix if suffix == 'support/' or suffix.startswith('guides/') else 'support/'
     text = re.sub(r'<!-- language-menu -->.*?<!-- /language-menu -->','',text,flags=re.S)
     text = text.replace('</nav></header>','<!-- language-menu -->'+language_menu('en',family)+'<!-- /language-menu --></nav></header>',1)
     text = text.replace('<body>','<body class="landing">',1)
     text = re.sub(r'<link rel="stylesheet" href="/assets/landing.css[^\"]*">','',text)
-    text = text.replace('</head>','<link rel="stylesheet" href="/assets/landing.css?v=android-search-20261111"></head>')
+    text = text.replace('</head>','<link rel="stylesheet" href="/assets/landing.css?v=intent-guides-20261112"></head>')
     if suffix == 'support/' or suffix.startswith('guides/'):
         text = re.sub(r'<link rel="alternate" hreflang="[^\"]+" href="[^\"]+">','',text)
         text = text.replace('</head>',alternates(suffix)+'</head>')
@@ -220,13 +250,15 @@ ET.register_namespace('xhtml',xhtml)
 site = ET.Element('{'+ns+'}urlset')
 families = ['', 'support/', 'guides/'] + ['guides/'+slug+'/' for slug in SLUGS]
 routes = {path(locale,suffix):suffix for locale in COPY for suffix in families}
+updated = {path(locale,suffix) for locale in COPY for suffix in ['', 'guides/']}
+updated |= {path(locale,'guides/'+slug+'/') for locale in COPY for slug in SLUGS if locale != 'en' or slug in SEARCH_GUIDES}
 for file in sorted(ROOT.rglob('index.html')):
     if '.git' in file.parts:
         continue
     uri = '/' + str(file.relative_to(ROOT)).removesuffix('index.html')
     node = ET.SubElement(site,'{'+ns+'}url')
     ET.SubElement(node,'{'+ns+'}loc').text = BASE + uri
-    ET.SubElement(node,'{'+ns+'}lastmod').text = '2026-11-11' if uri in {path(locale) for locale in COPY} | {'/guides/split-rent-and-utilities/'} else DAY
+    ET.SubElement(node,'{'+ns+'}lastmod').text = '2026-11-12' if uri in updated else '2026-11-11' if uri == '/guides/split-rent-and-utilities/' else DAY
     if uri in routes:
         suffix = routes[uri]
         for locale,c in COPY.items():

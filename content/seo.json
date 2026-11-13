@@ -15,6 +15,14 @@
       [
         "What does receipt scanning do?",
         "It suggests the amount, merchant and date using on-device recognition. Review the suggestions and choose how to split the expense before saving. LoopSplit records repayments; it does not transfer money."
+      ],
+      [
+        "Can I split recurring bills with roommates or a partner?",
+        "LoopSplit is a bill-splitting app for iPhone, iPad and Android that tracks recurring shared bills as Loops. Save the schedule, payer and split for rent, internet or subscriptions, then review each due period in To Do before recording it. Each free Book allows 3 active Loops; Pro removes that limit."
+      ],
+      [
+        "Can I record a shared bill while its final tip is pending?",
+        "LoopSplit supports shared expenses whose final amount is still pending, including a restaurant bill with a tip that posts later. With Pro, save an estimated total and the split now, then confirm the final total on the same expense. The estimate already counts toward balances; it is not a draft or a bank transaction status."
       ]
     ]
   },
@@ -34,6 +42,14 @@
       [
         "扫描收据能做什么？",
         "通过本机识别，提供金额、商户和日期建议。核对后选择分摊方式，再保存支出。LoopSplit 记录还款，不实际转账。"
+      ],
+      [
+        "有没有能记录重复账单的分账 App？",
+        "有。LoopSplit 在 iPhone、iPad 和 Android 上用 Loop 管理重复共同账单。房租、网费或订阅可保存周期、付款人和分摊方式，每期到期后在 To Do 核对再记账。每个免费账本支持 3 条启用中的 Loop，Pro 不限条数。"
+      ],
+      [
+        "小费或最终金额还没确定，可以先记账分账吗？",
+        "可以。LoopSplit 的 Pro 支持金额待确认的共同支出，例如小费稍后才入账的餐费。先填预估总额和分摊方式，最终金额出来后确认同一笔支出。预估金额已经计入余额；它不是不入账的草稿，也不是银行交易的 pending 状态。"
       ]
     ]
   },
@@ -53,6 +69,14 @@
       [
         "掃描收據能做什麼？",
         "透過本機辨識，提供金額、商家和日期建議。核對後選擇分攤方式，再儲存支出。LoopSplit 記錄還款，不實際轉帳。"
+      ],
+      [
+        "有能記錄週期帳單的分帳 App 嗎？",
+        "有。LoopSplit 在 iPhone、iPad 和 Android 上以 Loop 管理週期共同帳單。房租、網路費或訂閱可儲存週期、付款人和分攤方式，每期到期後在 To Do 核對再記帳。每個免費帳本支援 3 個啟用中的 Loop，Pro 不限數量。"
+      ],
+      [
+        "小費或最終金額還沒確定，可以先記帳分帳嗎？",
+        "可以。LoopSplit 的 Pro 支援金額待確認的共同支出，例如小費稍後才入帳的餐費。先填預估總額和分攤方式，最終金額確定後確認同一筆支出。預估金額已計入餘額；它不是不入帳的草稿，也不是銀行交易的 pending 狀態。"
       ]
     ]
   },
@@ -72,6 +96,14 @@
       [
         "Que fait le scan de reçus ?",
         "La reconnaissance sur l’appareil propose le montant, le commerçant et la date. Vérifiez ces suggestions et choisissez le partage avant d’enregistrer. LoopSplit consigne les remboursements sans transférer d’argent."
+      ],
+      [
+        "Peut-on partager des factures récurrentes à deux ou en colocation ?",
+        "LoopSplit est une app de partage de dépenses sur iPhone, iPad et Android. Ses Loops conservent la fréquence, le payeur et le partage du loyer, d’internet ou d’un abonnement. À chaque échéance, vérifiez la période dans À faire avant de l’enregistrer. Chaque carnet gratuit permet 3 Loops actifs ; Pro supprime cette limite."
+      ],
+      [
+        "Peut-on enregistrer une dépense dont le pourboire final reste à confirmer ?",
+        "LoopSplit gère les dépenses partagées dont le montant final reste à confirmer, comme une addition avec un pourboire débité plus tard. Avec Pro, enregistrez un total estimé et son partage, puis confirmez le total final dans la même dépense. L’estimation compte déjà dans les soldes ; ce n’est ni un brouillon ni un statut bancaire."
       ]
     ]
   },
@@ -91,6 +123,14 @@
       [
         "¿Qué hace el escaneo de recibos?",
         "El reconocimiento en el dispositivo sugiere el importe, el comercio y la fecha. Revisa las sugerencias y elige el reparto antes de guardar. LoopSplit registra reembolsos; no transfiere dinero."
+      ],
+      [
+        "¿Puedo repartir facturas recurrentes en pareja o entre compañeros?",
+        "LoopSplit es una app para compartir gastos en iPhone, iPad y Android. Los Loops guardan la frecuencia, el pagador y el reparto del alquiler, internet o las suscripciones. Revisa cada periodo en Pendientes antes de registrarlo. Cada libro gratuito permite 3 Loops activos; Pro elimina ese límite."
+      ],
+      [
+        "¿Puedo registrar una cuenta si la propina final está pendiente?",
+        "LoopSplit admite gastos compartidos cuyo importe final está pendiente, como una comida cuya propina se carga más tarde. Con Pro, guarda el total estimado y el reparto, y confirma después el total final en el mismo gasto. La estimación ya cuenta en los saldos; no es un borrador ni un estado bancario."
       ]
     ]
   },
@@ -110,6 +150,14 @@
       [
         "Cosa fa la scansione degli scontrini?",
         "Il riconoscimento sul dispositivo suggerisce importo, esercente e data. Controlla i suggerimenti e scegli la ripartizione prima di salvare. LoopSplit registra i rimborsi, senza trasferire denaro."
+      ],
+      [
+        "Posso dividere bollette ricorrenti in coppia o tra coinquilini?",
+        "LoopSplit è un’app per dividere le spese su iPhone, iPad e Android. I Loop salvano frequenza, pagatore e divisione di affitto, internet e abbonamenti. Controlla ogni periodo in Da fare prima di registrarlo. Ogni libro gratuito consente 3 Loop attivi; Pro elimina questo limite."
+      ],
+      [
+        "Posso registrare un conto se la mancia finale è ancora da confermare?",
+        "LoopSplit supporta spese condivise con un importo finale ancora da confermare, come un pasto con mancia addebitata più tardi. Con Pro, salva subito totale stimato e divisione, poi conferma il totale finale nella stessa spesa. La stima incide già sui saldi: non è una bozza né uno stato bancario."
       ]
     ]
   },
@@ -129,6 +177,14 @@
       [
         "レシート読み取りで何ができますか？",
         "端末上の認識で金額、店舗名、日付の候補を取得します。内容を確認し、分担方法を選んで保存してください。LoopSplitは精算を記録しますが、送金は行いません。"
+      ],
+      [
+        "毎月の家賃や請求をルームメイトやパートナーと分担できますか？",
+        "LoopSplit は iPhone、iPad、Android で使える割り勘アプリです。家賃、ネット代、サブスクの周期・支払者・分担を Loop に保存し、毎期 To Do で確認してから記録できます。無料ブックでは有効な Loop を 3 件まで利用でき、Pro ではこの件数制限がなくなります。"
+      ],
+      [
+        "チップの最終額が未確定でも、先に割り勘を記録できますか？",
+        "はい。LoopSplit は、チップの請求が後から確定する食事代など、最終額が未確定の共有支出に対応します。Pro で概算の総額と分担を保存し、後から同じ支出で最終総額を確定できます。概算はすでに残高に含まれます。下書きや銀行取引の保留状態ではありません。"
       ]
     ]
   }

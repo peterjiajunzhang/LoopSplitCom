@@ -46,6 +46,7 @@ for locale, media in MEDIA.items():
 assert len(media_paths) == len(set(media_paths)), 'Languages must not silently reuse another language’s media.'
 SLUGS = ['split-rent-and-utilities', 'shared-expenses-for-couples', 'recurring-shared-bills', 'split-bills-with-pending-tips', 'scan-receipts-split-expenses']
 HELP = ['getting-started', 'expenses', 'loops', 'balances', 'receipts', 'pro', 'account', 'search-and-calculations', 'privacy-and-diagnostics']
+MCP_GUIDE = '/support/web-and-ai/'
 DAY = '2026-11-05'
 assert len(COPY) == 7
 assert all(set(c) == set(COPY['en']) for c in COPY.values()), 'Each locale must supply its own copy.'
@@ -146,7 +147,10 @@ def render_home(locale):
         html += f'<article class="plan-card"><h3>{e(title)}</h3><ul>'+''.join(f'<li>{e(t)}</li>' for t in items)+'</ul></article>'
     html += f'</div><p class="plan-note">{e(c["planNote"])}</p></section><section class="landing-section"><h2>{e(c["guidesTitle"])}</h2><p>{e(c["guidesIntro"])}</p>{guide_cards(locale)}</section>'
     html += '<section class="landing-section" id="questions"><h2>'+e(SEO[locale]['faqTitle'])+'</h2>' + ''.join('<details class="faq-item"><summary>'+e(q)+'</summary><p>'+e(a)+'</p></details>' for q,a in SEO[locale]['faq']) + '</section>'
-    html += f'''<section class="download-banner" id="download"><h2>{e(c['readyTitle'])}</h2><p>{e(c['readyText'])}</p>{store_badges(locale,'home','footer')}<p class="small-print">{e(c['compat'])}<br>{e(c['renewalNote'])}<br><a href="/terms/">{e(c['terms'])}</a> · <a href="/privacy/">{e(c['privacy'])}</a></p></section><section class="support-card"><div><h2>{e(c['supportTitle'])}</h2><p>{e(c['supportText'])}</p></div><a class="button" href="{path(locale,'support/')}">{e(c['supportAction'])} ↗</a></section></main><script src="/assets/overview-video.js?v=localized-media-20261106" defer></script>'''
+    guide_label = c['mcpGuideTitle']
+    if c['mcpGuideLanguage']:
+        guide_label += f" ({c['mcpGuideLanguage']})"
+    html += f'''<section class="download-banner" id="download"><h2>{e(c['readyTitle'])}</h2><p>{e(c['readyText'])}</p>{store_badges(locale,'home','footer')}<p class="small-print">{e(c['compat'])}<br>{e(c['renewalNote'])}<br><a href="/terms/">{e(c['terms'])}</a> · <a href="/privacy/">{e(c['privacy'])}</a></p></section><section class="support-card"><div><h2>{e(c['supportTitle'])}</h2><p>{e(c['supportText'])}<br><a href="{MCP_GUIDE}" hreflang="en">{e(guide_label)} ↗</a></p></div><a class="button" href="{path(locale,'support/')}">{e(c['supportAction'])} ↗</a></section></main><script src="/assets/overview-video.js?v=localized-media-20261106" defer></script>'''
     return html + footer(locale)
 
 def render_guide_index(locale):
@@ -191,7 +195,8 @@ def render_guide(locale, index):
 
 def render_help_index(locale):
     c = COPY[locale]
-    cards = ''.join(f'<article class="help-topic"><a href="/support/{slug}/"><h2>{e(title)} ↗</h2><p>English</p></a></article>' for slug,title in zip(HELP,c['helpTopics']))
+    cards = f'<article class="help-topic"><a href="{MCP_GUIDE}" hreflang="en"><h2>{e(c["mcpGuideTitle"])} ↗</h2><p>{e(c["mcpGuideLanguage"])}</p></a></article>'
+    cards += ''.join(f'<article class="help-topic"><a href="/support/{slug}/"><h2>{e(title)} ↗</h2><p>English</p></a></article>' for slug,title in zip(HELP,c['helpTopics']))
     return head(locale,c['navSupport'],c['helpIntro'],'support/') + header(locale,'support/') + f'<main class="help-home" id="main"><a class="back-link" href="{path(locale)}">← {e(c["home"])}</a><h1>{lines(c["helpTitle"])}</h1><p class="help-lead">{e(c["helpIntro"])}</p><p class="locale-notice">{e(c["englishDocs"])}</p><div class="help-topics">{cards}</div><p><a href="{path(locale,"guides/")}">{e(c["navGuides"])} ↗</a></p></main>'+footer(locale)
 
 def write(suffix, content):

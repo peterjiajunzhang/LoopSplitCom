@@ -263,7 +263,11 @@ for file in sorted(ROOT.rglob('index.html')):
     uri = '/' + str(file.relative_to(ROOT)).removesuffix('index.html')
     node = ET.SubElement(site,'{'+ns+'}url')
     ET.SubElement(node,'{'+ns+'}loc').text = BASE + uri
-    ET.SubElement(node,'{'+ns+'}lastmod').text = '2026-11-12' if uri in updated else '2026-11-11' if uri == '/guides/split-rent-and-utilities/' else DAY
+    if uri == MCP_GUIDE:
+        lastmod = '2026-11-22'
+    else:
+        lastmod = '2026-11-12' if uri in updated else '2026-11-11' if uri == '/guides/split-rent-and-utilities/' else DAY
+    ET.SubElement(node,'{'+ns+'}lastmod').text = lastmod
     if uri in routes:
         suffix = routes[uri]
         for locale,c in COPY.items():
